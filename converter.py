@@ -6,9 +6,9 @@ tablerow = {"Follower":2,"Spell":3,"Amulet":1}
 #2 → creatures (this includes all cards that have the "creature" type like "Enchantment Creature")
 #3 → non-permanent cards (like Instants and Sorceries)
 
-f = open("/home/makra/SV_COCKATRICE/sv_database.json")
-g = open("/home/makra/SV_COCKATRICE/sv_database.xml",'w')
-h = open("/home/makra/SV_COCKATRICE/sv_tokens.xml",'w')
+f = open("/PATH/TO/sv_database.json")
+g = open("/PATH/TO/sv_database.xml",'w')
+h = open("/PATH/TO/sv_tokens.xml",'w')
 g.write( '<cockatrice_carddatabase version="3">')
 g.write( '<cards>')
 h.write( '<cockatrice_carddatabase version="3">')
