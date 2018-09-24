@@ -16,16 +16,23 @@ h.write( '<cards>')
 
 data = json.load(f)
 for i in data:
+  flag=0 #preevo is token
   out=list()
   out.append( '<card>')
   out.append( '<name>' + str(data[i]["name"]) + '</name>')
-  out.append( '<set>' + str(data[i]["expansion"]) + '</set>')
+  if data[i]["expansion"]!="Token":
+    out.append( '<set>' + str(data[i]["expansion"]) + '</set>')
+  else:
+    out.append( '<token>1</token>')
+    flag=1
   out.append( '<set picURL="https://shadowverse-portal.com/image/card/en/C_' + str(data[i]["id"]) + '.png"></set>')
   if data[i]["type"]=="Follower":
     out.append( '<related>' + str(data[i]["name"]) + ' EVOLVED</related>')
-  for j in data:
-    if data[j]["name"] in data[i]["baseData"]["description"]:
-      out.append( '<related>' + str(data[j]["name"]) + ' </related>')
+  else:
+    for j in data:
+      if data[j]["name"][:-1] in data[i]["baseData"]["description"]:
+        out.append( '<related>' + str(data[j]["name"]) + '</related>')
+        break
   out.append( '<color>' + str(data[i]["faction"]) + '</color>')
   out.append( '<manacost>'+str(data[i]["manaCost"])+'</manacost>')
   out.append( '<cmc>'+str(data[i]["manaCost"])+'</cmc>')
@@ -33,8 +40,6 @@ for i in data:
   out.append( '<pt>' + str(data[i]["baseData"]["attack"]) + "/" + str(data[i]["baseData"]["defense"]) + '</pt>')
   out.append( '<tablerow>' + str(tablerow[data[i]["type"]]) + '</tablerow>')
   out.append( '<text>' + str(data[i]["baseData"]["description"].replace('<br>',' ')) + '</text>')
-  if data[i]["expansion"] == "Token":
-    out.append( '<token>1</token>')
   out.append( '</card>')
   if data[i]["type"]=="Follower":
     out.append( '<card>')
@@ -47,10 +52,10 @@ for i in data:
     out.append( '<pt>' + str(data[i]["evoData"]["attack"]) + "/" + str(data[i]["evoData"]["defense"]) + '</pt>')
     out.append( '<tablerow>' + str(tablerow[data[i]["type"]]) + '</tablerow>')
     out.append( '<text>' + str(data[i]["evoData"]["description"].replace('<br>',' ')) + '</text>')
-    if data[i]["expansion"] == "Token":
+    if flag==1:
       out.append( '<token>1</token>')
     out.append( '</card>')
-  if data[i]["expansion"]=="Token":
+  if flag==1:
     for i in range(len(out)):
       h.write(out[i])
   else:
