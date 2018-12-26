@@ -11,7 +11,7 @@ root.withdraw()
 path = tkFileDialog.askdirectory()
 
 f = open ("en.json".format (path + str ("/")))
-g = open ("sv_database.xml".format (path + str ("/")), 'w')
+g = open ("sv_cards.xml".format (path + str ("/")), 'w')
 h = open ("sv_tokens.xml".format (path + str ("/")), 'w')
 g.write ('<cockatrice_carddatabase version="3">')
 g.write ('<cards>')
