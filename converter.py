@@ -41,13 +41,17 @@ for i in data:
   out.append ('<type>{}</type>\n'.format (str (data [i] ["race"]))) 
   out.append ('<pt>{}</pt>\n'.format (str (data [i] ["baseData"] ["attack"]) + "/" + str (data [i] ["baseData"] ["defense"])))
   out.append ('<tablerow>{}</tablerow>\n'.format ( str (tablerow [data [i] ["type"]])))
-  out.append ('<text>{}</text>\n'.format (str (data [i] ["baseData"] ["description"].replace ('<br>', ' ').replace ('&', 'and'))))
+  out.append ('<text>{}\n\n'.format (str (data [i] ["baseData"] ["description"].replace ('<br>', ' ').replace ('&', 'and'))))
+  out.append ('{}</text>\n'.format (str (data [i] ["evoData"] ["description"].replace ('<br>', ' ').replace ('&', 'and'))))
   out.append ('</card>')
   if data [i] ["type"] == "Follower":
     evo_out = list ()
     evo_out.append ('<card>')
     evo_out.append ('<name>{} EVOLVED</name>\n'.format ( str (data [i] ["name"]).replace ('&', 'and')))
     evo_out.append ('<set picURL="https://shadowverse-portal.com/image/card/en/E_{}.png"></set>\n'.format (str (data [i] ["id"])))
+    for j in data:
+      if data [j] ["name"] [:-1] in data [i] ["evoData"] ["description"]:
+        evo_out.append ('<related>{}</related>\n'.format (  str( data [j] ["name"]).replace ('&', 'and')))
     evo_out.append ('<color>{}</color>\n'.format (str (data [i] ["faction"])))
     evo_out.append ('<manacost>{}</manacost>\n'.format (str (data [i] ["manaCost"])))
     evo_out.append ('<cmc>{}</cmc>\n'.format (str (data [i] ["manaCost"])))

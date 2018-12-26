@@ -15,7 +15,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Banish an enemy follower or amulet.</text>
+<text>Banish an enemy follower or amulet.
+
+</text>
 </card><card><name>Zealot of Unkilling EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111111010.png"></set>
 <color>Forestcraft</color>
@@ -27,6 +29,7 @@
 <text>(Same as the unevolved form.)</text>
 <token>1</token></card><card><name>Lishenna, Omen of Destruction EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_110841010.png"></set>
+<related>Destruction in White</related>
 <color>Portalcraft</color>
 <manacost>4</manacost>
 <cmc>4</cmc>
@@ -45,6 +48,7 @@
 <text></text>
 <token>1</token></card><card><name>Marionette Lad EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111821010.png"></set>
+<related>Puppet</related>
 <color>Portalcraft</color>
 <manacost>2</manacost>
 <cmc>2</cmc>
@@ -70,9 +74,12 @@
 <type></type>
 <pt>4/4</pt>
 <tablerow>2</tablerow>
-<text>Storm. At the end of your turn, restore 3 defense to this follower.</text>
+<text>Storm. At the end of your turn, restore 3 defense to this follower.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Fortress Crab EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_105421030.png"></set>
+<related>Fortress Crab</related>
 <color>Dragoncraft</color>
 <manacost>9</manacost>
 <cmc>9</cmc>
@@ -97,7 +104,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Give an allied follower +1/+0 and Rush. Enhance (4): Then give all allied followers Storm.</text>
+<text>Give an allied follower +1/+0 and Rush. Enhance (4): Then give all allied followers Storm.
+
+</text>
 </card><card><name>Zealot of Disdain EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111411020.png"></set>
 <color>Dragoncraft</color>
@@ -125,7 +134,9 @@
 <type>Artifact</type>
 <pt>2/1</pt>
 <tablerow>2</tablerow>
-<text>Last Words: Draw a card.</text>
+<text>Last Words: Draw a card.
+
+Last Words: Draw a card.</text>
 </card><card><name>Camieux, Gunpowder Gal EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900831040.png"></set>
 <color>Portalcraft</color>
@@ -144,7 +155,9 @@
 <type></type>
 <pt>2/1</pt>
 <tablerow>2</tablerow>
-<text>Last Words: Deal 1 damage to a random enemy 3 times.</text>
+<text>Last Words: Deal 1 damage to a random enemy 3 times.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Grea the Dragonborn EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_103431020.png"></set>
 <color>Dragoncraft</color>
@@ -183,6 +196,7 @@
 <text>(Same as the unevolved form.)</text>
 <token>1</token></card><card><name>Frontguard General EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101231040.png"></set>
+<related>Fortress Guard</related>
 <color>Swordcraft</color>
 <manacost>7</manacost>
 <cmc>7</cmc>
@@ -226,7 +240,9 @@
 <type></type>
 <pt>2/1</pt>
 <tablerow>2</tablerow>
-<text>Storm.</text>
+<text>Storm.
+
+Storm.</text>
 </card><card><name>Cursed Scarecrow EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107611030.png"></set>
 <color>Bloodcraft</color>
@@ -290,7 +306,9 @@
 <type></type>
 <pt>1/1</pt>
 <tablerow>2</tablerow>
-<text></text>
+<text>
+
+</text>
 </card><card><name>Judge of Retribution EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_104731030.png"></set>
 <color>Havencraft</color>
@@ -327,7 +345,9 @@
 <type></type>
 <pt>1/1</pt>
 <tablerow>2</tablerow>
-<text></text>
+<text>
+
+</text>
 </card><card><name>Little Soulsquasher EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_104531020.png"></set>
 <color>Shadowcraft</color>
@@ -355,7 +375,9 @@
 <type></type>
 <pt>3/1</pt>
 <tablerow>2</tablerow>
-<text>Rush. Whenever this follower attacks an enemy follower, deal X damage to the follower before it can deal any damage in return. X equals this follower's attack.</text>
+<text>Rush. Whenever this follower attacks an enemy follower, deal X damage to the follower before it can deal any damage in return. X equals this follower's attack.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Conjure Guardian</name>
 <token>1</token><set picURL="https://shadowverse-portal.com/image/card/en/C_900314010.png"></set>
 <related>Guardian Golem</related>
@@ -365,7 +387,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Summon a Guardian Golem.</text>
+<text>Summon a Guardian Golem.
+
+</text>
 </card><card><name>Bahamut EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_103041010.png"></set>
 <color>Neutral</color>
@@ -386,6 +410,7 @@
 <text></text>
 <token>1</token></card><card><name>Mordecai the Duelist EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101531050.png"></set>
+<related>Mordecai the Duelist</related>
 <color>Shadowcraft</color>
 <manacost>8</manacost>
 <cmc>8</cmc>
@@ -404,6 +429,7 @@
 <text></text>
 <token>1</token></card><card><name>Soul Navigator EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_102611060.png"></set>
+<related>Forest Bat</related>
 <color>Bloodcraft</color>
 <manacost>5</manacost>
 <cmc>5</cmc>
@@ -413,6 +439,7 @@
 <text>At the end of your turn, deal 1 damage to your leader and summon a Forest Bat.</text>
 <token>1</token></card><card><name>Junk EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_108811030.png"></set>
+<related>Puppet</related>
 <color>Portalcraft</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -476,7 +503,9 @@
 <type></type>
 <pt>5/6</pt>
 <tablerow>2</tablerow>
-<text>Whenever an allied Puppet comes into play, transform it into a Lloyd the Android if there isn't an allied Lloyd the Android in play. At the end of your turn, restore 3 defense to your leader if there is an allied Lloyd the Android in play.</text>
+<text>Whenever an allied Puppet comes into play, transform it into a Lloyd the Android if there isn't an allied Lloyd the Android in play. At the end of your turn, restore 3 defense to your leader if there is an allied Lloyd the Android in play.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Aurelia, Regal Saber EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101241020.png"></set>
 <color>Swordcraft</color>
@@ -522,7 +551,9 @@
 <type></type>
 <pt>6/6</pt>
 <tablerow>2</tablerow>
-<text></text>
+<text>
+
+</text>
 </card><card><name>Mysterian Missile</name>
 <token>1</token><set picURL="https://shadowverse-portal.com/image/card/en/C_900314040.png"></set>
 <color>Runecraft</color>
@@ -531,9 +562,12 @@
 <type>Mysteria</type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 3 damage to an enemy follower. Deal 1 damage to the enemy leader.</text>
+<text>Deal 3 damage to an enemy follower. Deal 1 damage to the enemy leader.
+
+</text>
 </card><card><name>Waltzing Fairy EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101121010.png"></set>
+<related>Fairy</related>
 <color>Forestcraft</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -552,6 +586,7 @@
 <text>(Same as the unevolved form.)</text>
 <token>1</token></card><card><name>Storied Falconer EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_108131030.png"></set>
+<related>Skystride Raptor</related>
 <color>Forestcraft</color>
 <manacost>2</manacost>
 <cmc>2</cmc>
@@ -577,7 +612,9 @@
 <type></type>
 <pt>1/3</pt>
 <tablerow>2</tablerow>
-<text>Rush. Drain.</text>
+<text>Rush. Drain.
+
+Rush. Drain.</text>
 </card><card><name>Trinity Dragon EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101411120.png"></set>
 <color>Dragoncraft</color>
@@ -661,6 +698,7 @@
 <text>Storm.</text>
 <token>1</token></card><card><name>Professor of Taboos EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_103331030.png"></set>
+<related>Zombie</related>
 <color>Runecraft</color>
 <manacost>6</manacost>
 <cmc>6</cmc>
@@ -688,6 +726,8 @@
 <text></text>
 <token>1</token></card><card><name>Mr. Bertrand, Magic Mentor EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107311020.png"></set>
+<related>Mysterian Missile</related>
+<related>Mysterian Circle</related>
 <color>Runecraft</color>
 <manacost>2</manacost>
 <cmc>2</cmc>
@@ -760,6 +800,7 @@
 <text>Bane. Whenever this follower attacks, deal 1 damage to your leader.</text>
 <token>1</token></card><card><name>Attendant of Night EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_103511050.png"></set>
+<related>Lich</related>
 <color>Shadowcraft</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -823,6 +864,7 @@
 <text></text>
 <token>1</token></card><card><name>Toy Soldier EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_100811010.png"></set>
+<related>Puppet</related>
 <color>Portalcraft</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -920,7 +962,9 @@
 <type></type>
 <pt>4/5</pt>
 <tablerow>2</tablerow>
-<text>Ward.</text>
+<text>Ward.
+
+Ward.</text>
 </card><card><name>Elios, Loyal Dragoon EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111421020.png"></set>
 <color>Dragoncraft</color>
@@ -968,7 +1012,9 @@
 <type></type>
 <pt>3/2</pt>
 <tablerow>2</tablerow>
-<text>Storm. At the start of your turn, this follower combines with an allied Marionette//Uno to become Marionette//Tre.</text>
+<text>Storm. At the start of your turn, this follower combines with an allied Marionette//Uno to become Marionette//Tre.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Inspired Inventor EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_110821010.png"></set>
 <color>Portalcraft</color>
@@ -1023,7 +1069,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Countdown (2) At the end of your opponent's turn, summon a Forest Bat.</text>
+<text>Countdown (2) At the end of your opponent's turn, summon a Forest Bat.
+
+</text>
 </card><card><name>Spurned Witch EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101311090.png"></set>
 <color>Runecraft</color>
@@ -1053,6 +1101,7 @@
 <text>Clash: Destroy the enemy follower if its attack is 1.</text>
 <token>1</token></card><card><name>Ouroboros EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_104441020.png"></set>
+<related>Ouroboros</related>
 <color>Dragoncraft</color>
 <manacost>8</manacost>
 <cmc>8</cmc>
@@ -1117,9 +1166,13 @@
 <type>Commander</type>
 <pt>2/4</pt>
 <tablerow>2</tablerow>
-<text>Fanfare: Summon a Shield Guardian and a Heavy Knight.</text>
+<text>Fanfare: Summon a Shield Guardian and a Heavy Knight.
+
+</text>
 </card><card><name>Frontline Cavalier EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107221010.png"></set>
+<related>Knight</related>
+<related>Heavy Knight</related>
 <color>Swordcraft</color>
 <manacost>4</manacost>
 <cmc>4</cmc>
@@ -1144,7 +1197,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 4 damage to an allied follower and enemy follower. (This card can be played only when both a targetable allied follower and enemy follower are in play.)</text>
+<text>Deal 4 damage to an allied follower and enemy follower. (This card can be played only when both a targetable allied follower and enemy follower are in play.)
+
+</text>
 </card><card><name>Fairy's Awakening</name>
 <token>1</token><set picURL="https://shadowverse-portal.com/image/card/en/C_900113020.png"></set>
 <color>Forestcraft</color>
@@ -1153,7 +1208,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Countdown (2) During your opponent's turn, whenever an enemy follower attacks your leader, deal 1 damage to that follower.</text>
+<text>Countdown (2) During your opponent's turn, whenever an enemy follower attacks your leader, deal 1 damage to that follower.
+
+</text>
 </card><card><name>Zealot of Destruction EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111811020.png"></set>
 <color>Portalcraft</color>
@@ -1198,7 +1255,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Change an enemy follower's defense to 1.</text>
+<text>Change an enemy follower's defense to 1.
+
+</text>
 </card><card><name>Demon Eater EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_105511010.png"></set>
 <color>Shadowcraft</color>
@@ -1210,6 +1269,7 @@
 <text></text>
 <token>1</token></card><card><name>Princess Snow White EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_105741010.png"></set>
+<related>Princess Snow White</related>
 <color>Havencraft</color>
 <manacost>2</manacost>
 <cmc>2</cmc>
@@ -1273,6 +1333,7 @@
 <text>Rush. Can attack 2 times per turn.</text>
 <token>1</token></card><card><name>Stheno EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_106631010.png"></set>
+<related>Serpent</related>
 <color>Bloodcraft</color>
 <manacost>7</manacost>
 <cmc>7</cmc>
@@ -1300,6 +1361,9 @@
 <text></text>
 <token>1</token></card><card><name>Class President Hanna EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107331010.png"></set>
+<related>Mysterian Missile</related>
+<related>Mysterian Circle</related>
+<related>Mysterian Rite</related>
 <color>Runecraft</color>
 <manacost>5</manacost>
 <cmc>5</cmc>
@@ -1333,7 +1397,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Give an enemy follower -X/-0 until the end of the opponent's turn. X equals the number of other cards in your hand.</text>
+<text>Give an enemy follower -X/-0 until the end of the opponent's turn. X equals the number of other cards in your hand.
+
+</text>
 </card><card><name>Homebound Mercenary EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107221020.png"></set>
 <color>Swordcraft</color>
@@ -1361,7 +1427,9 @@
 <type></type>
 <pt>5/6</pt>
 <tablerow>2</tablerow>
-<text>Rush. Ward. Whenever this follower attacks, randomly perform 1 of the following: Give +1/+0 to all allied followers or restore 2 defense to your leader.</text>
+<text>Rush. Ward. Whenever this follower attacks, randomly perform 1 of the following: Give +1/+0 to all allied followers or restore 2 defense to your leader.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Dwarf Perfumer EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_102111010.png"></set>
 <color>Forestcraft</color>
@@ -1373,6 +1441,7 @@
 <text></text>
 <token>1</token></card><card><name>White Paladin EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_102231010.png"></set>
+<related>Shield Guardian</related>
 <color>Swordcraft</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -1460,7 +1529,9 @@
 <type>Loot</type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Give Rush to an allied follower.</text>
+<text>Give Rush to an allied follower.
+
+</text>
 </card><card><name>Profane Resurrection</name>
 <token>1</token><set picURL="https://shadowverse-portal.com/image/card/en/C_900512010.png"></set>
 <related>Lich</related>
@@ -1471,7 +1542,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>When an allied follower is destroyed, destroy this amulet. Last Words: Summon a Lich and a Zombie.</text>
+<text>When an allied follower is destroyed, destroy this amulet. Last Words: Summon a Lich and a Zombie.
+
+</text>
 </card><card><name>Amethyst Giant EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107821080.png"></set>
 <color>Portalcraft</color>
@@ -1517,7 +1590,9 @@
 <type></type>
 <pt>5/5</pt>
 <tablerow>2</tablerow>
-<text>Fanfare: Restore 3 defense to an ally.</text>
+<text>Fanfare: Restore 3 defense to an ally.
+
+</text>
 </card><card><name>Fairy's Yawn</name>
 <token>1</token><set picURL="https://shadowverse-portal.com/image/card/en/C_900113010.png"></set>
 <color>Forestcraft</color>
@@ -1526,7 +1601,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Countdown (2) At the end of your turn, select a random enemy follower. It can't attack next turn.</text>
+<text>Countdown (2) At the end of your turn, select a random enemy follower. It can't attack next turn.
+
+</text>
 </card><card><name>Mirage Defender EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_102211060.png"></set>
 <color>Swordcraft</color>
@@ -1554,7 +1631,9 @@
 <type>Officer</type>
 <pt>1/1</pt>
 <tablerow>2</tablerow>
-<text></text>
+<text>
+
+</text>
 </card><card><name>Jeweled Priestess EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_108731010.png"></set>
 <color>Havencraft</color>
@@ -1628,7 +1707,9 @@
 <type></type>
 <pt>2/1</pt>
 <tablerow>2</tablerow>
-<text>Storm. Fanfare: Put a Tomoi of the Brofamily into your hand.</text>
+<text>Storm. Fanfare: Put a Tomoi of the Brofamily into your hand.
+
+Storm.</text>
 </card><card><name>Katalina, Sky Guardian EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_109021010.png"></set>
 <color>Neutral</color>
@@ -1656,7 +1737,9 @@
 <type></type>
 <pt>4/4</pt>
 <tablerow>2</tablerow>
-<text></text>
+<text>
+
+</text>
 </card><card><name>Zealot of Truth EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111311020.png"></set>
 <color>Runecraft</color>
@@ -1668,6 +1751,7 @@
 <text>Storm.</text>
 <token>1</token></card><card><name>Star Phoenix EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_106431020.png"></set>
+<related>Star Phoenix</related>
 <color>Dragoncraft</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -1693,7 +1777,9 @@
 <type></type>
 <pt>1/1</pt>
 <tablerow>2</tablerow>
-<text>Whenever this follower attacks, spellboost the cards in your hand.</text>
+<text>Whenever this follower attacks, spellboost the cards in your hand.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Zealot of Usurpation EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111211020.png"></set>
 <color>Swordcraft</color>
@@ -1721,7 +1807,9 @@
 <type>Officer</type>
 <pt>2/5</pt>
 <tablerow>2</tablerow>
-<text>At the end of your turn, gain +1/+0 and restore 3 defense to this follower.</text>
+<text>At the end of your turn, gain +1/+0 and restore 3 defense to this follower.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Abomination Awakened EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_105341020.png"></set>
 <color>Runecraft</color>
@@ -1793,7 +1881,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Draw 2 cards. Enhance (2): Add 2 to the number of cards played this turn.</text>
+<text>Draw 2 cards. Enhance (2): Add 2 to the number of cards played this turn.
+
+</text>
 </card><card><name>Deepwood Anomaly EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_104141020.png"></set>
 <color>Forestcraft</color>
@@ -1830,7 +1920,9 @@
 <type></type>
 <pt>2/3</pt>
 <tablerow>2</tablerow>
-<text>Storm.</text>
+<text>Storm.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Zoe, Queen of Goldenia EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_104731020.png"></set>
 <color>Havencraft</color>
@@ -1850,7 +1942,9 @@
 <type>Earth Sigil</type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>When your opponent plays a follower, destroy this amulet. Last Words: Summon a Guardian Golem and a Clay Golem.</text>
+<text>When your opponent plays a follower, destroy this amulet. Last Words: Summon a Guardian Golem and a Clay Golem.
+
+</text>
 </card><card><name>Scholarly Witch EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101321040.png"></set>
 <color>Runecraft</color>
@@ -1916,6 +2010,8 @@
 <text>Ward. At the start of your turn, deal 3 damage to this follower.</text>
 <token>1</token></card><card><name>Paracelsus EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_109831010.png"></set>
+<related>Strikeform Golem</related>
+<related>Guardform Golem</related>
 <color>Portalcraft</color>
 <manacost>2</manacost>
 <cmc>2</cmc>
@@ -1959,9 +2055,12 @@
 <type></type>
 <pt>6/2</pt>
 <tablerow>2</tablerow>
-<text>Can't be attacked. At the end of your turn, deal 1 damage to all other followers.</text>
+<text>Can't be attacked. At the end of your turn, deal 1 damage to all other followers.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Gravewaker EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_100511050.png"></set>
+<related>Zombie</related>
 <color>Shadowcraft</color>
 <manacost>5</manacost>
 <cmc>5</cmc>
@@ -1980,6 +2079,7 @@
 <text>(Same as the unevolved form.)</text>
 <token>1</token></card><card><name>Mysterian Summoner Vayle EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107311010.png"></set>
+<related>Bunnicorn Nic-nic</related>
 <color>Runecraft</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -2041,7 +2141,9 @@
 <type></type>
 <pt>1/3</pt>
 <tablerow>2</tablerow>
-<text>Ward.</text>
+<text>Ward.
+
+Ward.</text>
 </card><card><name>Spinaria's Artifact EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900841010.png"></set>
 <color>Portalcraft</color>
@@ -2060,7 +2162,9 @@
 <type>Artifact</type>
 <pt>1/1</pt>
 <tablerow>2</tablerow>
-<text>Last Words: If it is your turn, then put a random Artifact card from your deck into your hand. If it is your opponent's turn, draw a card.</text>
+<text>Last Words: If it is your turn, then put a random Artifact card from your deck into your hand. If it is your opponent's turn, draw a card.
+
+Last Words: If it is your turn, then put a random Artifact card from your deck into your hand. If it is your opponent's turn, draw a card.</text>
 </card><card><name>Osiris EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_110541030.png"></set>
 <color>Shadowcraft</color>
@@ -2088,7 +2192,9 @@
 <type></type>
 <pt>4/4</pt>
 <tablerow>2</tablerow>
-<text>Fanfare: Recover 2 evolution points.</text>
+<text>Fanfare: Recover 2 evolution points.
+
+</text>
 </card><card><name>Phoenix Rider Aina EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_104431020.png"></set>
 <color>Dragoncraft</color>
@@ -2135,7 +2241,9 @@
 <type></type>
 <pt>3/1</pt>
 <tablerow>2</tablerow>
-<text>Clash: Deal 1 damage to the enemy leader. Last Words: Put a Moon and Sun into your hand.</text>
+<text>Clash: Deal 1 damage to the enemy leader. Last Words: Put a Moon and Sun into your hand.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Skeleton Ogre EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_105511030.png"></set>
 <color>Shadowcraft</color>
@@ -2156,6 +2264,8 @@
 <text></text>
 <token>1</token></card><card><name>Grea, Mysterian Dragoness EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_110331030.png"></set>
+<related>Grea's Ember</related>
+<related>Grea's Inferno</related>
 <color>Runecraft</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -2165,6 +2275,8 @@
 <text>Ward. Evolve: Choose - Put either a Grea's Ember or a Grea's Inferno into your hand.</text>
 <token>1</token></card><card><name>Magic Illusionist EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_104321030.png"></set>
+<related>Magic Illusionist</related>
+<related>Illusionist</related>
 <color>Runecraft</color>
 <manacost>2</manacost>
 <cmc>2</cmc>
@@ -2208,7 +2320,9 @@
 <type></type>
 <pt>2/2</pt>
 <tablerow>2</tablerow>
-<text></text>
+<text>
+
+</text>
 </card><card><name>Club Soldier EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900011020.png"></set>
 <color>Neutral</color>
@@ -2227,7 +2341,9 @@
 <type></type>
 <pt>1/3</pt>
 <tablerow>2</tablerow>
-<text>Storm.</text>
+<text>Storm.
+
+Storm.</text>
 </card><card><name>Spinaria, Keeper of Enigmas EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107841020.png"></set>
 <color>Portalcraft</color>
@@ -2239,6 +2355,7 @@
 <text>Whenever an allied Artifact follower comes into play, give that follower the following effect: At the end of your turn, deal 1 damage to a random enemy follower.</text>
 <token>1</token></card><card><name>Artifact Rhino EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900841080.png"></set>
+<related>Artifact Rhino</related>
 <color>Portalcraft</color>
 <manacost>7</manacost>
 <cmc>7</cmc>
@@ -2256,7 +2373,9 @@
 <type>Artifact</type>
 <pt>0/7</pt>
 <tablerow>2</tablerow>
-<text>Rush. Fanfare: Gain +X/+0. X equals the number of remaining Artifact cards in your deck. Whenever this follower attacks, put 3 Artifact Rhinos into your deck.</text>
+<text>Rush. Fanfare: Gain +X/+0. X equals the number of remaining Artifact cards in your deck. Whenever this follower attacks, put 3 Artifact Rhinos into your deck.
+
+Rush. Whenever this follower attacks, put 3 Artifact Rhinos into your deck.</text>
 </card><card><name>Carnivorous Flower EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101121040.png"></set>
 <color>Forestcraft</color>
@@ -2292,7 +2411,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Gain an empty play point orb.</text>
+<text>Gain an empty play point orb.
+
+</text>
 </card><card><name>Brazen Demoness EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_103611060.png"></set>
 <color>Bloodcraft</color>
@@ -2365,7 +2486,9 @@
 <type></type>
 <pt>3/5</pt>
 <tablerow>2</tablerow>
-<text></text>
+<text>
+
+</text>
 </card><card><name>Elf Guard EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_100111040.png"></set>
 <color>Forestcraft</color>
@@ -2377,6 +2500,7 @@
 <text></text>
 <token>1</token></card><card><name>Lord Deathskull EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_108531030.png"></set>
+<related>Zombie</related>
 <color>Shadowcraft</color>
 <manacost>2</manacost>
 <cmc>2</cmc>
@@ -2411,7 +2535,9 @@
 <type></type>
 <pt>5/4</pt>
 <tablerow>2</tablerow>
-<text>Ward. Can't be targeted by enemy spells and effects.</text>
+<text>Ward. Can't be targeted by enemy spells and effects.
+
+Ward. Can't be targeted by enemy spells and effects.</text>
 </card><card><name>Righteous Evocation</name>
 <token>1</token><set picURL="https://shadowverse-portal.com/image/card/en/C_900134030.png"></set>
 <color>Forestcraft</color>
@@ -2420,7 +2546,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 3 damage to an enemy follower. If at least 2 other cards were played this turn, restore 3 defense to your leader.</text>
+<text>Deal 3 damage to an enemy follower. If at least 2 other cards were played this turn, restore 3 defense to your leader.
+
+</text>
 </card><card><name>Dyne, Master Swordsman EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111841010.png"></set>
 <color>Portalcraft</color>
@@ -2466,7 +2594,9 @@
 <type></type>
 <pt>4/5</pt>
 <tablerow>2</tablerow>
-<text></text>
+<text>
+
+Evolve: Deal 3 damage to an enemy.</text>
 </card><card><name>Flame Rat EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900311060.png"></set>
 <color>Runecraft</color>
@@ -2485,7 +2615,9 @@
 <type></type>
 <pt>1/1</pt>
 <tablerow>2</tablerow>
-<text>At the start of your turn, deal 1 damage to both leaders.</text>
+<text>At the start of your turn, deal 1 damage to both leaders.
+
+At the start of your turn, deal 1 damage to both leaders.</text>
 </card><card><name>Athena EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101031040.png"></set>
 <color>Neutral</color>
@@ -2542,6 +2674,8 @@
 <text></text>
 <token>1</token></card><card><name>Aria, Guiding Fairy EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107141010.png"></set>
+<related>Fairy Wisp</related>
+<related>Fairy</related>
 <color>Forestcraft</color>
 <manacost>4</manacost>
 <cmc>4</cmc>
@@ -2560,6 +2694,9 @@
 <text></text>
 <token>1</token></card><card><name>Petal Fencer EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101131010.png"></set>
+<related>Petal Fencer</related>
+<related>Fencer</related>
+<related>Fairy</related>
 <color>Forestcraft</color>
 <manacost>4</manacost>
 <cmc>4</cmc>
@@ -2631,7 +2768,9 @@
 <type></type>
 <pt>1/3</pt>
 <tablerow>2</tablerow>
-<text>Rush. Fanfare: Put a Human! Pyramid! Attack! into your hand.</text>
+<text>Rush. Fanfare: Put a Human! Pyramid! Attack! into your hand.
+
+Rush.</text>
 </card><card><name>Protectoress EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101721060.png"></set>
 <color>Havencraft</color>
@@ -2694,7 +2833,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Countdown (1) Last Words: Win the match.</text>
+<text>Countdown (1) Last Words: Win the match.
+
+</text>
 </card><card><name>Magisteel Lion EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_100811070.png"></set>
 <color>Portalcraft</color>
@@ -2767,7 +2908,9 @@
 <type></type>
 <pt>5/5</pt>
 <tablerow>2</tablerow>
-<text>Storm.</text>
+<text>Storm.
+
+Storm.</text>
 </card><card><name>Castle Guardian EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107211010.png"></set>
 <color>Swordcraft</color>
@@ -2815,6 +2958,7 @@
 <text></text>
 <token>1</token></card><card><name>Corpselord of Woe EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_105541020.png"></set>
+<related>Corpselord of Woe</related>
 <color>Shadowcraft</color>
 <manacost>4</manacost>
 <cmc>4</cmc>
@@ -2860,6 +3004,7 @@
 <text>At the start of your opponent's turn, if your leader took damage during your previous turn, gain +1/+1.</text>
 <token>1</token></card><card><name>Eleanor, Cosmic Flower EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111331010.png"></set>
+<related>Splendid Conjury</related>
 <color>Runecraft</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -2903,7 +3048,9 @@
 <type></type>
 <pt>3/5</pt>
 <tablerow>2</tablerow>
-<text>Rush.</text>
+<text>Rush.
+
+Rush.</text>
 </card><card><name>Yggdrasil EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_108141010.png"></set>
 <color>Forestcraft</color>
@@ -2921,7 +3068,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Draw 3 cards.</text>
+<text>Draw 3 cards.
+
+</text>
 </card><card><name>Fencer EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101211060.png"></set>
 <color>Swordcraft</color>
@@ -2948,7 +3097,9 @@
 <type>Loot</type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Restore 2 defense to an ally.</text>
+<text>Restore 2 defense to an ally.
+
+</text>
 </card><card><name>Hippocampus EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_104411040.png"></set>
 <color>Dragoncraft</color>
@@ -2976,7 +3127,9 @@
 <type></type>
 <pt>4/4</pt>
 <tablerow>2</tablerow>
-<text>Fanfare: Give +1/+0 to all other allied followers.</text>
+<text>Fanfare: Give +1/+0 to all other allied followers.
+
+</text>
 </card><card><name>Cassiopeia EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_106141010.png"></set>
 <color>Forestcraft</color>
@@ -3015,6 +3168,8 @@
 <text>Rush. Can't be destroyed by spells and effects. (Can be destroyed by damage from spells and effects.)</text>
 <token>1</token></card><card><name>Leonidas EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_102231030.png"></set>
+<related>Leonidas</related>
+<related>Leonidas's Resolve</related>
 <color>Swordcraft</color>
 <manacost>9</manacost>
 <cmc>9</cmc>
@@ -3030,7 +3185,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Draw a card. Restore 2 defense to your leader if the enemy leader's defense is higher than yours.</text>
+<text>Draw a card. Restore 2 defense to your leader if the enemy leader's defense is higher than yours.
+
+</text>
 </card><card><name>Elder Spartoi Soldier EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_100511040.png"></set>
 <color>Shadowcraft</color>
@@ -3051,6 +3208,7 @@
 <text></text>
 <token>1</token></card><card><name>Magisteel Puppet EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_100821010.png"></set>
+<related>Puppet</related>
 <color>Portalcraft</color>
 <manacost>2</manacost>
 <cmc>2</cmc>
@@ -3076,7 +3234,9 @@
 <type></type>
 <pt>5/5</pt>
 <tablerow>2</tablerow>
-<text>Storm. Fanfare: Banish all enemy amulets.</text>
+<text>Storm. Fanfare: Banish all enemy amulets.
+
+Storm.</text>
 </card><card><name>Dis's Damnation</name>
 <token>1</token><set picURL="https://shadowverse-portal.com/image/card/en/C_900044010.png"></set>
 <color>Neutral</color>
@@ -3085,7 +3245,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 7 damage to an enemy. Restore 7 defense to your leader.</text>
+<text>Deal 7 damage to an enemy. Restore 7 defense to your leader.
+
+</text>
 </card><card><name>Anne, Mysterian Prodigy EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_110331010.png"></set>
 <color>Runecraft</color>
@@ -3187,6 +3349,7 @@
 <text>At the start of your turn, all allied followers gain +1/+0.</text>
 <token>1</token></card><card><name>Zirnitra EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101441030.png"></set>
+<related>Dragon</related>
 <color>Dragoncraft</color>
 <manacost>8</manacost>
 <cmc>8</cmc>
@@ -3239,7 +3402,9 @@
 <type></type>
 <pt>2/4</pt>
 <tablerow>2</tablerow>
-<text>Ward.</text>
+<text>Ward.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Magna Botanist EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_100121010.png"></set>
 <color>Forestcraft</color>
@@ -3312,7 +3477,9 @@
 <type></type>
 <pt>1/1</pt>
 <tablerow>2</tablerow>
-<text>Rush.  At the end of your opponent's turn, destroy this follower.</text>
+<text>Rush.  At the end of your opponent's turn, destroy this follower.
+
+Rush.  At the end of your opponent's turn, destroy this follower.</text>
 </card><card><name>Holy Mage EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101721080.png"></set>
 <color>Havencraft</color>
@@ -3376,7 +3543,9 @@
 <type></type>
 <pt>3/4</pt>
 <tablerow>2</tablerow>
-<text>Storm.</text>
+<text>Storm.
+
+Storm.</text>
 </card><card><name>Slumbering Calamity EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111341010.png"></set>
 <color>Runecraft</color>
@@ -3430,7 +3599,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 3 damage to an enemy. Draw a card if Overflow is active for you.</text>
+<text>Deal 3 damage to an enemy. Draw a card if Overflow is active for you.
+
+</text>
 </card><card><name>Abyss Straddler EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107541020.png"></set>
 <color>Shadowcraft</color>
@@ -3457,7 +3628,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Countdown (2) At the start of your turn, put a random Artifact card that costs at least 3 play points from your deck into your hand.</text>
+<text>Countdown (2) At the start of your turn, put a random Artifact card that costs at least 3 play points from your deck into your hand.
+
+</text>
 </card><card><name>Whirlwind Mage EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101311080.png"></set>
 <color>Runecraft</color>
@@ -3520,7 +3693,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Destroy an enemy follower with 4 defense or less.</text>
+<text>Destroy an enemy follower with 4 defense or less.
+
+</text>
 </card><card><name>Scion of Desire EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900041070.png"></set>
 <color>Neutral</color>
@@ -3539,7 +3714,9 @@
 <type></type>
 <pt>5/5</pt>
 <tablerow>2</tablerow>
-<text>At the end of your turn, destroy a random enemy follower. Restore X defense to your leader. X equals that follower's attack.</text>
+<text>At the end of your turn, destroy a random enemy follower. Restore X defense to your leader. X equals that follower's attack.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Tylle, the Worldgate EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111831020.png"></set>
 <color>Portalcraft</color>
@@ -3576,9 +3753,14 @@
 <type></type>
 <pt>3/2</pt>
 <tablerow>2</tablerow>
-<text>Rush. Bane.</text>
+<text>Rush. Bane.
+
+Rush. Bane.</text>
 </card><card><name>Lord of the Flies EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_102541010.png"></set>
+<related>Virulent Hornet</related>
+<related>Vicious Scorpion</related>
+<related>Velocious Beetle</related>
 <color>Shadowcraft</color>
 <manacost>7</manacost>
 <cmc>7</cmc>
@@ -3594,7 +3776,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 8 damage to an enemy follower.</text>
+<text>Deal 8 damage to an enemy follower.
+
+</text>
 </card><card><name>Disciple of Repose EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_110721020.png"></set>
 <color>Havencraft</color>
@@ -3613,7 +3797,9 @@
 <type>Artifact</type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Whenever an allied follower is destroyed, subtract 1 from the cost of this card. Can't be destroyed by spells and effects. At the start of your turn, deal 5 damage to all enemies. If an allied Destruction in White is in play, deal 10 damage instead.</text>
+<text>Whenever an allied follower is destroyed, subtract 1 from the cost of this card. Can't be destroyed by spells and effects. At the start of your turn, deal 5 damage to all enemies. If an allied Destruction in White is in play, deal 10 damage instead.
+
+</text>
 </card><card><name>Star Priestess EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_106721010.png"></set>
 <color>Havencraft</color>
@@ -3641,7 +3827,9 @@
 <type></type>
 <pt>1/7</pt>
 <tablerow>2</tablerow>
-<text>Rush. Bane. Can attack up to 3 times per turn.</text>
+<text>Rush. Bane. Can attack up to 3 times per turn.
+
+Rush. Bane. Can attack up to 3 times per turn.</text>
 </card><card><name>Marwynn, Omen of Repose EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_110741020.png"></set>
 <color>Havencraft</color>
@@ -3671,6 +3859,8 @@
 <text>Bane.</text>
 <token>1</token></card><card><name>Goblin Princess EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_104021020.png"></set>
+<related>Goblin King</related>
+<related>Goblin</related>
 <color>Neutral</color>
 <manacost>5</manacost>
 <cmc>5</cmc>
@@ -3697,7 +3887,9 @@
 <type>Commander</type>
 <pt>3/3</pt>
 <tablerow>2</tablerow>
-<text>Rush. Whenever this follower attacks, summon a Knight.</text>
+<text>Rush. Whenever this follower attacks, summon a Knight.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Bladed Hedgehog EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_105221030.png"></set>
 <color>Swordcraft</color>
@@ -3734,7 +3926,9 @@
 <type></type>
 <pt>1/1</pt>
 <tablerow>2</tablerow>
-<text>Fanfare: Banish this follower if at least 2 other cards were played this turn.</text>
+<text>Fanfare: Banish this follower if at least 2 other cards were played this turn.
+
+</text>
 </card><card><name>Flarewing Spear</name>
 <token>1</token><set picURL="https://shadowverse-portal.com/image/card/en/C_900224030.png"></set>
 <color>Swordcraft</color>
@@ -3743,7 +3937,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 3 damage to an enemy follower, then deal 3 damage to the enemy leader.</text>
+<text>Deal 3 damage to an enemy follower, then deal 3 damage to the enemy leader.
+
+</text>
 </card><card><name>Healing Priestess EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101711060.png"></set>
 <color>Havencraft</color>
@@ -3818,6 +4014,8 @@
 <text></text>
 <token>1</token></card><card><name>Immortal Thane EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_104531030.png"></set>
+<related>Wight</related>
+<related>Wight King</related>
 <color>Shadowcraft</color>
 <manacost>8</manacost>
 <cmc>8</cmc>
@@ -3852,7 +4050,9 @@
 <type></type>
 <pt>1/1</pt>
 <tablerow>2</tablerow>
-<text>Last Words: Deal 1 damage to a random enemy follower.</text>
+<text>Last Words: Deal 1 damage to a random enemy follower.
+
+Last Words: Deal 1 damage to a random enemy follower.</text>
 </card><card><name>Vengeful Mantis EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900541070.png"></set>
 <color>Shadowcraft</color>
@@ -3871,7 +4071,9 @@
 <type></type>
 <pt>4/4</pt>
 <tablerow>2</tablerow>
-<text>Whenever another allied follower is destroyed, gain +1/+0.</text>
+<text>Whenever another allied follower is destroyed, gain +1/+0.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Shamu's Antics</name>
 <token>1</token><set picURL="https://shadowverse-portal.com/image/card/en/C_900134010.png"></set>
 <color>Forestcraft</color>
@@ -3880,7 +4082,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 2 damage to an enemy follower. Restore 2 defense to your leader.</text>
+<text>Deal 2 damage to an enemy follower. Restore 2 defense to your leader.
+
+</text>
 </card><card><name>Flame Destroyer EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_100321010.png"></set>
 <color>Runecraft</color>
@@ -3898,7 +4102,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Give the enemy leader the following effect: At the end of your turn, deal 7 damage to your leader. Spellboost: Subtract 1 from the cost of this card.</text>
+<text>Give the enemy leader the following effect: At the end of your turn, deal 7 damage to your leader. Spellboost: Subtract 1 from the cost of this card.
+
+</text>
 </card><card><name>Skull Beast EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101511120.png"></set>
 <color>Shadowcraft</color>
@@ -3910,6 +4116,7 @@
 <text>Last Words: Gain 1 shadow.</text>
 <token>1</token></card><card><name>Witchcrafter Magisa EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101321030.png"></set>
+<related>Clay Golem</related>
 <color>Runecraft</color>
 <manacost>6</manacost>
 <cmc>6</cmc>
@@ -3943,9 +4150,13 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 3 damage to an enemy.</text>
+<text>Deal 3 damage to an enemy.
+
+</text>
 </card><card><name>Zirnitra, Dragon's Flame EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107441010.png"></set>
+<related>Hellflame Dragon</related>
+<related>Dragon</related>
 <color>Dragoncraft</color>
 <manacost>7</manacost>
 <cmc>7</cmc>
@@ -3989,7 +4200,9 @@
 <type></type>
 <pt>1/3</pt>
 <tablerow>2</tablerow>
-<text>Bane.</text>
+<text>Bane.
+
+Bane.</text>
 </card><card><name>Twin-Headed Dragon EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101411040.png"></set>
 <color>Dragoncraft</color>
@@ -4170,7 +4383,9 @@
 <type></type>
 <pt>1/2</pt>
 <tablerow>2</tablerow>
-<text>Ward.</text>
+<text>Ward.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Guardian Golem EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900311030.png"></set>
 <color>Runecraft</color>
@@ -4189,7 +4404,9 @@
 <type></type>
 <pt>3/3</pt>
 <tablerow>2</tablerow>
-<text>Ward.</text>
+<text>Ward.
+
+Ward.</text>
 </card><card><name>Heretical Hellbeast EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900041090.png"></set>
 <color>Neutral</color>
@@ -4208,7 +4425,9 @@
 <type></type>
 <pt>8/8</pt>
 <tablerow>2</tablerow>
-<text>Ward. Fanfare: Deal X damage to your leader. X equals the number of other followers in play. Then destroy all other followers.</text>
+<text>Ward. Fanfare: Deal X damage to your leader. X equals the number of other followers in play. Then destroy all other followers.
+
+Ward.</text>
 </card><card><name>Veteran Alchemist EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101311100.png"></set>
 <color>Runecraft</color>
@@ -4226,7 +4445,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 2 damage to an enemy follower. Burial Rite: Deal 5 damage instead.</text>
+<text>Deal 2 damage to an enemy follower. Burial Rite: Deal 5 damage instead.
+
+</text>
 </card><card><name>Ephemera, Sword Angel EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111031010.png"></set>
 <color>Neutral</color>
@@ -4289,7 +4510,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Countdown (1) Last Words: Destroy a random enemy follower.</text>
+<text>Countdown (1) Last Words: Destroy a random enemy follower.
+
+</text>
 </card><card><name>Robin Hood EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101131050.png"></set>
 <color>Forestcraft</color>
@@ -4326,7 +4549,9 @@
 <type></type>
 <pt>4/4</pt>
 <tablerow>2</tablerow>
-<text>Ward.</text>
+<text>Ward.
+
+Ward.</text>
 </card><card><name>Thorn Burst</name>
 <token>1</token><set picURL="https://shadowverse-portal.com/image/card/en/C_900144010.png"></set>
 <color>Forestcraft</color>
@@ -4335,7 +4560,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 3 damage to an enemy.</text>
+<text>Deal 3 damage to an enemy.
+
+</text>
 </card><card><name>Noble Knight EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101221060.png"></set>
 <color>Swordcraft</color>
@@ -4410,6 +4637,7 @@
 <text>At the end of your turn, randomly discard 1 of the lowest-cost cards in your hand and gain +2/+2.</text>
 <token>1</token></card><card><name>Ultimate Carrot EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900021010.png"></set>
+<related>Ultimate Carrot</related>
 <color>Neutral</color>
 <manacost>2</manacost>
 <cmc>2</cmc>
@@ -4427,7 +4655,9 @@
 <type></type>
 <pt>2/2</pt>
 <tablerow>2</tablerow>
-<text>Last Words: Put an Ultimate Carrot into your hand.</text>
+<text>Last Words: Put an Ultimate Carrot into your hand.
+
+Last Words: Put an Ultimate Carrot into your hand.</text>
 </card><card><name>Korwa, Ravishing Designer EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_109141010.png"></set>
 <color>Forestcraft</color>
@@ -4481,9 +4711,12 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Draw until you have X cards in your hand. X equals the number of cards in your opponent's hand.</text>
+<text>Draw until you have X cards in your hand. X equals the number of cards in your opponent's hand.
+
+</text>
 </card><card><name>Undead King EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_100521030.png"></set>
+<related>Zombie</related>
 <color>Shadowcraft</color>
 <manacost>7</manacost>
 <cmc>7</cmc>
@@ -4536,7 +4769,9 @@
 <type></type>
 <pt>5/7</pt>
 <tablerow>2</tablerow>
-<text>Ward.</text>
+<text>Ward.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Petra, Ether of the Wind EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_109731020.png"></set>
 <color>Havencraft</color>
@@ -4565,7 +4800,9 @@
 <type>Mysteria</type>
 <pt>6/5</pt>
 <tablerow>2</tablerow>
-<text>Fanfare: Put a Mysterian Missile into your hand. Give all Mysteria spells in your hand the following effect - Deal 1 damage to the enemy leader.</text>
+<text>Fanfare: Put a Mysterian Missile into your hand. Give all Mysteria spells in your hand the following effect - Deal 1 damage to the enemy leader.
+
+</text>
 </card><card><name>Gravikinetic Warrior EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107811030.png"></set>
 <color>Portalcraft</color>
@@ -4592,7 +4829,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 4 damage to an enemy follower. Restore 1 defense to your leader.</text>
+<text>Deal 4 damage to an enemy follower. Restore 1 defense to your leader.
+
+</text>
 </card><card><name>Morrigna's Gospel</name>
 <token>1</token><set picURL="https://shadowverse-portal.com/image/card/en/C_900044030.png"></set>
 <color>Neutral</color>
@@ -4601,7 +4840,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Give a random allied follower +3/+3. Draw 3 cards. Restore 3 defense to your leader.</text>
+<text>Give a random allied follower +3/+3. Draw 3 cards. Restore 3 defense to your leader.
+
+</text>
 </card><card><name>Goblinmount Demon EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101021040.png"></set>
 <color>Neutral</color>
@@ -4628,7 +4869,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Restore 1 defense to your leader. Recover 1 evolution point. Draw a card.</text>
+<text>Restore 1 defense to your leader. Recover 1 evolution point. Draw a card.
+
+</text>
 </card><card><name>Owl Guardian EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_103421040.png"></set>
 <color>Dragoncraft</color>
@@ -4658,6 +4901,7 @@
 <text>Whenever this follower attacks, put a random amulet from your deck into your hand.</text>
 <token>1</token></card><card><name>Tico, Mysterian Spellnerd EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111311030.png"></set>
+<related>Mysterian Rite</related>
 <color>Runecraft</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -4685,6 +4929,7 @@
 <text></text>
 <token>1</token></card><card><name>Cagliostro, Adorable Genius EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_109331020.png"></set>
+<related>Ars Magna</related>
 <color>Runecraft</color>
 <manacost>4</manacost>
 <cmc>4</cmc>
@@ -4773,7 +5018,9 @@
 <type>Commander</type>
 <pt>3/4</pt>
 <tablerow>2</tablerow>
-<text>Fanfare: Give all allied followers the following effect until the end of the opponent's turn - Reduce damage from spells and effects to 0.</text>
+<text>Fanfare: Give all allied followers the following effect until the end of the opponent's turn - Reduce damage from spells and effects to 0.
+
+</text>
 </card><card><name>Lycaon EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_108711030.png"></set>
 <color>Havencraft</color>
@@ -4800,7 +5047,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Reanimate (10)</text>
+<text>Reanimate (10)
+
+</text>
 </card><card><name>Ardent Nun EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101711020.png"></set>
 <color>Havencraft</color>
@@ -4812,6 +5061,9 @@
 <text>Gain +1/+0 during the opponent's turn.</text>
 <token>1</token></card><card><name>Pegasus Dullahan EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107731010.png"></set>
+<related>Pegasus Dullahan</related>
+<related>Pegasus</related>
+<related>Dullahan</related>
 <color>Havencraft</color>
 <manacost>4</manacost>
 <cmc>4</cmc>
@@ -4891,7 +5143,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Countdown (1) Fanfare: Give an allied Swordcraft follower +0/+1. Last Words: Summon a Shield Guardian.</text>
+<text>Countdown (1) Fanfare: Give an allied Swordcraft follower +0/+1. Last Words: Summon a Shield Guardian.
+
+</text>
 </card><card><name>Strikeform Golem EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900831030.png"></set>
 <color>Portalcraft</color>
@@ -4910,7 +5164,9 @@
 <type>Artifact</type>
 <pt>3/3</pt>
 <tablerow>2</tablerow>
-<text>Rush. Fanfare: Enhance (4) - Gain +2/+1.</text>
+<text>Rush. Fanfare: Enhance (4) - Gain +2/+1.
+
+Rush.</text>
 </card><card><name>Radiant Artifact EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900811040.png"></set>
 <color>Portalcraft</color>
@@ -4929,7 +5185,9 @@
 <type>Artifact</type>
 <pt>4/3</pt>
 <tablerow>2</tablerow>
-<text>Storm.  Last Words: If it is your turn, then put a random Artifact card from your deck into your hand. If it is your opponent's turn, draw a card.</text>
+<text>Storm.  Last Words: If it is your turn, then put a random Artifact card from your deck into your hand. If it is your opponent's turn, draw a card.
+
+Storm.  Last Words: If it is your turn, then put a random Artifact card from your deck into your hand. If it is your opponent's turn, draw a card.</text>
 </card><card><name>Radiant Shaman EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101721070.png"></set>
 <color>Havencraft</color>
@@ -4983,7 +5241,9 @@
 <type>Loot</type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 1 damage to an enemy follower.</text>
+<text>Deal 1 damage to an enemy follower.
+
+</text>
 </card><card><name>Pirate EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900211040.png"></set>
 <color>Swordcraft</color>
@@ -5002,7 +5262,9 @@
 <type>Officer</type>
 <pt>2/3</pt>
 <tablerow>2</tablerow>
-<text>Ward.</text>
+<text>Ward.
+
+Ward.</text>
 </card><card><name>Ruthless Assassin EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_102221020.png"></set>
 <color>Swordcraft</color>
@@ -5050,6 +5312,7 @@
 <text></text>
 <token>1</token></card><card><name>Prime Dragon Keeper EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_106441010.png"></set>
+<related>Dragon</related>
 <color>Dragoncraft</color>
 <manacost>4</manacost>
 <cmc>4</cmc>
@@ -5059,6 +5322,7 @@
 <text>Can't be attacked if Overflow is active for you. Whenever an allied Dragoncraft follower that originally costs 3 play points or less comes into play, deal 2 damage to a random enemy follower and 1 damage to the enemy leader if Overflow is active for you.</text>
 <token>1</token></card><card><name>Puppeteer EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_100811020.png"></set>
+<related>Puppet</related>
 <color>Portalcraft</color>
 <manacost>2</manacost>
 <cmc>2</cmc>
@@ -5092,7 +5356,9 @@
 <type>Commander</type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>All allies can't take more than 4 damage at a time from followers, spells, effects and amulets.</text>
+<text>All allies can't take more than 4 damage at a time from followers, spells, effects and amulets.
+
+</text>
 </card><card><name>Dungeon Explorer Chloe EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107011010.png"></set>
 <color>Neutral</color>
@@ -5129,7 +5395,9 @@
 <type></type>
 <pt>1/3</pt>
 <tablerow>2</tablerow>
-<text>Ward.</text>
+<text>Ward.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Luxwing Reno EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_103721030.png"></set>
 <color>Havencraft</color>
@@ -5165,7 +5433,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Restore 6 defense to your leader.</text>
+<text>Restore 6 defense to your leader.
+
+</text>
 </card><card><name>Deadly Widow EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101521020.png"></set>
 <color>Shadowcraft</color>
@@ -5192,7 +5462,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Banish an enemy follower or amulet. Draw a card.</text>
+<text>Banish an enemy follower or amulet. Draw a card.
+
+</text>
 </card><card><name>Young Ogrehunter Momo EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_105221010.png"></set>
 <color>Swordcraft</color>
@@ -5231,6 +5503,7 @@
 <text>At the end of your turn, deal 1 damage to a random enemy follower X times (maximum 10 times). X equals this follower's attack.</text>
 <token>1</token></card><card><name>Wyrm God of the Skies EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_105441010.png"></set>
+<related>Dragon</related>
 <color>Dragoncraft</color>
 <manacost>9</manacost>
 <cmc>9</cmc>
@@ -5375,6 +5648,8 @@
 <text>Clash: Deal 2 damage to the enemy leader.</text>
 <token>1</token></card><card><name>Fickle Resurrector EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_108531010.png"></set>
+<related>Spellplate Cavalier</related>
+<related>Bone Cavalier</related>
 <color>Shadowcraft</color>
 <manacost>7</manacost>
 <cmc>7</cmc>
@@ -5384,6 +5659,9 @@
 <text>Evolve: Evolve all allied Spellplate Cavaliers and Bone Cavaliers.</text>
 <token>1</token></card><card><name>Venomfang Medusa EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_106641010.png"></set>
+<related>Medusiana</related>
+<related>Serpent</related>
+<related>Medusa</related>
 <color>Bloodcraft</color>
 <manacost>4</manacost>
 <cmc>4</cmc>
@@ -5427,7 +5705,9 @@
 <type></type>
 <pt>5/3</pt>
 <tablerow>2</tablerow>
-<text></text>
+<text>
+
+</text>
 </card><card><name>Ivory Dragon EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101411010.png"></set>
 <color>Dragoncraft</color>
@@ -5445,7 +5725,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 2 damage to an enemy.</text>
+<text>Deal 2 damage to an enemy.
+
+</text>
 </card><card><name>High-Seas Hero EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_110221020.png"></set>
 <color>Swordcraft</color>
@@ -5457,6 +5739,7 @@
 <text></text>
 <token>1</token></card><card><name>Insane Dark Elf EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111111020.png"></set>
+<related>Fairy</related>
 <color>Forestcraft</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -5518,7 +5801,9 @@
 <type></type>
 <pt>2/1</pt>
 <tablerow>2</tablerow>
-<text>Storm.</text>
+<text>Storm.
+
+Storm.</text>
 </card><card><name>Ace Dragoon EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101421090.png"></set>
 <color>Dragoncraft</color>
@@ -5546,7 +5831,9 @@
 <type></type>
 <pt>6/6</pt>
 <tablerow>2</tablerow>
-<text>Ward. Can't attack.</text>
+<text>Ward. Can't attack.
+
+Ward.  Evolve: Banish an amulet. (Can attack.)</text>
 </card><card><name>Tenko EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_105721010.png"></set>
 <color>Havencraft</color>
@@ -5565,7 +5852,9 @@
 <type>Mysteria</type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Summon a Clay Golem. Give Ward to allied Clay Golems.</text>
+<text>Summon a Clay Golem. Give Ward to allied Clay Golems.
+
+</text>
 </card><card><name>Anne's Summoning EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900331040.png"></set>
 <color>Runecraft</color>
@@ -5584,7 +5873,9 @@
 <type>Mysteria</type>
 <pt>5/5</pt>
 <tablerow>2</tablerow>
-<text>Rush. Ward. At the end of your opponent's turn, banish this follower.</text>
+<text>Rush. Ward. At the end of your opponent's turn, banish this follower.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Israfil EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_104041020.png"></set>
 <color>Neutral</color>
@@ -5631,7 +5922,9 @@
 <type></type>
 <pt>1/3</pt>
 <tablerow>2</tablerow>
-<text>At the start of your turn, put a Puppet into your opponent's hand.</text>
+<text>At the start of your turn, put a Puppet into your opponent's hand.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Lucifer EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101041020.png"></set>
 <color>Neutral</color>
@@ -5733,6 +6026,7 @@
 <text>Whenever another allied follower is destroyed, draw a card.</text>
 <token>1</token></card><card><name>Transmogrified Wyrm EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_102421010.png"></set>
+<related>Dragon</related>
 <color>Dragoncraft</color>
 <manacost>5</manacost>
 <cmc>5</cmc>
@@ -5748,7 +6042,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Countdown (1) Fanfare: Deal 4 damage to your leader. Last Words: Restore 8 defense to your leader.</text>
+<text>Countdown (1) Fanfare: Deal 4 damage to your leader. Last Words: Restore 8 defense to your leader.
+
+</text>
 </card><card><name>Cursed Soldier EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101511070.png"></set>
 <color>Shadowcraft</color>
@@ -5814,6 +6110,8 @@
 <text>Evolve: Spellboost the cards in your hand 2 times.</text>
 <token>1</token></card><card><name>Serpent Drake EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_110411010.png"></set>
+<related>Serpent Drake</related>
+<related>Serpent</related>
 <color>Dragoncraft</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -5832,6 +6130,7 @@
 <text>Whenever this follower attacks, deal 1 damage to all enemy followers and your leader.</text>
 <token>1</token></card><card><name>Hell's Unleasher EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_100521020.png"></set>
+<related>Lich</related>
 <color>Shadowcraft</color>
 <manacost>4</manacost>
 <cmc>4</cmc>
@@ -5856,7 +6155,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 3 damage to an enemy follower. Spellboost: Deal 1 more.</text>
+<text>Deal 3 damage to an enemy follower. Spellboost: Deal 1 more.
+
+</text>
 </card><card><name>Frogbat EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_104611040.png"></set>
 <color>Bloodcraft</color>
@@ -5877,6 +6178,7 @@
 <text>Last Words: Draw 3 cards.</text>
 <token>1</token></card><card><name>Elf Knight Cynthia EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_102131010.png"></set>
+<related>Fairy</related>
 <color>Forestcraft</color>
 <manacost>6</manacost>
 <cmc>6</cmc>
@@ -5931,6 +6233,8 @@
 <text></text>
 <token>1</token></card><card><name>Khaiza, Radical Gourmand EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_109031020.png"></set>
+<related>Nourishing Fare</related>
+<related>Flaming-Hot Fare</related>
 <color>Neutral</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -5946,7 +6250,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Give a follower +2/+0. Then remove all effects from that follower except changes to its attack or defense.</text>
+<text>Give a follower +2/+0. Then remove all effects from that follower except changes to its attack or defense.
+
+</text>
 </card><card><name>Elf General EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_108111010.png"></set>
 <color>Forestcraft</color>
@@ -5974,7 +6280,9 @@
 <type></type>
 <pt>1/1</pt>
 <tablerow>2</tablerow>
-<text></text>
+<text>
+
+</text>
 </card><card><name>Eagle Man EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_105721020.png"></set>
 <color>Havencraft</color>
@@ -6073,9 +6381,12 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Destroy an enemy follower with 3 defense or less.</text>
+<text>Destroy an enemy follower with 3 defense or less.
+
+</text>
 </card><card><name>Nicola, Forbidden Strength EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111531010.png"></set>
+<related>Nicola, Forbidden Strength</related>
 <color>Shadowcraft</color>
 <manacost>2</manacost>
 <cmc>2</cmc>
@@ -6119,7 +6430,9 @@
 <type>Officer</type>
 <pt>4/2</pt>
 <tablerow>2</tablerow>
-<text>Storm. Fanfare: Enhance (10) - Gain the ability to ignore Ward, and recover 6 play points.</text>
+<text>Storm. Fanfare: Enhance (10) - Gain the ability to ignore Ward, and recover 6 play points.
+
+Storm.</text>
 </card><card><name>Snow Knight EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900331010.png"></set>
 <color>Runecraft</color>
@@ -6138,7 +6451,9 @@
 <type></type>
 <pt>2/2</pt>
 <tablerow>2</tablerow>
-<text>Ward.</text>
+<text>Ward.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Apostle of Repose EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_110731010.png"></set>
 <color>Havencraft</color>
@@ -6193,7 +6508,9 @@
 <type></type>
 <pt>4/4</pt>
 <tablerow>2</tablerow>
-<text></text>
+<text>
+
+</text>
 </card><card><name>Temptress Vampire EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101631050.png"></set>
 <color>Bloodcraft</color>
@@ -6221,7 +6538,9 @@
 <type></type>
 <pt>3/2</pt>
 <tablerow>2</tablerow>
-<text>Rush.</text>
+<text>Rush.
+
+Rush.</text>
 </card><card><name>Loki EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_106041010.png"></set>
 <color>Neutral</color>
@@ -6248,7 +6567,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 3 damage to an enemy. Earth Rite: Draw a card.</text>
+<text>Deal 3 damage to an enemy. Earth Rite: Draw a card.
+
+</text>
 </card><card><name>Reactive Barrier</name>
 <token>1</token><set picURL="https://shadowverse-portal.com/image/card/en/C_900332020.png"></set>
 <color>Runecraft</color>
@@ -6257,7 +6578,9 @@
 <type>Earth Sigil</type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>When your opponent plays a spell, destroy this amulet. Last Words: Draw 3 cards and restore 3 defense to your leader.</text>
+<text>When your opponent plays a spell, destroy this amulet. Last Words: Draw 3 cards and restore 3 defense to your leader.
+
+</text>
 </card><card><name>Elf Healer EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_102111030.png"></set>
 <color>Forestcraft</color>
@@ -6311,7 +6634,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Destroy all non-Neutral followers.</text>
+<text>Destroy all non-Neutral followers.
+
+</text>
 </card><card><name>Fashionista Nelcha EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_108121010.png"></set>
 <color>Forestcraft</color>
@@ -6329,7 +6654,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 3 damage to an enemy. Enhance (4): Restore 3 defense to your leader.</text>
+<text>Deal 3 damage to an enemy. Enhance (4): Restore 3 defense to your leader.
+
+</text>
 </card><card><name>Crimson Burst</name>
 <token>1</token><set picURL="https://shadowverse-portal.com/image/card/en/C_900644010.png"></set>
 <color>Bloodcraft</color>
@@ -6338,7 +6665,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 3 damage to an enemy. Restore 2 defense to your leader.</text>
+<text>Deal 3 damage to an enemy. Restore 2 defense to your leader.
+
+</text>
 </card><card><name>Badb Catha EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107041020.png"></set>
 <color>Neutral</color>
@@ -6366,7 +6695,9 @@
 <type></type>
 <pt>4/4</pt>
 <tablerow>2</tablerow>
-<text></text>
+<text>
+
+</text>
 </card><card><name>Servant of Disdain EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_110411030.png"></set>
 <color>Dragoncraft</color>
@@ -6394,7 +6725,9 @@
 <type></type>
 <pt>4/4</pt>
 <tablerow>2</tablerow>
-<text></text>
+<text>
+
+</text>
 </card><card><name>Clay Golem EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900311020.png"></set>
 <color>Runecraft</color>
@@ -6413,7 +6746,9 @@
 <type></type>
 <pt>2/2</pt>
 <tablerow>2</tablerow>
-<text></text>
+<text>
+
+</text>
 </card><card><name>Unicorn Dancer Unica EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_102021020.png"></set>
 <color>Neutral</color>
@@ -6487,7 +6822,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Countdown (1) Fanfare: Give an allied Swordcraft follower +1/+0. Last Words: Summon a Heavy Knight.</text>
+<text>Countdown (1) Fanfare: Give an allied Swordcraft follower +1/+0. Last Words: Summon a Heavy Knight.
+
+</text>
 </card><card><name>Aza and Iza, Feline Maids EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900631030.png"></set>
 <color>Bloodcraft</color>
@@ -6507,7 +6844,9 @@
 <type></type>
 <pt>2/2</pt>
 <tablerow>2</tablerow>
-<text>Fanfare: Evolve an allied Trill, Devilish Idol. Last Words: Restore 2 defense to your leader.</text>
+<text>Fanfare: Evolve an allied Trill, Devilish Idol. Last Words: Restore 2 defense to your leader.
+
+Last Words: Restore 2 defense to your leader.</text>
 </card><card><name>Buffalo Bones EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111511010.png"></set>
 <color>Shadowcraft</color>
@@ -6570,9 +6909,13 @@
 <type>Artifact</type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Can't be destroyed by spells and effects. At the end of your turn, if the enemy leader has 10 defense or less, deal 1 damage to a random enemy follower and 1 damage to the enemy leader, then banish this amulet.</text>
+<text>Can't be destroyed by spells and effects. At the end of your turn, if the enemy leader has 10 defense or less, deal 1 damage to a random enemy follower and 1 damage to the enemy leader, then banish this amulet.
+
+</text>
 </card><card><name>Liam, Master of Puppets EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111831010.png"></set>
+<related>Puppet</related>
+<related>Zwei, Murderous Puppet</related>
 <color>Portalcraft</color>
 <manacost>4</manacost>
 <cmc>4</cmc>
@@ -6598,7 +6941,9 @@
 <type></type>
 <pt>2/1</pt>
 <tablerow>2</tablerow>
-<text>Fanfare: Put a random Artifact card from your deck into your hand.</text>
+<text>Fanfare: Put a random Artifact card from your deck into your hand.
+
+</text>
 </card><card><name>Apprentice Alchemist EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101311060.png"></set>
 <color>Runecraft</color>
@@ -6610,6 +6955,7 @@
 <text></text>
 <token>1</token></card><card><name>Crafty Warlock EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101311020.png"></set>
+<related>Earth Essence</related>
 <color>Runecraft</color>
 <manacost>2</manacost>
 <cmc>2</cmc>
@@ -6637,6 +6983,7 @@
 <text>Whenever another follower evolves, gain 2 shadows.</text>
 <token>1</token></card><card><name>Timeworn Mage Levi EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_102331010.png"></set>
+<related>Crimson Sorcery</related>
 <color>Runecraft</color>
 <manacost>2</manacost>
 <cmc>2</cmc>
@@ -6725,7 +7072,9 @@
 <type></type>
 <pt>2/2</pt>
 <tablerow>2</tablerow>
-<text></text>
+<text>
+
+</text>
 </card><card><name>Marduk EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_108041010.png"></set>
 <color>Neutral</color>
@@ -6744,7 +7093,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Countdown (1) Last Words: Summon a Seraph Lapis, Glory Be.</text>
+<text>Countdown (1) Last Words: Summon a Seraph Lapis, Glory Be.
+
+</text>
 </card><card><name>Proto Bahamut EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_109041010.png"></set>
 <color>Neutral</color>
@@ -6756,6 +7107,7 @@
 <text>At the end of your turn, deal 3 damage to all other followers. Deal 1 damage to the enemy leader.</text>
 <token>1</token></card><card><name>Basilisk Rider EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107411020.png"></set>
+<related>Basilisk</related>
 <color>Dragoncraft</color>
 <manacost>4</manacost>
 <cmc>4</cmc>
@@ -6799,7 +7151,9 @@
 <type>Officer</type>
 <pt>2/3</pt>
 <tablerow>2</tablerow>
-<text>Ward.</text>
+<text>Ward.
+
+Ward.</text>
 </card><card><name>Hell Lord Skeleton EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900521020.png"></set>
 <color>Shadowcraft</color>
@@ -6818,7 +7172,9 @@
 <type></type>
 <pt>6/5</pt>
 <tablerow>2</tablerow>
-<text>Fanfare: Deal 3 damage to an enemy.</text>
+<text>Fanfare: Deal 3 damage to an enemy.
+
+</text>
 </card><card><name>Guardian Nun EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101711050.png"></set>
 <color>Havencraft</color>
@@ -6893,6 +7249,7 @@
 <text></text>
 <token>1</token></card><card><name>Blood Queen Vania EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900641030.png"></set>
+<related>Forest Bat</related>
 <color>Bloodcraft</color>
 <manacost>6</manacost>
 <cmc>6</cmc>
@@ -6910,7 +7267,9 @@
 <type></type>
 <pt>3/6</pt>
 <tablerow>2</tablerow>
-<text>Storm. Fanfare: Summon a Forest Bat. Whenever an allied Forest Bat comes into play, give it Bane.</text>
+<text>Storm. Fanfare: Summon a Forest Bat. Whenever an allied Forest Bat comes into play, give it Bane.
+
+Storm. Whenever an allied Forest Bat comes into play, give it Bane.</text>
 </card><card><name>Deathly Tyrant EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101531040.png"></set>
 <color>Shadowcraft</color>
@@ -6922,6 +7281,7 @@
 <text>Storm.</text>
 <token>1</token></card><card><name>Soulcaller EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107521010.png"></set>
+<related>Ghost</related>
 <color>Shadowcraft</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -6964,7 +7324,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Restore 2 defense to an ally. Draw a card.</text>
+<text>Restore 2 defense to an ally. Draw a card.
+
+</text>
 </card><card><name>King of the Horned Crown EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_106211020.png"></set>
 <color>Swordcraft</color>
@@ -7022,7 +7384,9 @@
 <type></type>
 <pt>6/5</pt>
 <tablerow>2</tablerow>
-<text>Whenever an allied Puppet comes into play, transform it into a Marionette//Uno if there isn't an allied Marionette//Uno in play. Transform it into a Marionette//Due instead if there is an allied Marionette//Uno in play.</text>
+<text>Whenever an allied Puppet comes into play, transform it into a Marionette//Uno if there isn't an allied Marionette//Uno in play. Transform it into a Marionette//Due instead if there is an allied Marionette//Uno in play.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Vania, Nightshade Vampire EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_108641010.png"></set>
 <color>Bloodcraft</color>
@@ -7043,6 +7407,7 @@
 <text></text>
 <token>1</token></card><card><name>Viola, Duchess of Dolls EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111811030.png"></set>
+<related>Puppet</related>
 <color>Portalcraft</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -7104,7 +7469,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Give an allied follower +0/+1. If you have played at least 4 other Fils in this match, that follower can attack twice per turn.</text>
+<text>Give an allied follower +0/+1. If you have played at least 4 other Fils in this match, that follower can attack twice per turn.
+
+</text>
 </card><card><name>Calydonian Boar EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_104721040.png"></set>
 <color>Havencraft</color>
@@ -7134,6 +7501,7 @@
 <text>Evolve: Give all other allied followers +1/+0 until the end of the turn.</text>
 <token>1</token></card><card><name>Arch Priestess Cattleya EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107721010.png"></set>
+<related>Summit Temple</related>
 <color>Havencraft</color>
 <manacost>6</manacost>
 <cmc>6</cmc>
@@ -7159,7 +7527,9 @@
 <type></type>
 <pt>7/7</pt>
 <tablerow>2</tablerow>
-<text>Storm. Whenever this follower attacks, first deal 7 damage to all enemies.</text>
+<text>Storm. Whenever this follower attacks, first deal 7 damage to all enemies.
+
+Storm. Whenever this follower attacks, first deal 7 damage to all enemies.</text>
 </card><card><name>Dark Airjammer EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_104621040.png"></set>
 <color>Bloodcraft</color>
@@ -7250,9 +7620,17 @@
 <type>Officer</type>
 <pt>5/4</pt>
 <tablerow>2</tablerow>
-<text>Bane. Ward.</text>
+<text>Bane. Ward.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Star Reader Stella EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_106341010.png"></set>
+<related>Pollux</related>
+<related>Scorpius</related>
+<related>Andromeda</related>
+<related>Star Phoenix</related>
+<related>Castor</related>
+<related>Venus</related>
 <color>Runecraft</color>
 <manacost>2</manacost>
 <cmc>2</cmc>
@@ -7277,7 +7655,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Restore 2 defense to an ally.</text>
+<text>Restore 2 defense to an ally.
+
+</text>
 </card><card><name>Lancelot, Twinfang Prodigy EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900231060.png"></set>
 <color>Swordcraft</color>
@@ -7298,7 +7678,9 @@
 <type>Commander</type>
 <pt>3/3</pt>
 <tablerow>2</tablerow>
-<text>Storm.  Whenever this follower attacks, gain +1/+1 if an allied Vane, Indomitable Knight is in play.</text>
+<text>Storm.  Whenever this follower attacks, gain +1/+1 if an allied Vane, Indomitable Knight is in play.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Evil Eye Demon EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_109631010.png"></set>
 <color>Bloodcraft</color>
@@ -7334,7 +7716,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Give +1/+1 to an allied follower.</text>
+<text>Give +1/+1 to an allied follower.
+
+</text>
 </card><card><name>Silent Rider EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900041020.png"></set>
 <color>Neutral</color>
@@ -7353,9 +7737,12 @@
 <type></type>
 <pt>8/8</pt>
 <tablerow>2</tablerow>
-<text>Storm.</text>
+<text>Storm.
+
+Storm.</text>
 </card><card><name>Goblin Leader EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_105011030.png"></set>
+<related>Goblin</related>
 <color>Neutral</color>
 <manacost>4</manacost>
 <cmc>4</cmc>
@@ -7401,6 +7788,7 @@
 <text>Last Words: Deal 2 damage to your leader.</text>
 <token>1</token></card><card><name>Dramatic Dragonblader EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_105431010.png"></set>
+<related>Dragon</related>
 <color>Dragoncraft</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -7445,7 +7833,9 @@
 <type></type>
 <pt>6/5</pt>
 <tablerow>2</tablerow>
-<text>Ward. Last Words: Summon 2 Skeletons.</text>
+<text>Ward. Last Words: Summon 2 Skeletons.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Rackam, Airship Pilot EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_109011010.png"></set>
 <color>Neutral</color>
@@ -7500,7 +7890,9 @@
 <type>Artifact</type>
 <pt>2/3</pt>
 <tablerow>2</tablerow>
-<text>Ward.  Fanfare: Draw a card.</text>
+<text>Ward.  Fanfare: Draw a card.
+
+Ward.</text>
 </card><card><name>Devil Raider EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111611040.png"></set>
 <color>Bloodcraft</color>
@@ -7536,7 +7928,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 2 damage to an enemy follower. Deal 2 damage to the enemy leader if their defense is higher than yours.</text>
+<text>Deal 2 damage to an enemy follower. Deal 2 damage to the enemy leader if their defense is higher than yours.
+
+</text>
 </card><card><name>Necroelementist EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101521030.png"></set>
 <color>Shadowcraft</color>
@@ -7564,7 +7958,9 @@
 <type></type>
 <pt>0/2</pt>
 <tablerow>2</tablerow>
-<text>Ward.</text>
+<text>Ward.
+
+Ward.</text>
 </card><card><name>Fairy EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900111010.png"></set>
 <color>Forestcraft</color>
@@ -7583,7 +7979,9 @@
 <type></type>
 <pt>1/1</pt>
 <tablerow>2</tablerow>
-<text></text>
+<text>
+
+</text>
 </card><card><name>Phantom Cat EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_105631020.png"></set>
 <color>Bloodcraft</color>
@@ -7619,7 +8017,9 @@
 <type>Mysteria</type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 3 damage to an enemy follower.</text>
+<text>Deal 3 damage to an enemy follower.
+
+</text>
 </card><card><name>Centaur Shaman EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111321010.png"></set>
 <color>Runecraft</color>
@@ -7664,7 +8064,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 3 damage to the enemy leader.</text>
+<text>Deal 3 damage to the enemy leader.
+
+</text>
 </card><card><name>Captain Meteo EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107811080.png"></set>
 <color>Portalcraft</color>
@@ -7710,7 +8112,9 @@
 <type></type>
 <pt>4/3</pt>
 <tablerow>2</tablerow>
-<text>Ambush.</text>
+<text>Ambush.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Destruction in White</name>
 <token>1</token><set picURL="https://shadowverse-portal.com/image/card/en/C_900842010.png"></set>
 <related>Destruction in Black</related>
@@ -7720,7 +8124,9 @@
 <type>Artifact</type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Fanfare: Put a Destruction in Black into your hand. Whenever an allied follower is destroyed, subtract 1 from the cost of this card. Can't be destroyed by spells and effects. At the start of your turn, restore 2 defense to your leader.</text>
+<text>Fanfare: Put a Destruction in Black into your hand. Whenever an allied follower is destroyed, subtract 1 from the cost of this card. Can't be destroyed by spells and effects. At the start of your turn, restore 2 defense to your leader.
+
+</text>
 </card><card><name>Sylvan Elder EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_105121030.png"></set>
 <color>Forestcraft</color>
@@ -7864,7 +8270,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Countdown (1) Last Words: Draw 2 cards. Give your leader the following effect - Followers can't be played. This effect lasts until the start of your opponent's turn.</text>
+<text>Countdown (1) Last Words: Draw 2 cards. Give your leader the following effect - Followers can't be played. This effect lasts until the start of your opponent's turn.
+
+</text>
 </card><card><name>Milnard, Dark Fiend EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_110641030.png"></set>
 <color>Bloodcraft</color>
@@ -7910,7 +8318,9 @@
 <type>Officer</type>
 <pt>2/2</pt>
 <tablerow>2</tablerow>
-<text></text>
+<text>
+
+</text>
 </card><card><name>Odette, White Swan EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_105731010.png"></set>
 <color>Havencraft</color>
@@ -7938,7 +8348,9 @@
 <type></type>
 <pt>1/1</pt>
 <tablerow>2</tablerow>
-<text>Bane.</text>
+<text>Bane.
+
+Bane.</text>
 </card><card><name>Minthe of the Underworld EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_104541010.png"></set>
 <color>Shadowcraft</color>
@@ -7968,6 +8380,7 @@
 <text>Evolve: Deal 1 damage to an enemy.</text>
 <token>1</token></card><card><name>Dream Rabbit EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900711080.png"></set>
+<related>Hare of Illusions</related>
 <color>Havencraft</color>
 <manacost>4</manacost>
 <cmc>4</cmc>
@@ -7985,7 +8398,9 @@
 <type></type>
 <pt>1/2</pt>
 <tablerow>2</tablerow>
-<text>Ward. Last Words: Summon a Hare of Illusions.</text>
+<text>Ward. Last Words: Summon a Hare of Illusions.
+
+Ward. Last Words: Summon a Hare of Illusions.</text>
 </card><card><name>Michelle, the Mind Reader EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111121020.png"></set>
 <color>Forestcraft</color>
@@ -8033,6 +8448,7 @@
 <text>Evolve: Evolve all allied followers. Evolve effects will not activate for those followers.</text>
 <token>1</token></card><card><name>Elf Bard EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_102111020.png"></set>
+<related>Fairy</related>
 <color>Forestcraft</color>
 <manacost>2</manacost>
 <cmc>2</cmc>
@@ -8084,9 +8500,12 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Countdown (3) At the end of your turn, randomly change the attack of 1 of the strongest enemy followers in play to 1.</text>
+<text>Countdown (3) At the end of your turn, randomly change the attack of 1 of the strongest enemy followers in play to 1.
+
+</text>
 </card><card><name>Kaguya EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_102731010.png"></set>
+<related>Ephemeral Moon</related>
 <color>Havencraft</color>
 <manacost>6</manacost>
 <cmc>6</cmc>
@@ -8112,7 +8531,9 @@
 <type>Mysteria</type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Whenever you play a Mysteria card, if this card costs 5 play points, change its cost to 3. Deal 3 damage to an enemy. Summon a Guardian Golem.</text>
+<text>Whenever you play a Mysteria card, if this card costs 5 play points, change its cost to 3. Deal 3 damage to an enemy. Summon a Guardian Golem.
+
+</text>
 </card><card><name>Arion EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111611030.png"></set>
 <color>Bloodcraft</color>
@@ -8140,7 +8561,9 @@
 <type></type>
 <pt>3/3</pt>
 <tablerow>2</tablerow>
-<text>Drain.</text>
+<text>Drain.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Moriana the Bejeweled EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_103611040.png"></set>
 <color>Bloodcraft</color>
@@ -8176,7 +8599,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Select an enemy follower and destroy it if it is already damaged. If it has not been damaged, deal 1 damage instead.</text>
+<text>Select an enemy follower and destroy it if it is already damaged. If it has not been damaged, deal 1 damage instead.
+
+</text>
 </card><card><name>Ferry, Spirit Maiden EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_109541010.png"></set>
 <color>Shadowcraft</color>
@@ -8213,9 +8638,12 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 3 damage to an enemy follower. If that follower is a Dragoncraft follower, deal 6 damage instead.</text>
+<text>Deal 3 damage to an enemy follower. If that follower is a Dragoncraft follower, deal 6 damage instead.
+
+</text>
 </card><card><name>Raven, Midnight Vampire EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900631020.png"></set>
+<related>Forest Bat</related>
 <color>Bloodcraft</color>
 <manacost>2</manacost>
 <cmc>2</cmc>
@@ -8233,7 +8661,9 @@
 <type></type>
 <pt>1/1</pt>
 <tablerow>2</tablerow>
-<text>Fanfare: Summon a Forest Bat. Whenever an allied Forest Bat comes into play, deal 1 damage to the enemy leader.</text>
+<text>Fanfare: Summon a Forest Bat. Whenever an allied Forest Bat comes into play, deal 1 damage to the enemy leader.
+
+Whenever an allied Forest Bat comes into play, deal 1 damage to the enemy leader.</text>
 </card><card><name>Myconid EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_109111030.png"></set>
 <color>Forestcraft</color>
@@ -8251,9 +8681,12 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal damage to the enemy leader until their defense drops to 1.</text>
+<text>Deal damage to the enemy leader until their defense drops to 1.
+
+</text>
 </card><card><name>Forest Spirit EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_103111040.png"></set>
+<related>Woodkin Curse</related>
 <color>Forestcraft</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -8263,6 +8696,7 @@
 <text>Last Words: Put a Woodkin Curse into your hand.</text>
 <token>1</token></card><card><name>Mordecai, Eternal Duelist EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_109541020.png"></set>
+<related>Mordecai, Eternal Duelist</related>
 <color>Shadowcraft</color>
 <manacost>10</manacost>
 <cmc>10</cmc>
@@ -8324,7 +8758,9 @@
 <type></type>
 <pt>2/2</pt>
 <tablerow>2</tablerow>
-<text></text>
+<text>
+
+</text>
 </card><card><name>Infernal Crown</name>
 <token>1</token><set picURL="https://shadowverse-portal.com/image/card/en/C_900533010.png"></set>
 <color>Shadowcraft</color>
@@ -8333,7 +8769,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Countdown (3) At the end of your turn, if this card's Countdown is at 3, Reanimate (8). If it's at 2, Reanimate (10). If it's at 1, Reanimate (12).</text>
+<text>Countdown (3) At the end of your turn, if this card's Countdown is at 3, Reanimate (8). If it's at 2, Reanimate (10). If it's at 1, Reanimate (12).
+
+</text>
 </card><card><name>Joycrafter Sammy EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107321010.png"></set>
 <color>Runecraft</color>
@@ -8415,7 +8853,9 @@
 <type></type>
 <pt>1/4</pt>
 <tablerow>2</tablerow>
-<text>Ward. If this follower can be targeted by enemy spells or effects, your opponent can only target this follower.</text>
+<text>Ward. If this follower can be targeted by enemy spells or effects, your opponent can only target this follower.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Safira, Synthetic Beast EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107831010.png"></set>
 <color>Portalcraft</color>
@@ -8463,6 +8903,7 @@
 <text>At the end of your turn, gain Ambush.</text>
 <token>1</token></card><card><name>Fairy Driver EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_105131020.png"></set>
+<related>Fairy</related>
 <color>Forestcraft</color>
 <manacost>4</manacost>
 <cmc>4</cmc>
@@ -8487,7 +8928,9 @@
 <type>Commander</type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Whenever an allied follower comes into play, give it +3/+3 and Rush.</text>
+<text>Whenever an allied follower comes into play, give it +3/+3 and Rush.
+
+</text>
 </card><card><name>Prince of Darkness EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101041030.png"></set>
 <color>Neutral</color>
@@ -8544,9 +8987,13 @@
 <type></type>
 <pt>3/3</pt>
 <tablerow>2</tablerow>
-<text>Storm. Can attack 2 times per turn. Last Words: Summon a Marionette//Uno and a Marionette//Due.</text>
+<text>Storm. Can attack 2 times per turn. Last Words: Summon a Marionette//Uno and a Marionette//Due.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Harnessed Glass EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_100031020.png"></set>
+<related>Flame and Glass</related>
+<related>Harnessed Flame</related>
 <color>Neutral</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -8583,6 +9030,7 @@
 <text></text>
 <token>1</token></card><card><name>Water Fairy EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_100111010.png"></set>
+<related>Fairy</related>
 <color>Forestcraft</color>
 <manacost>1</manacost>
 <cmc>1</cmc>
@@ -8601,6 +9049,7 @@
 <text></text>
 <token>1</token></card><card><name>Pyrewyrm Commander EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_109431020.png"></set>
+<related>Lightning Blast</related>
 <color>Dragoncraft</color>
 <manacost>4</manacost>
 <cmc>4</cmc>
@@ -8671,7 +9120,9 @@
 <type></type>
 <pt>5/5</pt>
 <tablerow>2</tablerow>
-<text>Ward.</text>
+<text>Ward.
+
+Ward.</text>
 </card><card><name>Assault Commander EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_102211040.png"></set>
 <color>Swordcraft</color>
@@ -8717,7 +9168,9 @@
 <type></type>
 <pt>4/3</pt>
 <tablerow>2</tablerow>
-<text>Rush.</text>
+<text>Rush.
+
+Rush.</text>
 </card><card><name>Nonja, Silent Maid EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_108221010.png"></set>
 <color>Swordcraft</color>
@@ -8746,7 +9199,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 5 damage to an enemy follower. Put a Final Curse into your hand.</text>
+<text>Deal 5 damage to an enemy follower. Put a Final Curse into your hand.
+
+</text>
 </card><card><name>Apostle of Unkilling EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_110131020.png"></set>
 <color>Forestcraft</color>
@@ -8785,6 +9240,7 @@
 <text>Can't be attacked. Whenever this follower attacks, randomly discard 1 of the lowest-cost cards in your hand and then draw a card.</text>
 <token>1</token></card><card><name>Automaton Knight EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_100811030.png"></set>
+<related>Puppet</related>
 <color>Portalcraft</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -8848,6 +9304,7 @@
 <text>Evolve: Deal 2 damage to all enemy followers.</text>
 <token>1</token></card><card><name>Verdant Steward EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_102111060.png"></set>
+<related>Fairy</related>
 <color>Forestcraft</color>
 <manacost>5</manacost>
 <cmc>5</cmc>
@@ -8927,7 +9384,9 @@
 <type></type>
 <pt>7/7</pt>
 <tablerow>2</tablerow>
-<text>At the end of your turn, deal 7 damage to the enemy leader.</text>
+<text>At the end of your turn, deal 7 damage to the enemy leader.
+
+At the end of your turn, deal 9 damage to the enemy leader.</text>
 </card><card><name>Genesis Dragon EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101431020.png"></set>
 <color>Dragoncraft</color>
@@ -8957,6 +9416,7 @@
 <text>Bane.</text>
 <token>1</token></card><card><name>Bone Chimera EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_102521040.png"></set>
+<related>Skeleton</related>
 <color>Shadowcraft</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -8966,6 +9426,7 @@
 <text>Last Words: Summon 2 Skeletons.</text>
 <token>1</token></card><card><name>Skeleton Knight EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101511050.png"></set>
+<related>Skeleton</related>
 <color>Shadowcraft</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -9011,6 +9472,7 @@
 <text></text>
 <token>1</token></card><card><name>Lizardman EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101021020.png"></set>
+<related>Lizardman</related>
 <color>Neutral</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -9020,6 +9482,7 @@
 <text>Ward. Evolve: Summon an unevolved Lizardman.</text>
 <token>1</token></card><card><name>Vampire Bard EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101621100.png"></set>
+<related>Forest Bat</related>
 <color>Bloodcraft</color>
 <manacost>5</manacost>
 <cmc>5</cmc>
@@ -9038,6 +9501,7 @@
 <text>At the end of your turn, perform Necromancy (4): Gain +2/+2.</text>
 <token>1</token></card><card><name>Nightmare Devil EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_108611010.png"></set>
+<related>Forest Bat</related>
 <color>Bloodcraft</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -9198,7 +9662,9 @@
 <type>Officer</type>
 <pt>1/1</pt>
 <tablerow>2</tablerow>
-<text>Ward.</text>
+<text>Ward.
+
+Ward.</text>
 </card><card><name>Spawn of the Abyss EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_105641020.png"></set>
 <color>Bloodcraft</color>
@@ -9291,6 +9757,7 @@
 <text>(Same as the unevolved form.)</text>
 <token>1</token></card><card><name>Latham, Vanguard Captain EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101231050.png"></set>
+<related>Knight</related>
 <color>Swordcraft</color>
 <manacost>4</manacost>
 <cmc>4</cmc>
@@ -9318,6 +9785,7 @@
 <text>Ward.</text>
 <token>1</token></card><card><name>Raven, Noontide Vampire EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900631010.png"></set>
+<related>Forest Bat</related>
 <color>Bloodcraft</color>
 <manacost>2</manacost>
 <cmc>2</cmc>
@@ -9335,7 +9803,9 @@
 <type></type>
 <pt>1/1</pt>
 <tablerow>2</tablerow>
-<text>Fanfare: Summon a Forest Bat. Whenever an allied Forest Bat comes into play, restore 1 defense to your leader.</text>
+<text>Fanfare: Summon a Forest Bat. Whenever an allied Forest Bat comes into play, restore 1 defense to your leader.
+
+Whenever an allied Forest Bat comes into play, restore 1 defense to your leader.</text>
 </card><card><name>Furfur EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111611010.png"></set>
 <color>Bloodcraft</color>
@@ -9347,6 +9817,9 @@
 <text></text>
 <token>1</token></card><card><name>Holy Priest Lorena EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_109731010.png"></set>
+<related>Lorena's Holy Water</related>
+<related>Fil</related>
+<related>Lorena's Iron Fist</related>
 <color>Havencraft</color>
 <manacost>2</manacost>
 <cmc>2</cmc>
@@ -9390,7 +9863,9 @@
 <type>Artifact</type>
 <pt>3/1</pt>
 <tablerow>2</tablerow>
-<text>Rush.</text>
+<text>Rush.
+
+Rush.</text>
 </card><card><name>Emeralda, Demonic Officer EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_105631010.png"></set>
 <color>Bloodcraft</color>
@@ -9402,6 +9877,7 @@
 <text></text>
 <token>1</token></card><card><name>Dark Elf Faure EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_100111060.png"></set>
+<related>Fairy</related>
 <color>Forestcraft</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -9429,6 +9905,7 @@
 <text></text>
 <token>1</token></card><card><name>Cunning Wyvern EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_103411030.png"></set>
+<related>Blazing Breath</related>
 <color>Dragoncraft</color>
 <manacost>5</manacost>
 <cmc>5</cmc>
@@ -9447,6 +9924,7 @@
 <text></text>
 <token>1</token></card><card><name>Barbarossa EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_106241020.png"></set>
+<related>Barbarossa</related>
 <color>Swordcraft</color>
 <manacost>5</manacost>
 <cmc>5</cmc>
@@ -9491,7 +9969,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Put a Windblast Dragon and a Dragon into your hand. Enhance (10): Summon them instead.</text>
+<text>Put a Windblast Dragon and a Dragon into your hand. Enhance (10): Summon them instead.
+
+</text>
 </card><card><name>Wrath Drake EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_104421040.png"></set>
 <color>Dragoncraft</color>
@@ -9509,7 +9989,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Give a follower -2/+2 and Ward.</text>
+<text>Give a follower -2/+2 and Ward.
+
+</text>
 </card><card><name>Rabbit Necromancer EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101511040.png"></set>
 <color>Shadowcraft</color>
@@ -9545,7 +10027,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Destroy an enemy follower or amulet.</text>
+<text>Destroy an enemy follower or amulet.
+
+</text>
 </card><card><name>Skeleton Fighter EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101521010.png"></set>
 <color>Shadowcraft</color>
@@ -9599,7 +10083,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Draw 2 cards.</text>
+<text>Draw 2 cards.
+
+</text>
 </card><card><name>Netherworld Horseman EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_110511010.png"></set>
 <color>Shadowcraft</color>
@@ -9663,7 +10149,9 @@
 <type></type>
 <pt>1/1</pt>
 <tablerow>2</tablerow>
-<text></text>
+<text>
+
+</text>
 </card><card><name>Otohime's Vanguard EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900441050.png"></set>
 <color>Dragoncraft</color>
@@ -9682,7 +10170,9 @@
 <type></type>
 <pt>1/1</pt>
 <tablerow>2</tablerow>
-<text>Rush.</text>
+<text>Rush.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Starry Elf EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_106111020.png"></set>
 <color>Forestcraft</color>
@@ -9694,6 +10184,7 @@
 <text></text>
 <token>1</token></card><card><name>Kind Queen Vania EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900641020.png"></set>
+<related>Forest Bat</related>
 <color>Bloodcraft</color>
 <manacost>6</manacost>
 <cmc>6</cmc>
@@ -9711,7 +10202,9 @@
 <type></type>
 <pt>3/6</pt>
 <tablerow>2</tablerow>
-<text>Drain. Fanfare: Summon a Forest Bat. Whenever an allied Forest Bat comes into play, give it Ward.</text>
+<text>Drain. Fanfare: Summon a Forest Bat. Whenever an allied Forest Bat comes into play, give it Ward.
+
+Drain. Whenever an allied Forest Bat comes into play, give it Ward.</text>
 </card><card><name>Thunder Behemoth EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_109641030.png"></set>
 <color>Bloodcraft</color>
@@ -9750,6 +10243,7 @@
 <text>Rush. Whenever this follower attacks and destroys an enemy follower, if this follower is not destroyed, draw a card.</text>
 <token>1</token></card><card><name>Elven Princess Mage EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101121080.png"></set>
+<related>Fairy</related>
 <color>Forestcraft</color>
 <manacost>4</manacost>
 <cmc>4</cmc>
@@ -9768,6 +10262,7 @@
 <text>Ward.</text>
 <token>1</token></card><card><name>Dragonbond Mage EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101331020.png"></set>
+<related>Dragon</related>
 <color>Runecraft</color>
 <manacost>7</manacost>
 <cmc>7</cmc>
@@ -9786,6 +10281,7 @@
 <text></text>
 <token>1</token></card><card><name>Marlone, Light of Balance EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111731010.png"></set>
+<related>Mark of Balance</related>
 <color>Havencraft</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -9837,7 +10333,9 @@
 <type>Loot</type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Give +1/+1 to an allied follower.</text>
+<text>Give +1/+1 to an allied follower.
+
+</text>
 </card><card><name>Gelt, Vice Captain EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_103221030.png"></set>
 <color>Swordcraft</color>
@@ -9849,6 +10347,7 @@
 <text></text>
 <token>1</token></card><card><name>Elusa, Magic Wunderkind EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_108321010.png"></set>
+<related>Imperial Mammoth</related>
 <color>Runecraft</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -9928,7 +10427,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 2 damage to all enemy followers. If an allied Trill, Devilish Idol is in play, deal 3 damage instead.</text>
+<text>Deal 2 damage to all enemy followers. If an allied Trill, Devilish Idol is in play, deal 3 damage instead.
+
+</text>
 </card><card><name>Colossal Construct EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107821050.png"></set>
 <color>Portalcraft</color>
@@ -9940,6 +10441,7 @@
 <text></text>
 <token>1</token></card><card><name>Sinister Sarcophagus EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_110511020.png"></set>
+<related>Ghost</related>
 <color>Shadowcraft</color>
 <manacost>4</manacost>
 <cmc>4</cmc>
@@ -9955,7 +10457,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Give an unevolved allied follower the ability to evolve for 0 evolution points.</text>
+<text>Give an unevolved allied follower the ability to evolve for 0 evolution points.
+
+</text>
 </card><card><name>Carabosse, Wicked Fairy EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_105641010.png"></set>
 <color>Bloodcraft</color>
@@ -9985,6 +10489,7 @@
 <text>Can't be targeted by enemy spells and effects.</text>
 <token>1</token></card><card><name>Skeleton Prince EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107531020.png"></set>
+<related>Skeleton</related>
 <color>Shadowcraft</color>
 <manacost>6</manacost>
 <cmc>6</cmc>
@@ -10019,7 +10524,9 @@
 <type>Mysteria</type>
 <pt>1/1</pt>
 <tablerow>2</tablerow>
-<text>Last Words: Spellboost the cards in your hand.</text>
+<text>Last Words: Spellboost the cards in your hand.
+
+Last Words: Spellboost the cards in your hand.</text>
 </card><card><name>Feena, Dynamite Daredevil EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_110031010.png"></set>
 <color>Neutral</color>
@@ -10181,7 +10688,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Until the start of your next turn, add 10 to the original cost of spells in your opponent's hand. (Only affects cards in hand at the time this effect is activated.) Draw a card.</text>
+<text>Until the start of your next turn, add 10 to the original cost of spells in your opponent's hand. (Only affects cards in hand at the time this effect is activated.) Draw a card.
+
+</text>
 </card><card><name>Elder Tortoise EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_105411020.png"></set>
 <color>Dragoncraft</color>
@@ -10280,7 +10789,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Give +2/+0 to an allied follower.</text>
+<text>Give +2/+0 to an allied follower.
+
+</text>
 </card><card><name>Tzekibaba, Forsaken God EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_109741030.png"></set>
 <color>Havencraft</color>
@@ -10308,7 +10819,9 @@
 <type></type>
 <pt>13/13</pt>
 <tablerow>2</tablerow>
-<text></text>
+<text>
+
+</text>
 </card><card><name>Narmaya, Ephemeral Blade EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_109631020.png"></set>
 <color>Bloodcraft</color>
@@ -10353,7 +10866,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Draw a card. Restore 1 defense to the enemy leader.</text>
+<text>Draw a card. Restore 1 defense to the enemy leader.
+
+</text>
 </card><card><name>Sukuna, Brave and Small EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_104121020.png"></set>
 <color>Forestcraft</color>
@@ -10426,7 +10941,9 @@
 <type></type>
 <pt>2/2</pt>
 <tablerow>2</tablerow>
-<text>Fanfare: Return an allied follower or amulet to your hand.</text>
+<text>Fanfare: Return an allied follower or amulet to your hand.
+
+</text>
 </card><card><name>Wind Reader Zell EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_104421030.png"></set>
 <color>Dragoncraft</color>
@@ -10490,7 +11007,9 @@
 <type>Artifact</type>
 <pt>3/3</pt>
 <tablerow>2</tablerow>
-<text>Ward. Fanfare: Enhance (4) - Gain +1/+2.</text>
+<text>Ward. Fanfare: Enhance (4) - Gain +1/+2.
+
+Ward.</text>
 </card><card><name>Amaterasu EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900041040.png"></set>
 <color>Neutral</color>
@@ -10510,7 +11029,9 @@
 <type></type>
 <pt>2/2</pt>
 <tablerow>2</tablerow>
-<text>Clash: Restore 1 defense to your leader. Last Words: Put a Moon and Sun into your hand.</text>
+<text>Clash: Restore 1 defense to your leader. Last Words: Put a Moon and Sun into your hand.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Disaster Dragon EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_100411020.png"></set>
 <color>Dragoncraft</color>
@@ -10547,9 +11068,12 @@
 <type></type>
 <pt>5/5</pt>
 <tablerow>2</tablerow>
-<text>Ward.  Can't attack. At the end of your opponent's turn, destroy this follower.</text>
+<text>Ward.  Can't attack. At the end of your opponent's turn, destroy this follower.
+
+Ward.  Can't attack. At the end of your opponent's turn, this follower is destroyed.</text>
 </card><card><name>Electromagical Rhino EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_108841030.png"></set>
+<related>Artifact Rhino</related>
 <color>Portalcraft</color>
 <manacost>7</manacost>
 <cmc>7</cmc>
@@ -10568,6 +11092,7 @@
 <text></text>
 <token>1</token></card><card><name>Playful Necromancer EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_100521010.png"></set>
+<related>Ghost</related>
 <color>Shadowcraft</color>
 <manacost>4</manacost>
 <cmc>4</cmc>
@@ -10604,6 +11129,7 @@
 <text>Clash: Deal 1 damage to all enemy followers.</text>
 <token>1</token></card><card><name>Ms. Miranda, Light Mage EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_109331010.png"></set>
+<related>Mysterian Rite</related>
 <color>Runecraft</color>
 <manacost>6</manacost>
 <cmc>6</cmc>
@@ -10619,7 +11145,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 4 damage to an enemy. Necromancy (20): Deal 10 damage instead.</text>
+<text>Deal 4 damage to an enemy. Necromancy (20): Deal 10 damage instead.
+
+</text>
 </card><card><name>Dark Jeanne EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_104741010.png"></set>
 <color>Havencraft</color>
@@ -10692,7 +11220,9 @@
 <type></type>
 <pt>5/5</pt>
 <tablerow>2</tablerow>
-<text>Ward. Can't be destroyed by spells and effects. (Can be destroyed by damage from spells and effects.)</text>
+<text>Ward. Can't be destroyed by spells and effects. (Can be destroyed by damage from spells and effects.)
+
+(Same as the unevolved form.)</text>
 </card><card><name>Andrealphus EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_106531020.png"></set>
 <color>Shadowcraft</color>
@@ -10757,9 +11287,12 @@
 <type>Mysteria</type>
 <pt>5/6</pt>
 <tablerow>2</tablerow>
-<text>Fanfare: Put a Mysterian Circle into your hand. Give all Mysteria spells in your hand the following effect - Draw 1 card.</text>
+<text>Fanfare: Put a Mysterian Circle into your hand. Give all Mysteria spells in your hand the following effect - Draw 1 card.
+
+</text>
 </card><card><name>Veight, Vampire Noble EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_103621020.png"></set>
+<related>Forest Bat</related>
 <color>Bloodcraft</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -10787,6 +11320,8 @@
 <text></text>
 <token>1</token></card><card><name>Floral Fencer EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_100221010.png"></set>
+<related>Knight</related>
+<related>Steelclad Knight</related>
 <color>Swordcraft</color>
 <manacost>4</manacost>
 <cmc>4</cmc>
@@ -10847,7 +11382,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Countdown (2) Fanfare: Draw 2 cards. Last Words: Deal 2 damage to your leader.</text>
+<text>Countdown (2) Fanfare: Draw 2 cards. Last Words: Deal 2 damage to your leader.
+
+</text>
 </card><card><name>Ceridwen, Eternity Hunter EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_108541010.png"></set>
 <color>Shadowcraft</color>
@@ -10877,6 +11414,11 @@
 <text>Ambush. Drain. At the start of your turn, if this is your tenth turn or later, both players draw 5 cards.</text>
 <token>1</token></card><card><name>Zebet, Lady of the Flies EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111541010.png"></set>
+<related>Virulent Hornet</related>
+<related>Vengeful Mantis</related>
+<related>Vicious Scorpion</related>
+<related>Veiled Shudderfly</related>
+<related>Velocious Beetle</related>
 <color>Shadowcraft</color>
 <manacost>4</manacost>
 <cmc>4</cmc>
@@ -10920,7 +11462,9 @@
 <type>Officer</type>
 <pt>1/2</pt>
 <tablerow>2</tablerow>
-<text></text>
+<text>
+
+</text>
 </card><card><name>Fran's Attendant EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900521030.png"></set>
 <color>Shadowcraft</color>
@@ -10939,7 +11483,9 @@
 <type></type>
 <pt>3/2</pt>
 <tablerow>2</tablerow>
-<text>Fanfare: Necromancy (6) - Gain +2/+2 and Rush.</text>
+<text>Fanfare: Necromancy (6) - Gain +2/+2 and Rush.
+
+</text>
 </card><card><name>Vicious Commander EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900041110.png"></set>
 <color>Neutral</color>
@@ -10958,7 +11504,9 @@
 <type></type>
 <pt>4/4</pt>
 <tablerow>2</tablerow>
-<text>Fanfare: Deal 4 damage to an enemy follower.</text>
+<text>Fanfare: Deal 4 damage to an enemy follower.
+
+Evolve: Deal 6 damage to an enemy follower.</text>
 </card><card><name>White Ridge Swordsman EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_105231020.png"></set>
 <color>Swordcraft</color>
@@ -10986,7 +11534,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Countdown (1) Last Words: Summon a Renascent Seraph.</text>
+<text>Countdown (1) Last Words: Summon a Renascent Seraph.
+
+</text>
 </card><card><name>Garuda, Ruler of Storms EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_109741020.png"></set>
 <color>Havencraft</color>
@@ -11031,7 +11581,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Countdown (1) Last Words: Deal 2 damage to all enemy followers.</text>
+<text>Countdown (1) Last Words: Deal 2 damage to all enemy followers.
+
+</text>
 </card><card><name>White Knight EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101721050.png"></set>
 <color>Havencraft</color>
@@ -11068,7 +11620,9 @@
 <type></type>
 <pt>7/6</pt>
 <tablerow>2</tablerow>
-<text>Storm. Bane. Drain.</text>
+<text>Storm. Bane. Drain.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Griffon Knight EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_103411040.png"></set>
 <color>Dragoncraft</color>
@@ -11080,6 +11634,7 @@
 <text></text>
 <token>1</token></card><card><name>Fearless Banneret EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_102211020.png"></set>
+<related>Knight</related>
 <color>Swordcraft</color>
 <manacost>2</manacost>
 <cmc>2</cmc>
@@ -11107,6 +11662,7 @@
 <text>Ward.</text>
 <token>1</token></card><card><name>Holy Lion of Salvation EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_110741030.png"></set>
+<related>Holy Lion Crystal</related>
 <color>Havencraft</color>
 <manacost>4</manacost>
 <cmc>4</cmc>
@@ -11116,6 +11672,8 @@
 <text>Ward. Evolve: Put a Holy Lion Crystal into your hand and change its cost to 0.</text>
 <token>1</token></card><card><name>Orichalcum Golem EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_110341030.png"></set>
+<related>Orichalcum Golem</related>
+<related>Earth Essence</related>
 <color>Runecraft</color>
 <manacost>5</manacost>
 <cmc>5</cmc>
@@ -11222,7 +11780,9 @@
 <type></type>
 <pt>1/1</pt>
 <tablerow>2</tablerow>
-<text>Storm. Banish this follower when it leaves play or when your turn ends.</text>
+<text>Storm. Banish this follower when it leaves play or when your turn ends.
+
+Storm. Banish this follower when it leaves play or when your turn ends.</text>
 </card><card><name>Jungle Warden EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_104131030.png"></set>
 <color>Forestcraft</color>
@@ -11250,7 +11810,9 @@
 <type></type>
 <pt>1/3</pt>
 <tablerow>2</tablerow>
-<text>Storm.</text>
+<text>Storm.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Noble Chancellor EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107231020.png"></set>
 <color>Swordcraft</color>
@@ -11268,7 +11830,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Draw 2 cards. If this card has been spellboosted at least 5 times, recover 2 play points.</text>
+<text>Draw 2 cards. If this card has been spellboosted at least 5 times, recover 2 play points.
+
+</text>
 </card><card><name>Jabberwock, Nightmare Spawn EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_110441020.png"></set>
 <color>Dragoncraft</color>
@@ -11386,7 +11950,9 @@
 <type></type>
 <pt>2/2</pt>
 <tablerow>2</tablerow>
-<text>Fanfare: Deal 1 damage to an enemy follower.</text>
+<text>Fanfare: Deal 1 damage to an enemy follower.
+
+</text>
 </card><card><name>Descent into Madness</name>
 <token>1</token><set picURL="https://shadowverse-portal.com/image/card/en/C_900534010.png"></set>
 <color>Shadowcraft</color>
@@ -11395,7 +11961,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Give +4/+0 to an allied follower. Necromancy (4): Give that follower Rush.</text>
+<text>Give +4/+0 to an allied follower. Necromancy (4): Give that follower Rush.
+
+</text>
 </card><card><name>Succubus EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101611140.png"></set>
 <color>Bloodcraft</color>
@@ -11425,6 +11993,7 @@
 <text>(Same as the unevolved form.)</text>
 <token>1</token></card><card><name>Vania, Vampire Princess EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_102631030.png"></set>
+<related>Forest Bat</related>
 <color>Bloodcraft</color>
 <manacost>2</manacost>
 <cmc>2</cmc>
@@ -11551,6 +12120,7 @@
 <text>At the end of your turn, put 2 random Officer followers from your deck into your hand.</text>
 <token>1</token></card><card><name>White Wolf of Eldwood EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_103141010.png"></set>
+<related>White Wolf of Eldwood</related>
 <color>Forestcraft</color>
 <manacost>8</manacost>
 <cmc>8</cmc>
@@ -11576,7 +12146,9 @@
 <type></type>
 <pt>1/1</pt>
 <tablerow>2</tablerow>
-<text>Rush. Bane.</text>
+<text>Rush. Bane.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Purehearted Singer EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_106021020.png"></set>
 <color>Neutral</color>
@@ -11603,7 +12175,9 @@
 <type>Earth Sigil</type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>(This is an Earth Sigil amulet that can be used to activate Earth Rite effects.)</text>
+<text>(This is an Earth Sigil amulet that can be used to activate Earth Rite effects.)
+
+</text>
 </card><card><name>Wight Knight EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111521010.png"></set>
 <color>Shadowcraft</color>
@@ -11649,7 +12223,9 @@
 <type></type>
 <pt>10/10</pt>
 <tablerow>2</tablerow>
-<text>At the end of your turn, restore 5 defense to your leader. Then draw 5 cards.</text>
+<text>At the end of your turn, restore 5 defense to your leader. Then draw 5 cards.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Aloadae EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_110221010.png"></set>
 <color>Swordcraft</color>
@@ -11679,6 +12255,7 @@
 <text>Last Words: At the start of your next turn, randomly put 1 of the highest-cost Forestcraft followers from your deck into your hand.</text>
 <token>1</token></card><card><name>Neptune EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_102431010.png"></set>
+<related>Megalorca</related>
 <color>Dragoncraft</color>
 <manacost>7</manacost>
 <cmc>7</cmc>
@@ -11731,7 +12308,9 @@
 <type></type>
 <pt>9/6</pt>
 <tablerow>2</tablerow>
-<text>Fanfare: Give the enemy leader the following effect - At the start of your next turn, discard a random card from your hand.</text>
+<text>Fanfare: Give the enemy leader the following effect - At the start of your next turn, discard a random card from your hand.
+
+</text>
 </card><card><name>Raging Ettin EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_102011020.png"></set>
 <color>Neutral</color>
@@ -11822,7 +12401,9 @@
 <type>Officer</type>
 <pt>1/2</pt>
 <tablerow>2</tablerow>
-<text></text>
+<text>
+
+</text>
 </card><card><name>Mysteria, Magic Founder EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107341010.png"></set>
 <color>Runecraft</color>
@@ -11894,7 +12475,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal X damage to an enemy follower. X equals the attack of the strongest allied follower in play.</text>
+<text>Deal X damage to an enemy follower. X equals the attack of the strongest allied follower in play.
+
+</text>
 </card><card><name>Black Diamond</name>
 <token>1</token><set picURL="https://shadowverse-portal.com/image/card/en/C_900733030.png"></set>
 <color>Havencraft</color>
@@ -11903,7 +12486,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Countdown (2) Last Words: Deal 2 damage to the enemy leader. Restore 2 defense to your leader.</text>
+<text>Countdown (2) Last Words: Deal 2 damage to the enemy leader. Restore 2 defense to your leader.
+
+</text>
 </card><card><name>Darkfeast Bat EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_108641020.png"></set>
 <color>Bloodcraft</color>
@@ -11940,7 +12525,9 @@
 <type></type>
 <pt>3/5</pt>
 <tablerow>2</tablerow>
-<text>Ward. Fanfare: Restore 2 defense to your leader.</text>
+<text>Ward. Fanfare: Restore 2 defense to your leader.
+
+Ward.</text>
 </card><card><name>Roan Winged Nexx EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_100821020.png"></set>
 <color>Portalcraft</color>
@@ -11988,6 +12575,10 @@
 <text>Can't attack when played or at the start of your turn. Whenever another allied follower has attacked this turn, this follower can attack until the end of the turn.</text>
 <token>1</token></card><card><name>Octrice, Omen of Usurpation EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_110241010.png"></set>
+<related>Gilded Boots</related>
+<related>Gilded Goblet</related>
+<related>Gilded Blade</related>
+<related>Gilded Necklace</related>
 <color>Swordcraft</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -12157,7 +12748,9 @@
 <type></type>
 <pt>2/3</pt>
 <tablerow>2</tablerow>
-<text>Storm. Drain.</text>
+<text>Storm. Drain.
+
+Storm. Drain.</text>
 </card><card><name>Raio, Omen of Truth EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_110341020.png"></set>
 <color>Runecraft</color>
@@ -12187,6 +12780,7 @@
 <text></text>
 <token>1</token></card><card><name>Charon EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_102521010.png"></set>
+<related>Lich</related>
 <color>Shadowcraft</color>
 <manacost>5</manacost>
 <cmc>5</cmc>
@@ -12249,9 +12843,13 @@
 <type>Artifact</type>
 <pt>5/5</pt>
 <tablerow>2</tablerow>
-<text>Last Words: At the start of your next turn, summon a Prime Artifact.</text>
+<text>Last Words: At the start of your next turn, summon a Prime Artifact.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Flower Doll EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107821020.png"></set>
+<related>Puppet</related>
+<related>Flower Doll</related>
 <color>Portalcraft</color>
 <manacost>2</manacost>
 <cmc>2</cmc>
@@ -12276,7 +12874,9 @@
 <type>Mysteria</type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 1 damage to a random enemy follower 5 times.</text>
+<text>Deal 1 damage to a random enemy follower 5 times.
+
+</text>
 </card><card><name>Pactbound Demon EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111621010.png"></set>
 <color>Bloodcraft</color>
@@ -12313,7 +12913,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Countdown (1) Last Words: Summon a Holy Falcon.</text>
+<text>Countdown (1) Last Words: Summon a Holy Falcon.
+
+</text>
 </card><card><name>Basileus, Outworld Invader EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_109821010.png"></set>
 <color>Portalcraft</color>
@@ -12341,7 +12943,9 @@
 <type></type>
 <pt>1/1</pt>
 <tablerow>2</tablerow>
-<text>Ambush.</text>
+<text>Ambush.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Zealot of Lust EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111611020.png"></set>
 <color>Bloodcraft</color>
@@ -12395,7 +12999,9 @@
 <type>Artifact</type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Can't be destroyed by spells and effects. At the end of your turn, if your leader has 10 defense or less, restore 3 defense to your leader and banish this amulet.</text>
+<text>Can't be destroyed by spells and effects. At the end of your turn, if your leader has 10 defense or less, restore 3 defense to your leader and banish this amulet.
+
+</text>
 </card><card><name>Frenzied Drake EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107431020.png"></set>
 <color>Dragoncraft</color>
@@ -12576,7 +13182,9 @@
 <type>Officer</type>
 <pt>2/2</pt>
 <tablerow>2</tablerow>
-<text></text>
+<text>
+
+Storm. Evolve: Deal 2 damage to an enemy follower.</text>
 </card><card><name>Sahaquiel EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_103041020.png"></set>
 <color>Neutral</color>
@@ -12640,7 +13248,9 @@
 <type></type>
 <pt>2/1</pt>
 <tablerow>2</tablerow>
-<text>Last Words: Deal 2 damage to the enemy leader.</text>
+<text>Last Words: Deal 2 damage to the enemy leader.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Fabled Treasure</name>
 <token>1</token><set picURL="https://shadowverse-portal.com/image/card/en/C_900512020.png"></set>
 <color>Shadowcraft</color>
@@ -12649,7 +13259,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>When an allied follower is destroyed, destroy this amulet. Last Words: Draw 2 cards. Restore 2 defense to your leader. Gain 2 shadows.</text>
+<text>When an allied follower is destroyed, destroy this amulet. Last Words: Draw 2 cards. Restore 2 defense to your leader. Gain 2 shadows.
+
+</text>
 </card><card><name>Carbuncle, Immortal Jewel EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111141010.png"></set>
 <color>Forestcraft</color>
@@ -12689,9 +13301,12 @@
 <type>Commander</type>
 <pt>5/4</pt>
 <tablerow>2</tablerow>
-<text>Gain Rush while an allied Siegfried, Dragonslayer is in play. Whenever this follower attacks, gain +X/+0. X equals the number of other allied followers in play.</text>
+<text>Gain Rush while an allied Siegfried, Dragonslayer is in play. Whenever this follower attacks, gain +X/+0. X equals the number of other allied followers in play.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Draco Marionette EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111811010.png"></set>
+<related>Puppet</related>
 <color>Portalcraft</color>
 <manacost>8</manacost>
 <cmc>8</cmc>
@@ -12701,6 +13316,7 @@
 <text>Whenever an allied Puppet comes into play, deal 1 damage to the enemy leader.</text>
 <token>1</token></card><card><name>Zwei, Murderous Puppet EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_108831010.png"></set>
+<related>Victoria</related>
 <color>Portalcraft</color>
 <manacost>7</manacost>
 <cmc>7</cmc>
@@ -12779,7 +13395,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Countdown (2) Last Words: Draw 2 cards.</text>
+<text>Countdown (2) Last Words: Draw 2 cards.
+
+</text>
 </card><card><name>Calamity's Archdemon EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_108611020.png"></set>
 <color>Bloodcraft</color>
@@ -12834,7 +13452,9 @@
 <type></type>
 <pt>5/5</pt>
 <tablerow>2</tablerow>
-<text></text>
+<text>
+
+</text>
 </card><card><name>Lapis, Glorious Seraph EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_110741010.png"></set>
 <color>Havencraft</color>
@@ -12871,9 +13491,13 @@
 <type></type>
 <pt>10/10</pt>
 <tablerow>2</tablerow>
-<text>Storm. Can only attack the enemy leader. Ignore enemy followers' Ward.</text>
+<text>Storm. Can only attack the enemy leader. Ignore enemy followers' Ward.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Harnessed Flame EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_100031010.png"></set>
+<related>Flame and Glass</related>
+<related>Harnessed Glass</related>
 <color>Neutral</color>
 <manacost>3</manacost>
 <cmc>3</cmc>
@@ -12908,7 +13532,9 @@
 <type></type>
 <pt>3/5</pt>
 <tablerow>2</tablerow>
-<text>Rush. At the end of your turn, restore 4 defense to this follower.</text>
+<text>Rush. At the end of your turn, restore 4 defense to this follower.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Merchantette EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107211020.png"></set>
 <color>Swordcraft</color>
@@ -12963,7 +13589,9 @@
 <type>Officer</type>
 <pt>3/2</pt>
 <tablerow>2</tablerow>
-<text>Storm.</text>
+<text>Storm.
+
+Storm.</text>
 </card><card><name>Orb Dragon EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101431050.png"></set>
 <color>Dragoncraft</color>
@@ -13029,6 +13657,7 @@
 <text></text>
 <token>1</token></card><card><name>Grand Gargoyle EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_102311060.png"></set>
+<related>Earth Essence</related>
 <color>Runecraft</color>
 <manacost>5</manacost>
 <cmc>5</cmc>
@@ -13038,6 +13667,7 @@
 <text>Last Words: Summon an Earth Essence.</text>
 <token>1</token></card><card><name>Masked Puppet EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107811120.png"></set>
+<related>Puppet</related>
 <color>Portalcraft</color>
 <manacost>5</manacost>
 <cmc>5</cmc>
@@ -13108,7 +13738,9 @@
 <type>Commander</type>
 <pt>2/4</pt>
 <tablerow>2</tablerow>
-<text>Storm. Fanfare: Gain +1/+0 for each other allied follower in play. Then return all other allied followers to your hand.</text>
+<text>Storm. Fanfare: Gain +1/+0 for each other allied follower in play. Then return all other allied followers to your hand.
+
+Storm.</text>
 </card><card><name>Sellsword Lucius EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_109221020.png"></set>
 <color>Swordcraft</color>
@@ -13145,7 +13777,9 @@
 <type></type>
 <pt>2/2</pt>
 <tablerow>2</tablerow>
-<text>Bane.</text>
+<text>Bane.
+
+Bane.</text>
 </card><card><name>Holy King Lion EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_900731020.png"></set>
 <color>Havencraft</color>
@@ -13164,7 +13798,9 @@
 <type></type>
 <pt>4/4</pt>
 <tablerow>2</tablerow>
-<text>Storm.</text>
+<text>Storm.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Ebon Beast Warrior EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_105411030.png"></set>
 <color>Dragoncraft</color>
@@ -13202,7 +13838,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Countdown (3) Last Words: Summon a Robomi, Steel Warrior.</text>
+<text>Countdown (3) Last Words: Summon a Robomi, Steel Warrior.
+
+</text>
 </card><card><name>Lancer of the Tempest EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107231010.png"></set>
 <color>Swordcraft</color>
@@ -13230,7 +13868,9 @@
 <type></type>
 <pt>4/3</pt>
 <tablerow>2</tablerow>
-<text>At the end of your turn, restore 2 defense to this follower.</text>
+<text>At the end of your turn, restore 2 defense to this follower.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Anne's Sorcery</name>
 <token>1</token><set picURL="https://shadowverse-portal.com/image/card/en/C_900334040.png"></set>
 <color>Runecraft</color>
@@ -13239,7 +13879,9 @@
 <type>Mysteria</type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal X damage to an enemy. X equals the number of other Mysteria cards you've played this match.</text>
+<text>Deal X damage to an enemy. X equals the number of other Mysteria cards you've played this match.
+
+</text>
 </card><card><name>Penguin Wizard EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101311010.png"></set>
 <color>Runecraft</color>
@@ -13332,7 +13974,9 @@
 <type></type>
 <pt>2/1</pt>
 <tablerow>2</tablerow>
-<text>Fanfare: Put a Radiant Artifact and a Prime Artifact into your deck.</text>
+<text>Fanfare: Put a Radiant Artifact and a Prime Artifact into your deck.
+
+</text>
 </card><card><name>Andras EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_102521020.png"></set>
 <color>Shadowcraft</color>
@@ -13396,7 +14040,9 @@
 <type></type>
 <pt>1/2</pt>
 <tablerow>2</tablerow>
-<text>Last Words: Restore 2 defense to your leader.</text>
+<text>Last Words: Restore 2 defense to your leader.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Fairy Saber EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_107131020.png"></set>
 <color>Forestcraft</color>
@@ -13487,7 +14133,9 @@
 <type></type>
 <pt>3/5</pt>
 <tablerow>2</tablerow>
-<text>Bane. Fanfare: Subtract 2 from the Countdown of all allied amulets.</text>
+<text>Bane. Fanfare: Subtract 2 from the Countdown of all allied amulets.
+
+Bane.</text>
 </card><card><name>Holy Bear Knight EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_108211030.png"></set>
 <color>Swordcraft</color>
@@ -13562,6 +14210,8 @@
 <text></text>
 <token>1</token></card><card><name>Shapeshifting Mage EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101431040.png"></set>
+<related>Windblast Dragon</related>
+<related>Dragon</related>
 <color>Dragoncraft</color>
 <manacost>2</manacost>
 <cmc>2</cmc>
@@ -13571,6 +14221,7 @@
 <text>At the start of your turn, transform this follower into a Windblast Dragon if Overflow is active for you.</text>
 <token>1</token></card><card><name>Dark Alice EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_105541010.png"></set>
+<related>Dark Alice</related>
 <color>Shadowcraft</color>
 <manacost>7</manacost>
 <cmc>7</cmc>
@@ -13604,7 +14255,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Countdown (2) Whenever you play an Artifact card, restore 1 defense to your leader.</text>
+<text>Countdown (2) Whenever you play an Artifact card, restore 1 defense to your leader.
+
+</text>
 </card><card><name>Rabbit Healer EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101711010.png"></set>
 <color>Havencraft</color>
@@ -13650,7 +14303,9 @@
 <type>Artifact</type>
 <pt>5/5</pt>
 <tablerow>2</tablerow>
-<text>Ward.</text>
+<text>Ward.
+
+(Same as the unevolved form.)</text>
 </card><card><name>Leviathan EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_101421040.png"></set>
 <color>Dragoncraft</color>
@@ -13776,9 +14431,12 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>1</tablerow>
-<text>Countdown (2) Fanfare: Destroy an enemy follower. Last Words: Deal 2 damage to your leader.</text>
+<text>Countdown (2) Fanfare: Destroy an enemy follower. Last Words: Deal 2 damage to your leader.
+
+</text>
 </card><card><name>Remi and Rami, Witchy Duo EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_102321010.png"></set>
+<related>Guardian Golem</related>
 <color>Runecraft</color>
 <manacost>4</manacost>
 <cmc>4</cmc>
@@ -13806,6 +14464,8 @@
 <text></text>
 <token>1</token></card><card><name>Fortunehunter Feena EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_103021020.png"></set>
+<related>Goblin Mage</related>
+<related>Goblin</related>
 <color>Neutral</color>
 <manacost>5</manacost>
 <cmc>5</cmc>
@@ -13840,7 +14500,9 @@
 <type></type>
 <pt>0/0</pt>
 <tablerow>3</tablerow>
-<text>Deal 1 damage to an enemy. Put an Assassin into your hand.</text>
+<text>Deal 1 damage to an enemy. Put an Assassin into your hand.
+
+</text>
 </card><card><name>Impartial Strix EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_104021040.png"></set>
 <color>Neutral</color>
@@ -13879,6 +14541,7 @@
 <text></text>
 <token>1</token></card><card><name>Leod, the Crescent Blade EVOLVED</name>
 <set picURL="https://shadowverse-portal.com/image/card/en/E_111231010.png"></set>
+<related>Veiled Reckoning</related>
 <color>Swordcraft</color>
 <manacost>2</manacost>
 <cmc>2</cmc>
