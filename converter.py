@@ -16,28 +16,23 @@ tablerow = {"Follower":2, "Spell":3, "Amulet":1}
 
 data = json.load (f)
 
-g.write ('<cockatrice_carddatabase version="3">')
-g.write ('<cards>')
-h.write ('<cockatrice_carddatabase version="3">')
-h.write ('<cards>')
+g.write ('''<?xml version="1.0" encoding="UTF-8"?>\n<cockatrice_carddatabase version="4">\n<cards>''')
+h.write ('''<?xml version="1.0" encoding="UTF-8"?>\n<cockatrice_carddatabase version="4">\n<cards>''')
 
 for i in data:
   istoken = False
   out = list ()
   out.append ('<card>')
-  print data[i]["name"]
   out.append ('<name>{}</name>\n'.format (str (data [i] ["name"].encode ('utf8').replace ('&', 'and'))))
-  if data [i] ["expansion"] != "Token":
-    out.append ('<set>{}</set>\n'.format (str (data [i] ["expansion"])))
-  else:
+  out.append ('<set rarity="{}" picurl="https://sv.bagoum.com/cardF/en/c/{}">{}</set>\n'.format (str (data [i] ["rarity"]), str (data [i] ["id"]), str( data [i] ["expansion"])))
+  if data [i] ["expansion"] == "Token":
     out.append ('<token>1</token>')
     istoken = True
-  out.append ('<set picURL="https://shadowverse-portal.com/image/card/en/C_{}.png"></set>\n'.format (str( data [i] ["id"])))
   if data [i] ["type"] == "Follower":
-    out.append ('<related>{} EVOLVED</related>\n'.format (str (data [i] ["name"].encode ('utf8').replace ('&', 'and').replace ('&', 'and'))))
+    out.append ('<related>{} EVOLVED</related>\n'.format (str (data [i] ["name"].encode ('utf8').replace ('&', 'and'))))
   for j in data:
     if data [j] ["name"] [:-1] in data [i] ["baseData"] ["description"]:
-      out.append ('<related>{}</related>\n'.format (  str( data [j] ["name"].encode ('utf8').replace ('&', 'and'))))
+      out.append ('<related>{}</related>\n'.format (str( data [j] ["name"].encode ('utf8').replace ('&', 'and'))))
   out.append ('<color>{}</color>\n'.format (str (data [i] ["faction"])))
   out.append ('<manacost>{}</manacost>\n'.format (str (data [i] ["manaCost"])))
   out.append ('<cmc>{}</cmc>\n'.format (str (data [i] ["manaCost"])))
@@ -52,7 +47,7 @@ for i in data:
     evo_out = list ()
     evo_out.append ('<card>')
     evo_out.append ('<name>{} EVOLVED</name>\n'.format ( str (data [i] ["name"].encode ('utf8').replace ('&', 'and'))))
-    evo_out.append ('<set picURL="https://shadowverse-portal.com/image/card/en/E_{}.png"></set>\n'.format (str (data [i] ["id"])))
+    evo_out.append ('<set rarity="{}" picurl https://sv.bagoum.com/cardF/en/e/{}">Token</set>\n'.format (str (data [i] ["rarity"]), str (data [i] ["id"])))
     for j in data:
       if data [j] ["name"] [:-1] in data [i] ["evoData"] ["description"]:
         evo_out.append ('<related>{}</related>\n'.format (  str( data [j] ["name"].encode ('utf8').replace ('&', 'and'))))
@@ -75,10 +70,8 @@ for i in data:
     for i in range (len (out)):
       g.write (out [i])
       
-g.write ('</cards>')
-g.write ('</cockatrice_carddatabase>')
-h.write ('</cards>')
-h.write ('</cockatrice_carddatabase>')
+g.write ('</cards>\n</cockatrice_carddatabase>')
+h.write ('</cards>\n</cockatrice_carddatabase>')
 g.close ()
 h.close ()
 
