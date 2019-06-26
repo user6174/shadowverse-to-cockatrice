@@ -16,50 +16,54 @@ tablerow = {"Follower":2, "Spell":3, "Amulet":1}
 
 data = json.load (f)
 
-g.write ('''<?xml version="1.0" encoding="UTF-8"?>\n<cockatrice_carddatabase version="4">\n<cards>''')
-h.write ('''<?xml version="1.0" encoding="UTF-8"?>\n<cockatrice_carddatabase version="4">\n<cards>''')
+g.write ('''<?xml version="1.0" encoding="UTF-8"?>\n<cockatrice_carddatabase version="4">\n<cards>\n''')
+h.write ('''<?xml version="1.0" encoding="UTF-8"?>\n<cockatrice_carddatabase version="4">\n<cards>\n''')
 
 for i in data:
   istoken = False
   out = list ()
-  out.append ('<card>')
+  out.append ('<card>\n')
   out.append ('<name>{}</name>\n'.format (str (data [i] ["name"].encode ('utf8').replace ('&', 'and'))))
-  out.append ('<set rarity="{}" picurl="https://sv.bagoum.com/cardF/en/c/{}">{}</set>\n'.format (str (data [i] ["rarity"]), str (data [i] ["id"]), str( data [i] ["expansion"])))
+  out.append ('<text>{}\n\n'.format (str (data [i] ["baseData"] ["description"].replace ("<<{me.deck_self.count}+1 ??<br>(Times evolved: <<{me.evolved_card_list.count}>>)>><br>", '').replace ('<br>', ' ').encode ('utf8').replace ('&', 'and'))))
+  out.append ('{}</text>\n'.format (str (data [i] ["evoData"] ["description"].replace ("<<{me.deck_self.count}+1 ??<br>(Times evolved: <<{me.evolved_card_list.count}>>)>><br>", '').replace ('<br>', ' ').encode ('utf8').replace ('&', 'and'))))
   if data [i] ["expansion"] == "Token":
     out.append ('<token>1</token>')
     istoken = True
-  if data [i] ["type"] == "Follower":
-    out.append ('<related>{} EVOLVED</related>\n'.format (str (data [i] ["name"].encode ('utf8').replace ('&', 'and'))))
+  out.append ('<tablerow>{}</tablerow>\n'.format ( str (tablerow [data [i] ["type"]])))
+  out.append ('<set rarity="{}" picurl="https://sv.bagoum.com/cardF/en/c/{}">{}</set>\n'.format (str (data [i] ["rarity"]), str (data [i] ["id"]), str( data [i] ["expansion"])))
   for j in data:
     if data [j] ["name"] [:-1] in data [i] ["baseData"] ["description"]:
       out.append ('<related>{}</related>\n'.format (str( data [j] ["name"].encode ('utf8').replace ('&', 'and'))))
-  out.append ('<color>{}</color>\n'.format (str (data [i] ["faction"])))
+  if data [i] ["type"] == "Follower":
+    out.append ('<related>{} EVOLVED</related>\n'.format (str (data [i] ["name"].encode ('utf8').replace ('&', 'and'))))
+  out.append ('<prop>\n<type>{}</type>\n'.format (str (data [i] ["race"]))) 
+  out.append ('<maintype>{}</maintype>\n'.format (str (data [i] ["type"]))) 
   out.append ('<manacost>{}</manacost>\n'.format (str (data [i] ["manaCost"])))
   out.append ('<cmc>{}</cmc>\n'.format (str (data [i] ["manaCost"])))
-  out.append ('<type>{}</type>\n'.format (str (data [i] ["race"]))) 
-  out.append ('<pt>{}</pt>\n'.format (str (data [i] ["baseData"] ["attack"]) + "/" + str (data [i] ["baseData"] ["defense"])))
-  out.append ('<tablerow>{}</tablerow>\n'.format ( str (tablerow [data [i] ["type"]])))
-  out.append ('<text>{}\n\n'.format (str (data [i] ["baseData"] ["description"].replace ("<<{me.deck_self.count}+1 ??<br>(Times evolved: <<{me.evolved_card_list.count}>>)>><br>", '').replace ('<br>', ' ').encode ('utf8').replace ('&', 'and'))))
-  out.append ('{}</text>\n'.format (str (data [i] ["evoData"] ["description"].replace ("<<{me.deck_self.count}+1 ??<br>(Times evolved: <<{me.evolved_card_list.count}>>)>><br>", '').replace ('<br>', ' ').encode ('utf8').replace ('&', 'and'))))
+  out.append ('<colors>{}</colors>\n'.format (str (data [i] ["faction"])))
+  out.append ('<coloridentity>{}</coloridentity>\n'.format (str (data [i] ["faction"])))
+  out.append ('<pt>{}</pt>\n</prop>\n'.format (str (data [i] ["baseData"] ["attack"]) + "/" + str (data [i] ["baseData"] ["defense"])))
   out.append ('</card>')
 
   if data [i] ["type"] == "Follower":
     evo_out = list ()
-    evo_out.append ('<card>')
+    evo_out.append ('<card>\n')
     evo_out.append ('<name>{} EVOLVED</name>\n'.format ( str (data [i] ["name"].encode ('utf8').replace ('&', 'and'))))
-    evo_out.append ('<set rarity="{}" picurl https://sv.bagoum.com/cardF/en/e/{}">Token</set>\n'.format (str (data [i] ["rarity"]), str (data [i] ["id"])))
+    evo_out.append ('<text>{}</text>\n'.format (str (data [i] ["evoData"] ["description"].replace ("<<{me.deck_self.count}+1 ??<br>(Times evolved: <<{me.evolved_card_list.count}>>)>><br>", '').replace ('<br>', ' ').encode ('utf8').replace ('&', 'and'))))
+    evo_out.append ('<token>1</token>')
+    evo_out.append ('<tablerow>{}</tablerow>\n'.format (str (tablerow [data [i] ["type"]])))
+    evo_out.append ('<set rarity="{}" picurl="https://sv.bagoum.com/cardF/en/e/{}">Token</set>\n'.format (str (data [i] ["rarity"]), str (data [i] ["id"])))
     for j in data:
       if data [j] ["name"] [:-1] in data [i] ["evoData"] ["description"]:
         evo_out.append ('<related>{}</related>\n'.format (  str( data [j] ["name"].encode ('utf8').replace ('&', 'and'))))
-    evo_out.append ('<color>{}</color>\n'.format (str (data [i] ["faction"])))
+    evo_out.append ('<prop>\n<type>{}</type>\n'.format (str (data [i] ["race"]))) 
+    evo_out.append ('<maintype>{}</maintype>\n'.format (str (data [i] ["type"]))) 
     evo_out.append ('<manacost>{}</manacost>\n'.format (str (data [i] ["manaCost"])))
     evo_out.append ('<cmc>{}</cmc>\n'.format (str (data [i] ["manaCost"])))
-    evo_out.append ('<type>{}</type>\n'.format (str (data [i] ["race"]))) 
-    evo_out.append ('<pt>{}</pt>\n'.format (str (data [i] ["evoData"] ["attack"]) + "/" + str (data [i] ["evoData"] ["defense"])))
-    evo_out.append ('<tablerow>{}</tablerow>\n'.format (str (tablerow [data [i] ["type"]])))
-    evo_out.append ('<text>{}</text>\n'.format (str (data [i] ["evoData"] ["description"].replace ("<<{me.deck_self.count}+1 ??<br>(Times evolved: <<{me.evolved_card_list.count}>>)>><br>", '').replace ('<br>', ' ').encode ('utf8').replace ('&', 'and'))))
-    evo_out.append ('<token>1</token>')
-    evo_out.append ('</card>')
+    evo_out.append ('<colors>{}</colors>\n'.format (str (data [i] ["faction"])))
+    evo_out.append ('<coloridentity>{}</coloridentity>\n'.format (str (data [i] ["faction"])))
+    evo_out.append ('<pt>{}</pt>\n</prop>\n'.format (str (data [i] ["evoData"] ["attack"]) + "/" + str (data [i] ["evoData"] ["defense"])))
+    evo_out.append ('</card>\n')
     for i in range (len (evo_out)):
       h.write (evo_out [i])
 
