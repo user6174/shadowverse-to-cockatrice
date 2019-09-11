@@ -497,7 +497,7 @@ Storm. Follower Strike: Whenever this follower attacks an enemy follower, deal X
 </prop>
 </card><card>
 <name>Zeus, the Supreme</name>
-<text>Fanfare: Randomly activate one of the following effects X times. X equals the number of allied followers evolved during this match.  -Restore 5 defense to your leader.  -Gain +3/+0, and the ability to ignore enemy followers' Ward. -Gain +2/+1 and Storm. -Gain +1/+2 and Bane. -Gain +0/+3 and Ward.
+<text>Fanfare: Randomly activate one of the following effects X times. X equals the number of times that allied followers have evolved this match. -Restore 5 defense to your leader.  -Gain +3/+0, and the ability to ignore enemy followers' Ward. -Gain +2/+1 and Storm. -Gain +1/+2 and Bane. -Gain +0/+3 and Ward.
 
 </text>
 <tablerow>2</tablerow>
@@ -772,6 +772,23 @@ At the end of your turn, deal 1 damage to your leader and summon a Forest Bat.</
 <pt>3/5</pt>
 </prop>
 </card><card>
+<name>Destiny Wing Knight</name>
+<text>At the end of your turn, if there are at least 2 allied amulets in play, gain +1/+1. At the start of your turn, if this follower's attack or defense has not been increased by a spell or effect, destroy this follower.
+
+At the end of your turn, if there are at least 2 allied amulets in play, gain +1/+1.</text>
+<tablerow>2</tablerow>
+<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/c/113741030">Rebirth of Glory</set>
+<related>Destiny Wing Knight EVOLVED</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>1</manacost>
+<cmc>1</cmc>
+<colors>Havencraft</colors>
+<coloridentity>Havencraft</coloridentity>
+<pt>2/2</pt>
+</prop>
+</card><card>
 <name>Junk</name>
 <text>Fanfare and Last Words: Put a Puppet into your hand.
 
@@ -1018,7 +1035,7 @@ Evolve: Restore 2 defense to your leader. Whenever your leader's defense is rest
 </prop>
 </card><card>
 <name>Olivia, Blackened Wing</name>
-<text>Fanfare: Recover X play points. X equals the number of allied followers evolved during this match.  Whenever you play another follower for the first time on each of your turns, give it the ability to evolve for 0 evolution points.
+<text>Fanfare: Recover X play points. X equals the number of times that allied followers have evolved this match. Whenever you play another follower for the first time on each of your turns, give it the ability to evolve for 0 evolution points.
 
 Whenever you play another follower for the first time on each of your turns, give it the ability to evolve for 0 evolution points.</text>
 <tablerow>2</tablerow>
@@ -1100,6 +1117,23 @@ Last Words: Put a Fairy into your hand.</text>
 <colors>Forestcraft</colors>
 <coloridentity>Forestcraft</coloridentity>
 <pt>2/2</pt>
+</prop>
+</card><card>
+<name>Tista, Wings of Mercy</name>
+<text>
+
+Evolve: Give your leader the following effect - During your turn, whenever a follower is added to your hand from anywhere but your deck, give that follower +1/+1. (This effect is not stackable and lasts for the rest of the match.)</text>
+<tablerow>2</tablerow>
+<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/c/113141020">Rebirth of Glory</set>
+<related>Tista, Wings of Mercy EVOLVED</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>3</manacost>
+<cmc>3</cmc>
+<colors>Forestcraft</colors>
+<coloridentity>Forestcraft</coloridentity>
+<pt>3/3</pt>
 </prop>
 </card><card>
 <name>Creeping Slime</name>
@@ -2447,7 +2481,7 @@ Last Words: Restore 3 defense to your leader. Then put an Ouroboros into your ha
 </prop>
 </card><card>
 <name>Astrologist of the Mist</name>
-<text>Fanfare: If another allied follower is in play, perform Earth Rite: Give +1/+1 and Ward to an allied follower.
+<text>Fanfare: If another allied follower is in play, perform Earth Rite - Give +1/+1 and Ward to an allied follower.
 
 </text>
 <tablerow>2</tablerow>
@@ -2876,21 +2910,21 @@ Whenever an allied Serpent comes into play, deal 2 damage to a random enemy foll
 <pt>3/6</pt>
 </prop>
 </card><card>
-<name>Aether of the Warrior Wing</name>
-<text>Fanfare: Randomly put 1 of the highest-cost Swordcraft followers that costs X play points or less from your deck into your hand. X equals your total number of play point orbs plus 1.
+<name>Masked Giant</name>
+<text>Ward.
 
-Evolve: Give +0/+1 to all other allied followers.</text>
+Ward.</text>
 <tablerow>2</tablerow>
-<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/c/111241020">Altersphere</set>
-<related>Aether of the Warrior Wing EVOLVED</related>
+<set rarity="Bronze" picurl="https://sv.bagoum.com/cardF/en/c/101711080">Standard Card Pack</set>
+<related>Masked Giant EVOLVED</related>
 <prop>
-<type>Commander</type>
+<type></type>
 <maintype>Follower</maintype>
-<manacost>3</manacost>
-<cmc>3</cmc>
-<colors>Swordcraft</colors>
-<coloridentity>Swordcraft</coloridentity>
-<pt>2/3</pt>
+<manacost>8</manacost>
+<cmc>8</cmc>
+<colors>Havencraft</colors>
+<coloridentity>Havencraft</coloridentity>
+<pt>7/7</pt>
 </prop>
 </card><card>
 <name>Elf Singer Harmony</name>
@@ -2998,22 +3032,6 @@ At the end of your turn, randomly put 1 of the following cards into your hand: M
 <cmc>1</cmc>
 <colors>Neutral</colors>
 <coloridentity>Neutral</coloridentity>
-<pt>0/0</pt>
-</prop>
-</card><card>
-<name>Phoenix Roost</name>
-<text>Fanfare: Cards in both players' hands cost half, rounded up. Whenever a card is added to a player's hand, its cost drops by half, rounded up.
-
-</text>
-<tablerow>1</tablerow>
-<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/101432020">Standard Card Pack</set>
-<prop>
-<type></type>
-<maintype>Amulet</maintype>
-<manacost>5</manacost>
-<cmc>5</cmc>
-<colors>Dragoncraft</colors>
-<coloridentity>Dragoncraft</coloridentity>
 <pt>0/0</pt>
 </prop>
 </card><card>
@@ -3678,7 +3696,7 @@ Rush. Last Words: Give your leader the following effect - The next time you play
 </prop>
 </card><card>
 <name>Guard of the Machinatree</name>
-<text>Ward. Fanfare: Return another allied follower or amulet to your hand. If that card is a Machina card, draw a card.
+<text>Ward. Fanfare: Return another allied follower or amulet to your hand. If it's a Machina card, draw a card.
 
 Ward.</text>
 <tablerow>2</tablerow>
@@ -3746,6 +3764,23 @@ Evolve: Gain +2/+2 if at least 3 cards were played this turn.</text>
 <colors>Swordcraft</colors>
 <coloridentity>Swordcraft</coloridentity>
 <pt>3/3</pt>
+</prop>
+</card><card>
+<name>May, Eager Elf</name>
+<text>Invocation: When you have played your fourth card this turn, put this card from your deck into play. Then return it to your hand. Fanfare: If at least 4 other cards were played this turn, deal 4 damage to a random enemy follower.
+
+</text>
+<tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/113131030">Rebirth of Glory</set>
+<related>May, Eager Elf EVOLVED</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>1</manacost>
+<cmc>1</cmc>
+<colors>Forestcraft</colors>
+<coloridentity>Forestcraft</coloridentity>
+<pt>1/1</pt>
 </prop>
 </card><card>
 <name>Abomination Awakened</name>
@@ -4894,8 +4929,8 @@ At the end of your turn, gain +2/+0 and deal 2 damage to your leader.</text>
 <prop>
 <type></type>
 <maintype>Follower</maintype>
-<manacost>6</manacost>
-<cmc>6</cmc>
+<manacost>5</manacost>
+<cmc>5</cmc>
 <colors>Shadowcraft</colors>
 <coloridentity>Shadowcraft</coloridentity>
 <pt>5/5</pt>
@@ -5651,6 +5686,26 @@ Strike: Whenever this follower attacks, spellboost the cards in your hand.</text
 <pt>2/1</pt>
 </prop>
 </card><card>
+<name>Dragoncleaver Roy</name>
+<text>Fanfare: Choose - Put either a Dragonlife Blade or a Dragonstrife Blade into your hand.
+
+</text>
+<tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/108431010">Dawnbreak Nightedge</set>
+<related>Dragonlife Blade</related>
+<related>Dragonstrife Blade</related>
+<related>Dragon</related>
+<related>Dragoncleaver Roy EVOLVED</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>3</manacost>
+<cmc>3</cmc>
+<colors>Dragoncraft</colors>
+<coloridentity>Dragoncraft</coloridentity>
+<pt>2/2</pt>
+</prop>
+</card><card>
 <name>Albacore</name>
 <text>Last Words: Restore 3 defense to your leader.
 
@@ -6268,6 +6323,24 @@ Storm. Leader Strike: Whenever this follower attacks the enemy leader, Reanimate
 <pt>3/3</pt>
 </prop>
 </card><card>
+<name>Spawn of Exile</name>
+<text>Accelerate (2): Summon a Voice of the Abyss. ----------  Ambush. If Ambush is active for this follower when it attacks, summon 3 Voice of the Abysses.
+
+Ambush. If Ambush is active for this follower when it attacks, summon 4 Voice of the Abysses.</text>
+<tablerow>2</tablerow>
+<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/c/113641030">Rebirth of Glory</set>
+<related>Voice of the Abyss</related>
+<related>Spawn of Exile EVOLVED</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>8</manacost>
+<cmc>8</cmc>
+<colors>Bloodcraft</colors>
+<coloridentity>Bloodcraft</coloridentity>
+<pt>6/7</pt>
+</prop>
+</card><card>
 <name>Burst Shot</name>
 <text>Deal 1 damage to a random enemy follower 4 times. Enhance (10): Deal damage to the enemy leader instead. Deal damage 1 more time for every 2 allied Fairies that have been destroyed during this match.
 
@@ -6730,7 +6803,7 @@ At the start of your turn, all allied followers gain +1/+0.</text>
 </prop>
 </card><card>
 <name>Great Goliath</name>
-<text>Fanfare: Enhance (7) - Gain +4/+4. Enhance (10): Gain an additional +4/+4.
+<text>Fanfare: Enhance (7) - Gain +4/+4. Enhance (10): Gain +4/+4 more.
 
 </text>
 <tablerow>2</tablerow>
@@ -7261,6 +7334,23 @@ Strike: Whenever this follower attacks, subtract 1 from the cost of all Machina 
 <pt>3/4</pt>
 </prop>
 </card><card>
+<name>Aiela, Devoted Knight</name>
+<text>Fanfare: Gain an empty play point orb, and recover 3 play points.
+
+Evolve: If you have at least 6 play points, use 6 play points and summon a Devoted Dragon. Reduce damage to this follower to 0 while an allied Devoted Dragon is in play.</text>
+<tablerow>2</tablerow>
+<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/c/113441030">Rebirth of Glory</set>
+<related>Aiela, Devoted Knight EVOLVED</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>6</manacost>
+<cmc>6</cmc>
+<colors>Dragoncraft</colors>
+<coloridentity>Dragoncraft</coloridentity>
+<pt>4/4</pt>
+</prop>
+</card><card>
 <name>Prison of Pain</name>
 <text>Countdown (2) Fanfare: Deal 1 damage to your leader and draw a card. At the end of your turn, deal 1 damage to your leader and draw a card.
 
@@ -7697,6 +7787,23 @@ Whenever an enemy follower is destroyed, gain +1/+0.</text>
 <pt>5/7</pt>
 </prop>
 </card><card>
+<name>Laelia, Saint of Peace</name>
+<text>At the end of your opponent's turn, destroy all followers.
+
+Evolve: Gain Ambush until the end of your opponent's turn. At the end of your opponent's turn, destroy all followers.</text>
+<tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/113731020">Rebirth of Glory</set>
+<related>Laelia, Saint of Peace EVOLVED</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>2</manacost>
+<cmc>2</cmc>
+<colors>Havencraft</colors>
+<coloridentity>Havencraft</coloridentity>
+<pt>1/4</pt>
+</prop>
+</card><card>
 <name>Healing Priestess</name>
 <text>Fanfare: Restore 1 defense to all allies.
 
@@ -8071,6 +8178,23 @@ Last Words: Gain 1 shadow.</text>
 <colors>Shadowcraft</colors>
 <coloridentity>Shadowcraft</coloridentity>
 <pt>1/2</pt>
+</prop>
+</card><card>
+<name>Sora, Arcane Fist</name>
+<text>Fanfare: Necromancy (4) - Gain +2/+2.
+
+Evolve: Deal X damage to an enemy follower. X equals this follower's attack.</text>
+<tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/113531020">Rebirth of Glory</set>
+<related>Sora, Arcane Fist EVOLVED</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>2</manacost>
+<cmc>2</cmc>
+<colors>Shadowcraft</colors>
+<coloridentity>Shadowcraft</coloridentity>
+<pt>2/2</pt>
 </prop>
 </card><card>
 <name>Splendorous Roc</name>
@@ -8570,6 +8694,24 @@ Evolve: Put a Delta Cannon into your hand. Strike: Whenever this follower attack
 <colors>Bloodcraft</colors>
 <coloridentity>Bloodcraft</coloridentity>
 <pt>2/2</pt>
+</prop>
+</card><card>
+<name>Lara, Soul Taker</name>
+<text>Fanfare: Randomly put a copy of an allied follower (excluding Lara, Soul Taker) that was destroyed during this turn into your hand. Change its cost to 0 and give it the following effect: Destroy this follower at the end of your turn.
+
+</text>
+<tablerow>2</tablerow>
+<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/c/113541030">Rebirth of Glory</set>
+<related>Lara, Soul Taker</related>
+<related>Lara, Soul Taker EVOLVED</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>4</manacost>
+<cmc>4</cmc>
+<colors>Shadowcraft</colors>
+<coloridentity>Shadowcraft</coloridentity>
+<pt>4/4</pt>
 </prop>
 </card><card>
 <name>Airbound Barrage</name>
@@ -9854,6 +9996,23 @@ Evolve: Banish an enemy follower with 1 defense.</text>
 <pt>0/0</pt>
 </prop>
 </card><card>
+<name>Nacht</name>
+<text>Last Words: Give both leaders the following effect - At the end of your turn, deal 1 damage to your leader. (This effect lasts for the rest of the match.)
+
+Last Words: Give both leaders the following effect - At the end of your turn, deal 1 damage to your leader. (This effect lasts for the rest of the match.)</text>
+<tablerow>2</tablerow>
+<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/c/107641010">Chronogenesis</set>
+<related>Nacht EVOLVED</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>5</manacost>
+<cmc>5</cmc>
+<colors>Bloodcraft</colors>
+<coloridentity>Bloodcraft</coloridentity>
+<pt>4/4</pt>
+</prop>
+</card><card>
 <name>Ardent Nun</name>
 <text>Gain +1/+0 during the opponent's turn.
 
@@ -9869,6 +10028,23 @@ Gain +1/+0 during the opponent's turn.</text>
 <colors>Havencraft</colors>
 <coloridentity>Havencraft</coloridentity>
 <pt>2/2</pt>
+</prop>
+</card><card>
+<name>Moriana, Shadow Devil</name>
+<text>Fanfare: If Vengeance is active for you, recover 2 evolution points.
+
+</text>
+<tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/113631030">Rebirth of Glory</set>
+<related>Moriana, Shadow Devil EVOLVED</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>6</manacost>
+<cmc>6</cmc>
+<colors>Bloodcraft</colors>
+<coloridentity>Bloodcraft</coloridentity>
+<pt>4/4</pt>
 </prop>
 </card><card>
 <name>Pegasus Dullahan</name>
@@ -10813,6 +10989,26 @@ At the end of your turn, deal 1 damage to a random enemy follower X times (maxim
 <cmc>1</cmc>
 <colors>Forestcraft</colors>
 <coloridentity>Forestcraft</coloridentity>
+<pt>0/0</pt>
+</prop>
+</card><card>
+<name>Golem Squad</name>
+<text>If this card has been spellboosted 5 times or less, summon a Clay Golem and a Scrap Golem.  If this card has been spellboosted 6 to 11 times, summon a Guardian Golem and a Clay Golem. If this card has been spellboosted at least 12 times, summon an Ultimate Clay Golem and a Guardian Golem.
+
+</text>
+<tablerow>3</tablerow>
+<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/c/113344010">Rebirth of Glory</set>
+<related>Ultimate Clay Golem</related>
+<related>Clay Golem</related>
+<related>Scrap Golem</related>
+<related>Guardian Golem</related>
+<prop>
+<type></type>
+<maintype>Spell</maintype>
+<manacost>3</manacost>
+<cmc>3</cmc>
+<colors>Runecraft</colors>
+<coloridentity>Runecraft</coloridentity>
 <pt>0/0</pt>
 </prop>
 </card><card>
@@ -12132,12 +12328,12 @@ Evolve: Give your leader the following effect - At the start of your turn, put a
 <set rarity="Silver" picurl="https://sv.bagoum.com/cardF/en/c/107024010">Chronogenesis</set>
 <related>Enchanted Library</related>
 <related>Grave Desecration</related>
-<related>Phoenix Roost</related>
 <related>Bloodfed Flowerbed</related>
 <related>Pegasus Sculpture</related>
 <related>Roc</related>
 <related>Pegasus</related>
 <related>Forest of Dreams</related>
+<related>Phoenix Roost</related>
 <related>Arthurian Light</related>
 <prop>
 <type></type>
@@ -12581,7 +12777,7 @@ Ward.</text>
 </prop>
 </card><card>
 <name>Tartarus, the Tormentor</name>
-<text>Accelerate (2): Summon a Tartarus, the Tormentor. Then destroy it and put a Lurker in the Dark into your hand. ---------- Ambush. Strike: Whenever this follower attacks, if Ambush is active for this follower, destroy all enemy followers with 5 or less defense.
+<text>Accelerate (1): Summon a Tartarus, the Tormentor. Then destroy it and put a Lurker in the Dark into your hand. ---------- Ambush. Strike: Whenever this follower attacks, if Ambush is active for this follower, destroy all enemy followers with 5 or less defense.
 
 Ambush. Strike: Whenever this follower attacks, if Ambush is active for this follower, destroy all enemy followers with 5 or less defense.</text>
 <tablerow>2</tablerow>
@@ -12592,8 +12788,8 @@ Ambush. Strike: Whenever this follower attacks, if Ambush is active for this fol
 <prop>
 <type></type>
 <maintype>Follower</maintype>
-<manacost>10</manacost>
-<cmc>10</cmc>
+<manacost>12</manacost>
+<cmc>12</cmc>
 <colors>Shadowcraft</colors>
 <coloridentity>Shadowcraft</coloridentity>
 <pt>8/8</pt>
@@ -12663,6 +12859,23 @@ Evolve: Deal 1 damage to all enemy followers.</text>
 <colors>Runecraft</colors>
 <coloridentity>Runecraft</coloridentity>
 <pt>3/4</pt>
+</prop>
+</card><card>
+<name>Levi, Accomplished Mage</name>
+<text>Fanfare: Deal X damage to an enemy follower. X equals 2 times the number of allied amulets in play.
+
+Evolve: Earth Rite - Put a random Earth Sigil and a random card with Earth Rite from your deck into your hand.</text>
+<tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/113331020">Rebirth of Glory</set>
+<related>Levi, Accomplished Mage EVOLVED</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>4</manacost>
+<cmc>4</cmc>
+<colors>Runecraft</colors>
+<coloridentity>Runecraft</coloridentity>
+<pt>3/3</pt>
 </prop>
 </card><card>
 <name>Kindly Treant</name>
@@ -14243,7 +14456,7 @@ Strike: Whenever this follower attacks, deal 1 damage to both leaders.</text>
 </prop>
 </card><card>
 <name>Mechabook Sorcerer</name>
-<text>Fanfare: Give your leader the following effect: Whenever you play a Machina card, recover 1 play point. (This effect is not stackable and lasts for the rest of the match.)
+<text>Fanfare: Give your leader the following effect - Whenever you play a Machina card, recover 1 play point. (This effect is not stackable and lasts for the rest of the match.)
 
 </text>
 <tablerow>2</tablerow>
@@ -14690,7 +14903,7 @@ Bane.</text>
 </prop>
 </card><card>
 <name>Heartsick Demon</name>
-<text>Fanfare: If Vengeance is active for you, subtract 1 from the cost of two Bloodcraft cards (excluding Heartsick Demon) in your hand.
+<text>Fanfare: If Vengeance is active for you, subtract 1 from the cost of 2 Bloodcraft cards (excluding Heartsick Demon) in your hand.
 
 </text>
 <tablerow>2</tablerow>
@@ -14700,11 +14913,11 @@ Bane.</text>
 <prop>
 <type></type>
 <maintype>Follower</maintype>
-<manacost>2</manacost>
-<cmc>2</cmc>
+<manacost>6</manacost>
+<cmc>6</cmc>
 <colors>Bloodcraft</colors>
 <coloridentity>Bloodcraft</coloridentity>
-<pt>2/2</pt>
+<pt>6/6</pt>
 </prop>
 </card><card>
 <name>God Bullet Golem</name>
@@ -14879,21 +15092,20 @@ Strike: Whenever this follower attacks, deal 1 damage to all enemy followers.</t
 <pt>7/7</pt>
 </prop>
 </card><card>
-<name>Dragonewt Charlotte</name>
-<text>Storm. Ward.
+<name>Luminous Standard</name>
+<text>Whenever an allied Commander follower comes into play, give it +1/+1.
 
-Storm. Ward.</text>
-<tablerow>2</tablerow>
-<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/101231020">Standard Card Pack</set>
-<related>Dragonewt Charlotte EVOLVED</related>
+</text>
+<tablerow>1</tablerow>
+<set rarity="Silver" picurl="https://sv.bagoum.com/cardF/en/c/104222010">Tempest of the Gods</set>
 <prop>
-<type>Commander</type>
-<maintype>Follower</maintype>
-<manacost>8</manacost>
-<cmc>8</cmc>
+<type></type>
+<maintype>Amulet</maintype>
+<manacost>3</manacost>
+<cmc>3</cmc>
 <colors>Swordcraft</colors>
 <coloridentity>Swordcraft</coloridentity>
-<pt>4/7</pt>
+<pt>0/0</pt>
 </prop>
 </card><card>
 <name>Council of Card Knights</name>
@@ -16169,6 +16381,22 @@ Last Words: Deal 1 damage to all enemy followers.</text>
 <pt>0/0</pt>
 </prop>
 </card><card>
+<name>Absolute Zeroblade</name>
+<text>Destroy an enemy follower with 2 defense or less. Draw a card if an evolved allied follower is in play. Spellboost: Destroy a follower with 1 more defense.
+
+</text>
+<tablerow>3</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/108334010">Dawnbreak Nightedge</set>
+<prop>
+<type></type>
+<maintype>Spell</maintype>
+<manacost>3</manacost>
+<cmc>3</cmc>
+<colors>Runecraft</colors>
+<coloridentity>Runecraft</coloridentity>
+<pt>0/0</pt>
+</prop>
+</card><card>
 <name>Holy Fox Grimaud</name>
 <text>Can't be targeted by enemy spells and effects.
 
@@ -17418,7 +17646,7 @@ Last Words: Deal 2 damage to the enemy leader.</text>
 </prop>
 </card><card>
 <name>Seductress Vampire</name>
-<text>During your turn, when this card is added to your hand from your deck, if Vengeance is not active for you, reveal it and then banish it. Vengeance is active for you for the rest of this match, even if your leader's defense is more than 10. Fanfare: Deal 4 damage to an enemy, then restore 4 defense to your leader.
+<text>During your turn, when this card is added to your hand from your deck, if Vengeance is not active for you, reveal it and then banish it. Change your leader's maximum defense to 10. Fanfare: Deal 4 damage to an enemy, then restore 4 defense to your leader.
 
 </text>
 <tablerow>2</tablerow>
@@ -17706,7 +17934,7 @@ Whenever another allied follower is destroyed, restore 2 defense to your leader.
 </prop>
 </card><card>
 <name>Passing of Lore</name>
-<text>Choose: Put either a Sacred Teachings, a Healing Prayer, or an Acolyte's Light into your hand.
+<text>Choose: Put a Sacred Teachings, a Healing Prayer, or an Acolyte's Light into your hand.
 
 </text>
 <tablerow>3</tablerow>
@@ -17826,21 +18054,21 @@ At the end of your turn, subtract 1 from the Countdown of all allied amulets.</t
 <pt>1/2</pt>
 </prop>
 </card><card>
-<name>Tenacious Ghost</name>
-<text>Ambush.
+<name>Dragontamer</name>
+<text>Fanfare: Give an allied follower +1/+1 if Overflow is active for you.
 
-Ambush.</text>
+</text>
 <tablerow>2</tablerow>
-<set rarity="Bronze" picurl="https://sv.bagoum.com/cardF/en/c/101511030">Standard Card Pack</set>
-<related>Tenacious Ghost EVOLVED</related>
+<set rarity="Bronze" picurl="https://sv.bagoum.com/cardF/en/c/103411050">Rise of Bahamut</set>
+<related>Dragontamer EVOLVED</related>
 <prop>
 <type></type>
 <maintype>Follower</maintype>
-<manacost>3</manacost>
-<cmc>3</cmc>
-<colors>Shadowcraft</colors>
-<coloridentity>Shadowcraft</coloridentity>
-<pt>2/3</pt>
+<manacost>2</manacost>
+<cmc>2</cmc>
+<colors>Dragoncraft</colors>
+<coloridentity>Dragoncraft</coloridentity>
+<pt>2/2</pt>
 </prop>
 </card><card>
 <name>Safira, Synthetic Beast</name>
@@ -17870,11 +18098,11 @@ Ward. Evolve: Summon an Elana's Prayer.</text>
 <prop>
 <type></type>
 <maintype>Follower</maintype>
-<manacost>2</manacost>
-<cmc>2</cmc>
+<manacost>4</manacost>
+<cmc>4</cmc>
 <colors>Havencraft</colors>
 <coloridentity>Havencraft</coloridentity>
-<pt>2/2</pt>
+<pt>3/4</pt>
 </prop>
 </card><card>
 <name>Concentration</name>
@@ -18182,7 +18410,7 @@ Ward. Last Words: Randomly destroy 1 of the strongest enemy followers in play an
 </prop>
 </card><card>
 <name>Aisha, Underworld Sovereign</name>
-<text>Invocation: At the start of your turn, if you have at least 16 shadows, put this card from your deck into play, then lose 8 shadows. When another allied follower attacks and deals damage to the enemy leader, if this follower didn't attack this turn, perform Necromancy (8): Evolve this follower.
+<text>Invocation: At the start of your turn, if you have at least 16 shadows, put this card from your deck into play, then lose 8 shadows. When another allied follower attacks and deals damage to the enemy leader, if this follower hasn't attacked this turn, perform Necromancy (8): Evolve this follower.
 
 Storm. Bane.</text>
 <tablerow>2</tablerow>
@@ -18217,21 +18445,21 @@ Strike: Whenever this follower attacks, deal 1 damage to all enemy followers. At
 <pt>1/2</pt>
 </prop>
 </card><card>
-<name>Masked Giant</name>
-<text>Ward.
+<name>Aether of the Warrior Wing</name>
+<text>Fanfare: Randomly put 1 of the highest-cost Swordcraft followers that costs X play points or less from your deck into your hand. X equals your total number of play point orbs plus 1.
 
-Ward.</text>
+Evolve: Give +0/+1 to all other allied followers.</text>
 <tablerow>2</tablerow>
-<set rarity="Bronze" picurl="https://sv.bagoum.com/cardF/en/c/101711080">Standard Card Pack</set>
-<related>Masked Giant EVOLVED</related>
+<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/c/111241020">Altersphere</set>
+<related>Aether of the Warrior Wing EVOLVED</related>
 <prop>
-<type></type>
+<type>Commander</type>
 <maintype>Follower</maintype>
-<manacost>8</manacost>
-<cmc>8</cmc>
-<colors>Havencraft</colors>
-<coloridentity>Havencraft</coloridentity>
-<pt>7/7</pt>
+<manacost>3</manacost>
+<cmc>3</cmc>
+<colors>Swordcraft</colors>
+<coloridentity>Swordcraft</coloridentity>
+<pt>2/3</pt>
 </prop>
 </card><card>
 <name>Frozen Mammoth</name>
@@ -18285,7 +18513,7 @@ Ward.</text>
 </prop>
 </card><card>
 <name>Dragon Empress Otohime</name>
-<text>Accelerate (1): Summon an Otohime's Vanguard. ----------  Fanfare: Summon Otohime's Vanguards until your area is full. (An area can hold 5 cards.)
+<text>Accelerate (2): Summon an Otohime's Vanguard. ----------  Fanfare: Summon Otohime's Vanguards until your area is full. (An area can hold 5 cards.)
 
 </text>
 <tablerow>2</tablerow>
@@ -18461,6 +18689,26 @@ Evolve: Put a random Artifact card from your deck into your hand.</text>
 <pt>2/2</pt>
 </prop>
 </card><card>
+<name>Vier, Doll Slayer</name>
+<text>Bane. Whenever an allied Puppet comes into play, if you have at least 2 play points, use 2 play points to transform it into a Doll Slayer.  Last Words: Transform a random allied Doll Slayer into a Vier, Doll Slayer.
+
+(Same as the unevolved form.)</text>
+<tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/113831030">Rebirth of Glory</set>
+<related>Puppet</related>
+<related>Vier, Doll Slayer</related>
+<related>Doll Slayer</related>
+<related>Vier, Doll Slayer EVOLVED</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>2</manacost>
+<cmc>2</cmc>
+<colors>Portalcraft</colors>
+<coloridentity>Portalcraft</coloridentity>
+<pt>1/2</pt>
+</prop>
+</card><card>
 <name>Servant of Unkilling</name>
 <text>Fanfare: Give an enemy follower -1/-0 until the end of your opponent's turn.
 
@@ -18493,6 +18741,22 @@ Ward.</text>
 <colors>Swordcraft</colors>
 <coloridentity>Swordcraft</coloridentity>
 <pt>2/3</pt>
+</prop>
+</card><card>
+<name>Phoenix Roost</name>
+<text>Fanfare: Cards in both players' hands cost half, rounded up. Whenever a card is added to a player's hand, its cost drops by half, rounded up.
+
+</text>
+<tablerow>1</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/101432020">Standard Card Pack</set>
+<prop>
+<type></type>
+<maintype>Amulet</maintype>
+<manacost>5</manacost>
+<cmc>5</cmc>
+<colors>Dragoncraft</colors>
+<coloridentity>Dragoncraft</coloridentity>
+<pt>0/0</pt>
 </prop>
 </card><card>
 <name>Heavenly Knight</name>
@@ -18662,23 +18926,6 @@ Last Words: Put a Puppet into your hand.</text>
 <colors>Neutral</colors>
 <coloridentity>Neutral</coloridentity>
 <pt>1/2</pt>
-</prop>
-</card><card>
-<name>Dragontamer</name>
-<text>Fanfare: Give an allied follower +1/+1 if Overflow is active for you.
-
-</text>
-<tablerow>2</tablerow>
-<set rarity="Bronze" picurl="https://sv.bagoum.com/cardF/en/c/103411050">Rise of Bahamut</set>
-<related>Dragontamer EVOLVED</related>
-<prop>
-<type></type>
-<maintype>Follower</maintype>
-<manacost>2</manacost>
-<cmc>2</cmc>
-<colors>Dragoncraft</colors>
-<coloridentity>Dragoncraft</coloridentity>
-<pt>2/2</pt>
 </prop>
 </card><card>
 <name>De La Fille, Gem Princess</name>
@@ -18939,20 +19186,21 @@ When another allied Neutral follower comes into play, this follower gains Rush.<
 <pt>2/3</pt>
 </prop>
 </card><card>
-<name>Absolute Zeroblade</name>
-<text>Destroy an enemy follower with 2 defense or less. Draw a card if an evolved allied follower is in play. Spellboost: Destroy a follower with 1 more defense.
+<name>Flail Knight</name>
+<text>Clash: Deal 1 damage to the enemy follower.
 
-</text>
-<tablerow>3</tablerow>
-<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/108334010">Dawnbreak Nightedge</set>
+Clash: Deal 1 damage to the enemy follower.</text>
+<tablerow>2</tablerow>
+<set rarity="Bronze" picurl="https://sv.bagoum.com/cardF/en/c/106211010">Starforged Legends</set>
+<related>Flail Knight EVOLVED</related>
 <prop>
-<type></type>
-<maintype>Spell</maintype>
+<type>Officer</type>
+<maintype>Follower</maintype>
 <manacost>3</manacost>
 <cmc>3</cmc>
-<colors>Runecraft</colors>
-<coloridentity>Runecraft</coloridentity>
-<pt>0/0</pt>
+<colors>Swordcraft</colors>
+<coloridentity>Swordcraft</coloridentity>
+<pt>2/2</pt>
 </prop>
 </card><card>
 <name>Genesis Dragon</name>
@@ -19558,6 +19806,23 @@ Whenever you play a Loot card, deal 2 damage to a random enemy follower.</text>
 <colors>Bloodcraft</colors>
 <coloridentity>Bloodcraft</coloridentity>
 <pt>5/6</pt>
+</prop>
+</card><card>
+<name>Tenacious Ghost</name>
+<text>Ambush.
+
+Ambush.</text>
+<tablerow>2</tablerow>
+<set rarity="Bronze" picurl="https://sv.bagoum.com/cardF/en/c/101511030">Standard Card Pack</set>
+<related>Tenacious Ghost EVOLVED</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>3</manacost>
+<cmc>3</cmc>
+<colors>Shadowcraft</colors>
+<coloridentity>Shadowcraft</coloridentity>
+<pt>2/3</pt>
 </prop>
 </card><card>
 <name>Fairy Dragon</name>
@@ -21023,23 +21288,6 @@ Rush. Whenever this follower attacks and destroys an enemy follower, if this fol
 <pt>0/0</pt>
 </prop>
 </card><card>
-<name>Elven Princess Mage</name>
-<text>
-
-Evolve: Put 2 Fairies into your hand and change their cost to 0.</text>
-<tablerow>2</tablerow>
-<set rarity="Silver" picurl="https://sv.bagoum.com/cardF/en/c/101121080">Standard Card Pack</set>
-<related>Elven Princess Mage EVOLVED</related>
-<prop>
-<type></type>
-<maintype>Follower</maintype>
-<manacost>4</manacost>
-<cmc>4</cmc>
-<colors>Forestcraft</colors>
-<coloridentity>Forestcraft</coloridentity>
-<pt>3/4</pt>
-</prop>
-</card><card>
 <name>Dragon's Nest</name>
 <text>At the start of your turn, restore 2 defense to your leader, draw a card, and destroy this amulet if Overflow is active for you.
 
@@ -22128,21 +22376,21 @@ Evolve: Deal 2 damage to an enemy.</text>
 <pt>3/3</pt>
 </prop>
 </card><card>
-<name>Nacht</name>
-<text>Last Words: Give both leaders the following effect - At the end of your turn, deal 1 damage to your leader. (This effect lasts for the rest of the match.)
+<name>Goblin</name>
+<text>
 
-Last Words: Give both leaders the following effect - At the end of your turn, deal 1 damage to your leader. (This effect lasts for the rest of the match.)</text>
+</text>
 <tablerow>2</tablerow>
-<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/c/107641010">Chronogenesis</set>
-<related>Nacht EVOLVED</related>
+<set rarity="Bronze" picurl="https://sv.bagoum.com/cardF/en/c/100011010">Basic</set>
+<related>Goblin EVOLVED</related>
 <prop>
 <type></type>
 <maintype>Follower</maintype>
-<manacost>5</manacost>
-<cmc>5</cmc>
-<colors>Bloodcraft</colors>
-<coloridentity>Bloodcraft</coloridentity>
-<pt>4/4</pt>
+<manacost>1</manacost>
+<cmc>1</cmc>
+<colors>Neutral</colors>
+<coloridentity>Neutral</coloridentity>
+<pt>1/2</pt>
 </prop>
 </card><card>
 <name>Grimnir, Warring Tempest</name>
@@ -22533,11 +22781,11 @@ Last Words: Give your leader the following effect - Destroy every Countdown amul
 <prop>
 <type>Machina</type>
 <maintype>Follower</maintype>
-<manacost>5</manacost>
-<cmc>5</cmc>
+<manacost>4</manacost>
+<cmc>4</cmc>
 <colors>Portalcraft</colors>
 <coloridentity>Portalcraft</coloridentity>
-<pt>4/5</pt>
+<pt>3/4</pt>
 </prop>
 </card><card>
 <name>Disaster Dragon</name>
@@ -22765,6 +23013,26 @@ Evolve: Put a Mysterian Rite into your hand.</text>
 <colors>Runecraft</colors>
 <coloridentity>Runecraft</coloridentity>
 <pt>3/3</pt>
+</prop>
+</card><card>
+<name>Orchis, Linked Heart</name>
+<text>Fanfare: Choose - Summon a Lloyd the Android or a Marionette//Uno. Whenever an allied Lloyd the Android comes into play, give it +2/+2. Whenever an allied Marionette//Uno comes into play, summon a Marionette//Due.
+
+Evolve: Transform a Puppet in your hand into a Marionette//Tre. Whenever an allied Lloyd the Android comes into play, give it +2/+2. Whenever an allied Marionette//Uno comes into play, summon a Marionette//Due.</text>
+<tablerow>2</tablerow>
+<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/c/113841030">Rebirth of Glory</set>
+<related>Marionette//Due</related>
+<related>Lloyd the Android</related>
+<related>Marionette//Uno</related>
+<related>Orchis, Linked Heart EVOLVED</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>7</manacost>
+<cmc>7</cmc>
+<colors>Portalcraft</colors>
+<coloridentity>Portalcraft</coloridentity>
+<pt>5/5</pt>
 </prop>
 </card><card>
 <name>Dark Jeanne</name>
@@ -23449,6 +23717,24 @@ Bane. Ward.  Follower Strike: Whenever this follower attacks an enemy follower, 
 <pt>3/4</pt>
 </prop>
 </card><card>
+<name>Everlasting Castle</name>
+<text>Fanfare: Use X play points to put a random follower that costs X play points from your deck into play. X equals your remaining play points. At the end of your tenth turn or later, summon a Steelclad Knight.
+
+</text>
+<tablerow>1</tablerow>
+<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/c/113242010">Rebirth of Glory</set>
+<related>Knight</related>
+<related>Steelclad Knight</related>
+<prop>
+<type></type>
+<maintype>Amulet</maintype>
+<manacost>0</manacost>
+<cmc>0</cmc>
+<colors>Swordcraft</colors>
+<coloridentity>Swordcraft</coloridentity>
+<pt>0/0</pt>
+</prop>
+</card><card>
 <name>Tutankhamun</name>
 <text>Last Words: If this follower's defense was at least 2 before being destroyed, summon a Tutankhamun and set its defense to 1.
 
@@ -24045,6 +24331,24 @@ Can't attack. At the end of your turn, randomly banish 1 of the lowest-cost foll
 <pt>3/3</pt>
 </prop>
 </card><card>
+<name>Honored Frontguard General</name>
+<text>Ward. Can't be targeted by enemy spells and effects. Last Words: Summon a Shield Guardian, and give it +X/+X. X equals the number of times that allied followers have evolved during this match.
+
+(Same as the unevolved form.)</text>
+<tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/113231020">Rebirth of Glory</set>
+<related>Shield Guardian</related>
+<related>Honored Frontguard General EVOLVED</related>
+<prop>
+<type>Commander</type>
+<maintype>Follower</maintype>
+<manacost>7</manacost>
+<cmc>7</cmc>
+<colors>Swordcraft</colors>
+<coloridentity>Swordcraft</coloridentity>
+<pt>5/6</pt>
+</prop>
+</card><card>
 <name>Colossal Skull Lord</name>
 <text>At the end of your turn, deal 3 damage to all non-Machina followers.
 
@@ -24225,8 +24529,8 @@ Ambush.</text>
 </text>
 <tablerow>2</tablerow>
 <set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/109131010">Granblue Fantasy</set>
-<related>Shamu's Antics</related>
 <related>Shama's Gaze</related>
+<related>Shamu's Antics</related>
 <related>Shamu and Shama, Noblekin EVOLVED</related>
 <prop>
 <type></type>
@@ -25305,7 +25609,7 @@ Leader Strike: Whenever this follower attacks the enemy leader, restore 2 defens
 </prop>
 </card><card>
 <name>Jiraiya</name>
-<text>Accelerate (2): Change an enemy follower's attack and defense to 1/1. ---------- Fanfare: Change all enemy follower's attack and defense to 1/1.
+<text>Accelerate (2): Change an enemy follower's attack and defense to 1/1. ---------- Fanfare: Change all enemy followers' attack and defense to 1/1.
 
 </text>
 <tablerow>2</tablerow>
@@ -25644,23 +25948,6 @@ Evolve: Randomly put 2 of the following cards into your hand: Gilded Blade, Gild
 <colors>Swordcraft</colors>
 <coloridentity>Swordcraft</coloridentity>
 <pt>2/3</pt>
-</prop>
-</card><card>
-<name>Flail Knight</name>
-<text>Clash: Deal 1 damage to the enemy follower.
-
-Clash: Deal 1 damage to the enemy follower.</text>
-<tablerow>2</tablerow>
-<set rarity="Bronze" picurl="https://sv.bagoum.com/cardF/en/c/106211010">Starforged Legends</set>
-<related>Flail Knight EVOLVED</related>
-<prop>
-<type>Officer</type>
-<maintype>Follower</maintype>
-<manacost>3</manacost>
-<cmc>3</cmc>
-<colors>Swordcraft</colors>
-<coloridentity>Swordcraft</coloridentity>
-<pt>2/2</pt>
 </prop>
 </card><card>
 <name>Jerva of Draconic Mail</name>
@@ -26010,6 +26297,22 @@ Ward.</text>
 <pt>2/2</pt>
 </prop>
 </card><card>
+<name>Rite of Exorcism</name>
+<text>Destroy an enemy follower that costs 3 play points or less. Enhance (5): Destroy an enemy follower or amulet instead.
+
+</text>
+<tablerow>3</tablerow>
+<set rarity="Bronze" picurl="https://sv.bagoum.com/cardF/en/c/103314010">Rise of Bahamut</set>
+<prop>
+<type></type>
+<maintype>Spell</maintype>
+<manacost>3</manacost>
+<cmc>3</cmc>
+<colors>Runecraft</colors>
+<coloridentity>Runecraft</coloridentity>
+<pt>0/0</pt>
+</prop>
+</card><card>
 <name>Star Torrent</name>
 <text>Deal 1 damage to all enemy followers. Subtract 1 from the Countdown of all allied amulets.
 
@@ -26062,6 +26365,23 @@ Ward.</text>
 <pt>0/0</pt>
 </prop>
 </card><card>
+<name>Rose Gardener</name>
+<text>
+
+Evolve: Return another follower to the player's hand.</text>
+<tablerow>2</tablerow>
+<set rarity="Silver" picurl="https://sv.bagoum.com/cardF/en/c/100121030">Basic</set>
+<related>Rose Gardener EVOLVED</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>4</manacost>
+<cmc>4</cmc>
+<colors>Forestcraft</colors>
+<coloridentity>Forestcraft</coloridentity>
+<pt>4/3</pt>
+</prop>
+</card><card>
 <name>Fita the Gentle Elf</name>
 <text>Whenever this follower's attack or defense is increased by a spell or effect, draw a card.
 
@@ -26079,24 +26399,21 @@ Whenever this follower's attack or defense is increased by a spell or effect, dr
 <pt>2/2</pt>
 </prop>
 </card><card>
-<name>Dragoncleaver Roy</name>
-<text>Fanfare: Choose - Put either a Dragonlife Blade or a Dragonstrife Blade into your hand.
+<name>Hamsa, Hallowed Fowl</name>
+<text>Fanfare: If an enemy follower is in play, change this follower's attack and defense to X/Y. X and Y are equal to the attack and defense of a random enemy follower.
 
 </text>
 <tablerow>2</tablerow>
-<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/108431010">Dawnbreak Nightedge</set>
-<related>Dragonlife Blade</related>
-<related>Dragonstrife Blade</related>
-<related>Dragon</related>
-<related>Dragoncleaver Roy EVOLVED</related>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/113031020">Rebirth of Glory</set>
+<related>Hamsa, Hallowed Fowl EVOLVED</related>
 <prop>
 <type></type>
 <maintype>Follower</maintype>
 <manacost>3</manacost>
 <cmc>3</cmc>
-<colors>Dragoncraft</colors>
-<coloridentity>Dragoncraft</coloridentity>
-<pt>2/2</pt>
+<colors>Neutral</colors>
+<coloridentity>Neutral</coloridentity>
+<pt>3/3</pt>
 </prop>
 </card><card>
 <name>Charon</name>
@@ -27493,20 +27810,21 @@ Rush. Whenever this follower attacks and destroys an enemy follower, if this fol
 <pt>4/6</pt>
 </prop>
 </card><card>
-<name>Luminous Standard</name>
-<text>Whenever an allied Commander follower comes into play, give it +1/+1.
+<name>Dragonewt Charlotte</name>
+<text>Storm. Ward.
 
-</text>
-<tablerow>1</tablerow>
-<set rarity="Silver" picurl="https://sv.bagoum.com/cardF/en/c/104222010">Tempest of the Gods</set>
+Storm. Ward.</text>
+<tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/101231020">Standard Card Pack</set>
+<related>Dragonewt Charlotte EVOLVED</related>
 <prop>
-<type></type>
-<maintype>Amulet</maintype>
-<manacost>3</manacost>
-<cmc>3</cmc>
+<type>Commander</type>
+<maintype>Follower</maintype>
+<manacost>8</manacost>
+<cmc>8</cmc>
 <colors>Swordcraft</colors>
 <coloridentity>Swordcraft</coloridentity>
-<pt>0/0</pt>
+<pt>4/7</pt>
 </prop>
 </card><card>
 <name>Lapis, Glorious Seraph</name>
@@ -27682,23 +28000,6 @@ Storm. Bane.</text>
 <colors>Dragoncraft</colors>
 <coloridentity>Dragoncraft</coloridentity>
 <pt>6/5</pt>
-</prop>
-</card><card>
-<name>Goblin</name>
-<text>
-
-</text>
-<tablerow>2</tablerow>
-<set rarity="Bronze" picurl="https://sv.bagoum.com/cardF/en/c/100011010">Basic</set>
-<related>Goblin EVOLVED</related>
-<prop>
-<type></type>
-<maintype>Follower</maintype>
-<manacost>1</manacost>
-<cmc>1</cmc>
-<colors>Neutral</colors>
-<coloridentity>Neutral</coloridentity>
-<pt>1/2</pt>
 </prop>
 </card><card>
 <name>Naval Guard Simone</name>
@@ -28145,7 +28446,7 @@ Ward.</text>
 </prop>
 </card><card>
 <name>Urd, Goddess of Restoration</name>
-<text>Fanfare: Destroy a follower. If it is an allied follower, randomly summon a copy of an allied follower with the same name destroyed during this match. If it is an enemy follower, randomly summon an enemy copy of an enemy follower with the same name destroyed during this match.
+<text>Fanfare: Destroy a follower. If it is an allied follower, randomly summon a copy of an allied follower that has been destroyed during this match. If it is an enemy follower, randomly summon an enemy copy of an enemy follower that has been destroyed during this match.
 
 </text>
 <tablerow>2</tablerow>
@@ -29283,22 +29584,6 @@ Can't be attacked. At the start of your turn, deal 1 damage to all other followe
 <pt>2/1</pt>
 </prop>
 </card><card>
-<name>Rite of Exorcism</name>
-<text>Destroy an enemy follower that costs 3 play points or less. Enhance (5): Destroy an enemy follower or amulet instead.
-
-</text>
-<tablerow>3</tablerow>
-<set rarity="Bronze" picurl="https://sv.bagoum.com/cardF/en/c/103314010">Rise of Bahamut</set>
-<prop>
-<type></type>
-<maintype>Spell</maintype>
-<manacost>3</manacost>
-<cmc>3</cmc>
-<colors>Runecraft</colors>
-<coloridentity>Runecraft</coloridentity>
-<pt>0/0</pt>
-</prop>
-</card><card>
 <name>Shadowed Assassin</name>
 <text>Fanfare: Give all other allied followers Ambush.
 
@@ -29488,13 +29773,13 @@ Evolve: Gain Storm if your leader has 2 defense or less.</text>
 <pt>4/3</pt>
 </prop>
 </card><card>
-<name>Rose Gardener</name>
+<name>Elven Princess Mage</name>
 <text>
 
-Evolve: Return another follower to the player's hand.</text>
+Evolve: Put 2 Fairies into your hand and change their cost to 0.</text>
 <tablerow>2</tablerow>
-<set rarity="Silver" picurl="https://sv.bagoum.com/cardF/en/c/100121030">Basic</set>
-<related>Rose Gardener EVOLVED</related>
+<set rarity="Silver" picurl="https://sv.bagoum.com/cardF/en/c/101121080">Standard Card Pack</set>
+<related>Elven Princess Mage EVOLVED</related>
 <prop>
 <type></type>
 <maintype>Follower</maintype>
@@ -29502,7 +29787,7 @@ Evolve: Return another follower to the player's hand.</text>
 <cmc>4</cmc>
 <colors>Forestcraft</colors>
 <coloridentity>Forestcraft</coloridentity>
-<pt>4/3</pt>
+<pt>3/4</pt>
 </prop>
 </card><card>
 <name>Tlaloc</name>
@@ -29728,6 +30013,26 @@ Strike: Whenever this follower attacks, deal 1 damage to all enemy followers.</t
 <colors>Havencraft</colors>
 <coloridentity>Havencraft</coloridentity>
 <pt>2/3</pt>
+</prop>
+</card><card>
+<name>Ian, Dragon Buster</name>
+<text>Fanfare: Choose - Change this follower into an Ian and Adelle, Newlyweds or summon an enemy Adelle, Jealous Dragon.
+
+Evolve: Deal 3 damage to an enemy follower.</text>
+<tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/113431020">Rebirth of Glory</set>
+<related>Ian and Adelle, Newlyweds</related>
+<related>Adelle, Jealous Dragon</related>
+<related>Dragon</related>
+<related>Ian, Dragon Buster EVOLVED</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>4</manacost>
+<cmc>4</cmc>
+<colors>Dragoncraft</colors>
+<coloridentity>Dragoncraft</coloridentity>
+<pt>3/3</pt>
 </prop>
 </card><card>
 <name>Pixie Paradise</name>

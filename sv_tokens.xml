@@ -857,6 +857,21 @@ Storm.</text>
 </prop>
 </card>
 <card>
+<name>Destiny Wing Knight EVOLVED</name>
+<text>At the end of your turn, if there are at least 2 allied amulets in play, gain +1/+1.</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/e/113741030">Token</set>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>1</manacost>
+<cmc>1</cmc>
+<colors>Havencraft</colors>
+<coloridentity>Havencraft</coloridentity>
+<pt>4/4</pt>
+</prop>
+</card>
+<card>
 <name>Junk EVOLVED</name>
 <text>Last Words: Put a Puppet into your hand.</text>
 <token>1</token><tablerow>2</tablerow>
@@ -1171,6 +1186,21 @@ Storm.</text>
 <pt>1/3</pt>
 </prop>
 </card><card>
+<name>Tista, Wings of Mercy EVOLVED</name>
+<text>Evolve: Give your leader the following effect - During your turn, whenever a follower is added to your hand from anywhere but your deck, give that follower +1/+1. (This effect is not stackable and lasts for the rest of the match.)</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/e/113141020">Token</set>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>3</manacost>
+<cmc>3</cmc>
+<colors>Forestcraft</colors>
+<coloridentity>Forestcraft</coloridentity>
+<pt>5/5</pt>
+</prop>
+</card>
+<card>
 <name>Creeping Slime EVOLVED</name>
 <text>Can't be attacked.</text>
 <token>1</token><tablerow>2</tablerow>
@@ -2554,18 +2584,18 @@ Ward.</text>
 </prop>
 </card>
 <card>
-<name>Aether of the Warrior Wing EVOLVED</name>
-<text>Evolve: Give +0/+1 to all other allied followers.</text>
+<name>Masked Giant EVOLVED</name>
+<text>Ward.</text>
 <token>1</token><tablerow>2</tablerow>
-<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/e/111241020">Token</set>
+<set rarity="Bronze" picurl="https://sv.bagoum.com/cardF/en/e/101711080">Token</set>
 <prop>
-<type>Commander</type>
+<type></type>
 <maintype>Follower</maintype>
-<manacost>3</manacost>
-<cmc>3</cmc>
-<colors>Swordcraft</colors>
-<coloridentity>Swordcraft</coloridentity>
-<pt>4/5</pt>
+<manacost>8</manacost>
+<cmc>8</cmc>
+<colors>Havencraft</colors>
+<coloridentity>Havencraft</coloridentity>
+<pt>9/9</pt>
 </prop>
 </card>
 <card>
@@ -2602,6 +2632,38 @@ Ward.</text>
 </prop>
 </card>
 <card>
+<name>Voice of the Abyss EVOLVED</name>
+<text>(Same as the unevolved form.)</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/e/900641040">Token</set>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>2</manacost>
+<cmc>2</cmc>
+<colors>Bloodcraft</colors>
+<coloridentity>Bloodcraft</coloridentity>
+<pt>3/4</pt>
+</prop>
+</card>
+<card>
+<name>Voice of the Abyss</name>
+<text>Ambush. Strike: Whenever this follower attacks, gain +1/+0 until the end of the turn.
+
+(Same as the unevolved form.)</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/c/900641040">Token</set>
+<related>Voice of the Abyss EVOLVED</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>2</manacost>
+<cmc>2</cmc>
+<colors>Bloodcraft</colors>
+<coloridentity>Bloodcraft</coloridentity>
+<pt>1/2</pt>
+</prop>
+</card><card>
 <name>Marion, Fierce Dragonewt EVOLVED</name>
 <text></text>
 <token>1</token><tablerow>2</tablerow>
@@ -2632,6 +2694,22 @@ Ward.</text>
 </prop>
 </card>
 <card>
+<name>Shama's Gaze</name>
+<text>Give an enemy follower -X/-0 until the end of the opponent's turn. X equals the number of other cards in your hand.
+
+</text>
+<token>1</token><tablerow>3</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/900134020">Token</set>
+<prop>
+<type></type>
+<maintype>Spell</maintype>
+<manacost>2</manacost>
+<cmc>2</cmc>
+<colors>Forestcraft</colors>
+<coloridentity>Forestcraft</coloridentity>
+<pt>0/0</pt>
+</prop>
+</card><card>
 <name>Homebound Mercenary EVOLVED</name>
 <text>At the end of your turn, restore 1 defense to this follower.</text>
 <token>1</token><tablerow>2</tablerow>
@@ -3489,6 +3567,21 @@ Last Words: At the start of your next turn, put a Morra, Monika's Familiar into 
 <pt>1/1</pt>
 </prop>
 </card><card>
+<name>May, Eager Elf EVOLVED</name>
+<text></text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/e/113131030">Token</set>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>1</manacost>
+<cmc>1</cmc>
+<colors>Forestcraft</colors>
+<coloridentity>Forestcraft</coloridentity>
+<pt>3/3</pt>
+</prop>
+</card>
+<card>
 <name>Abomination Awakened EVOLVED</name>
 <text>(Can attack.)</text>
 <token>1</token><tablerow>2</tablerow>
@@ -4644,8 +4737,8 @@ Rush. Strike: Whenever this follower attacks, put 3 Artifact Rhinos into your de
 <prop>
 <type></type>
 <maintype>Follower</maintype>
-<manacost>6</manacost>
-<cmc>6</cmc>
+<manacost>5</manacost>
+<cmc>5</cmc>
 <colors>Shadowcraft</colors>
 <coloridentity>Shadowcraft</coloridentity>
 <pt>7/7</pt>
@@ -5380,6 +5473,21 @@ Rush.</text>
 </prop>
 </card>
 <card>
+<name>Dragoncleaver Roy EVOLVED</name>
+<text></text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/e/108431010">Token</set>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>3</manacost>
+<cmc>3</cmc>
+<colors>Dragoncraft</colors>
+<coloridentity>Dragoncraft</coloridentity>
+<pt>4/4</pt>
+</prop>
+</card>
+<card>
 <name>Albacore EVOLVED</name>
 <text>(Same as the unevolved form.)</text>
 <token>1</token><tablerow>2</tablerow>
@@ -5913,6 +6021,22 @@ Rush.</text>
 <colors>Forestcraft</colors>
 <coloridentity>Forestcraft</coloridentity>
 <pt>5/5</pt>
+</prop>
+</card>
+<card>
+<name>Spawn of Exile EVOLVED</name>
+<text>Ambush. If Ambush is active for this follower when it attacks, summon 4 Voice of the Abysses.</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/e/113641030">Token</set>
+<related>Voice of the Abyss</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>8</manacost>
+<cmc>8</cmc>
+<colors>Bloodcraft</colors>
+<coloridentity>Bloodcraft</coloridentity>
+<pt>8/9</pt>
 </prop>
 </card>
 <card>
@@ -6867,6 +6991,23 @@ Storm.</text>
 </prop>
 </card>
 <card>
+<name>Aiela, Devoted Knight EVOLVED</name>
+<text>Evolve: If you have at least 6 play points, use 6 play points and summon a Devoted Dragon. Reduce damage to this follower to 0 while an allied Devoted Dragon is in play.</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/e/113441030">Token</set>
+<related>Devoted Dragon</related>
+<related>Dragon</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>6</manacost>
+<cmc>6</cmc>
+<colors>Dragoncraft</colors>
+<coloridentity>Dragoncraft</coloridentity>
+<pt>6/6</pt>
+</prop>
+</card>
+<card>
 <name>Whirlwind Mage EVOLVED</name>
 <text>Whenever you play a spell, gain +1/+1.</text>
 <token>1</token><tablerow>2</tablerow>
@@ -7366,6 +7507,21 @@ Rush. Bane. Can attack up to 3 times per turn.</text>
 <pt>1/1</pt>
 </prop>
 </card><card>
+<name>Laelia, Saint of Peace EVOLVED</name>
+<text>Evolve: Gain Ambush until the end of your opponent's turn. At the end of your opponent's turn, destroy all followers.</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/e/113731020">Token</set>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>2</manacost>
+<cmc>2</cmc>
+<colors>Havencraft</colors>
+<coloridentity>Havencraft</coloridentity>
+<pt>3/6</pt>
+</prop>
+</card>
+<card>
 <name>Flarewing Spear</name>
 <text>Deal 3 damage to an enemy follower, then deal 3 damage to the enemy leader.
 
@@ -7754,6 +7910,21 @@ Ward.</text>
 <colors>Shadowcraft</colors>
 <coloridentity>Shadowcraft</coloridentity>
 <pt>3/4</pt>
+</prop>
+</card>
+<card>
+<name>Sora, Arcane Fist EVOLVED</name>
+<text>Evolve: Deal X damage to an enemy follower. X equals this follower's attack.</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/e/113531020">Token</set>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>2</manacost>
+<cmc>2</cmc>
+<colors>Shadowcraft</colors>
+<coloridentity>Shadowcraft</coloridentity>
+<pt>3/3</pt>
 </prop>
 </card>
 <card>
@@ -8182,6 +8353,21 @@ Bane.</text>
 <colors>Bloodcraft</colors>
 <coloridentity>Bloodcraft</coloridentity>
 <pt>4/4</pt>
+</prop>
+</card>
+<card>
+<name>Lara, Soul Taker EVOLVED</name>
+<text></text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/e/113541030">Token</set>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>4</manacost>
+<cmc>4</cmc>
+<colors>Shadowcraft</colors>
+<coloridentity>Shadowcraft</coloridentity>
+<pt>6/6</pt>
 </prop>
 </card>
 <card>
@@ -9354,6 +9540,21 @@ Last Words: Put an Ultimate Carrot into your hand.</text>
 <pt>0/0</pt>
 </prop>
 </card><card>
+<name>Nacht EVOLVED</name>
+<text>Last Words: Give both leaders the following effect - At the end of your turn, deal 1 damage to your leader. (This effect lasts for the rest of the match.)</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/e/107641010">Token</set>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>5</manacost>
+<cmc>5</cmc>
+<colors>Bloodcraft</colors>
+<coloridentity>Bloodcraft</coloridentity>
+<pt>6/6</pt>
+</prop>
+</card>
+<card>
 <name>Ardent Nun EVOLVED</name>
 <text>Gain +1/+0 during the opponent's turn.</text>
 <token>1</token><tablerow>2</tablerow>
@@ -9366,6 +9567,21 @@ Last Words: Put an Ultimate Carrot into your hand.</text>
 <colors>Havencraft</colors>
 <coloridentity>Havencraft</coloridentity>
 <pt>4/4</pt>
+</prop>
+</card>
+<card>
+<name>Moriana, Shadow Devil EVOLVED</name>
+<text></text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/e/113631030">Token</set>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>6</manacost>
+<cmc>6</cmc>
+<colors>Bloodcraft</colors>
+<coloridentity>Bloodcraft</coloridentity>
+<pt>6/6</pt>
 </prop>
 </card>
 <card>
@@ -10204,6 +10420,38 @@ Ward.</text>
 </prop>
 </card>
 <card>
+<name>Ian and Adelle, Newlyweds EVOLVED</name>
+<text>Ward. Drain. Evolve: Return all other allied followers to your hand.</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/e/900431020">Token</set>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>4</manacost>
+<cmc>4</cmc>
+<colors>Dragoncraft</colors>
+<coloridentity>Dragoncraft</coloridentity>
+<pt>5/5</pt>
+</prop>
+</card>
+<card>
+<name>Ian and Adelle, Newlyweds</name>
+<text>Ward. Drain.
+
+Ward. Drain. Evolve: Return all other allied followers to your hand.</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/900431020">Token</set>
+<related>Ian and Adelle, Newlyweds EVOLVED</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>4</manacost>
+<cmc>4</cmc>
+<colors>Dragoncraft</colors>
+<coloridentity>Dragoncraft</coloridentity>
+<pt>3/3</pt>
+</prop>
+</card><card>
 <name>Sister Falconer EVOLVED</name>
 <text></text>
 <token>1</token><tablerow>2</tablerow>
@@ -10418,6 +10666,40 @@ Ward.</text>
 </prop>
 </card>
 <card>
+<name>Ultimate Clay Golem EVOLVED</name>
+<text>Evolve: Give your leader the following effect - Whenever an allied Clay Golem comes into play, transform it into an Ultimate Clay Golem. (This effect is not stackable and lasts for the rest of the match.)</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/e/900341010">Token</set>
+<related>Ultimate Clay Golem</related>
+<related>Clay Golem</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>7</manacost>
+<cmc>7</cmc>
+<colors>Runecraft</colors>
+<coloridentity>Runecraft</coloridentity>
+<pt>7/7</pt>
+</prop>
+</card>
+<card>
+<name>Ultimate Clay Golem</name>
+<text>This follower can evolve for 0 evolution points.
+
+Evolve: Give your leader the following effect - Whenever an allied Clay Golem comes into play, transform it into an Ultimate Clay Golem. (This effect is not stackable and lasts for the rest of the match.)</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/c/900341010">Token</set>
+<related>Ultimate Clay Golem EVOLVED</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>7</manacost>
+<cmc>7</cmc>
+<colors>Runecraft</colors>
+<coloridentity>Runecraft</coloridentity>
+<pt>5/5</pt>
+</prop>
+</card><card>
 <name>Robotic Bagworm EVOLVED</name>
 <text></text>
 <token>1</token><tablerow>2</tablerow>
@@ -11716,8 +11998,8 @@ Ward.  Evolve: Banish an amulet. (Can attack.)</text>
 <prop>
 <type></type>
 <maintype>Follower</maintype>
-<manacost>10</manacost>
-<cmc>10</cmc>
+<manacost>12</manacost>
+<cmc>12</cmc>
 <colors>Shadowcraft</colors>
 <coloridentity>Shadowcraft</coloridentity>
 <pt>10/10</pt>
@@ -11751,6 +12033,21 @@ Ward.  Evolve: Banish an amulet. (Can attack.)</text>
 <colors>Runecraft</colors>
 <coloridentity>Runecraft</coloridentity>
 <pt>4/5</pt>
+</prop>
+</card>
+<card>
+<name>Levi, Accomplished Mage EVOLVED</name>
+<text>Evolve: Earth Rite - Put a random Earth Sigil and a random card with Earth Rite from your deck into your hand.</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/e/113331020">Token</set>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>4</manacost>
+<cmc>4</cmc>
+<colors>Runecraft</colors>
+<coloridentity>Runecraft</coloridentity>
+<pt>5/5</pt>
 </prop>
 </card>
 <card>
@@ -12854,6 +13151,38 @@ Last Words: Restore 2 defense to your leader.</text>
 </prop>
 </card>
 <card>
+<name>Adelle, Jealous Dragon EVOLVED</name>
+<text>(Same as the unevolved form.)</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/e/900431030">Token</set>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>4</manacost>
+<cmc>4</cmc>
+<colors>Dragoncraft</colors>
+<coloridentity>Dragoncraft</coloridentity>
+<pt>5/5</pt>
+</prop>
+</card>
+<card>
+<name>Adelle, Jealous Dragon</name>
+<text>Last Words: Deal 2 damage to all allies.
+
+(Same as the unevolved form.)</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/900431030">Token</set>
+<related>Adelle, Jealous Dragon EVOLVED</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>4</manacost>
+<cmc>4</cmc>
+<colors>Dragoncraft</colors>
+<coloridentity>Dragoncraft</coloridentity>
+<pt>3/3</pt>
+</prop>
+</card><card>
 <name>Hornet Soldier EVOLVED</name>
 <text></text>
 <token>1</token><tablerow>2</tablerow>
@@ -13495,11 +13824,11 @@ Ward.</text>
 <prop>
 <type></type>
 <maintype>Follower</maintype>
-<manacost>2</manacost>
-<cmc>2</cmc>
+<manacost>6</manacost>
+<cmc>6</cmc>
 <colors>Bloodcraft</colors>
 <coloridentity>Bloodcraft</coloridentity>
-<pt>4/4</pt>
+<pt>8/8</pt>
 </prop>
 </card>
 <card>
@@ -13628,6 +13957,40 @@ Storm. Whenever an allied Forest Bat comes into play, give it Bane.</text>
 </prop>
 </card>
 <card>
+<name>Devoted Dragon EVOLVED</name>
+<text>(Same as the unevolved form.)</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/e/900441060">Token</set>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>6</manacost>
+<cmc>6</cmc>
+<colors>Dragoncraft</colors>
+<coloridentity>Dragoncraft</coloridentity>
+<pt>8/8</pt>
+</prop>
+</card>
+<card>
+<name>Devoted Dragon</name>
+<text>Gain Bane and Ward while an allied Aiela, Devoted Knight is in play.
+
+(Same as the unevolved form.)</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/c/900441060">Token</set>
+<related>Knight</related>
+<related>Aiela, Devoted Knight</related>
+<related>Devoted Dragon EVOLVED</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>6</manacost>
+<cmc>6</cmc>
+<colors>Dragoncraft</colors>
+<coloridentity>Dragoncraft</coloridentity>
+<pt>6/6</pt>
+</prop>
+</card><card>
 <name>Lorena's Holy Water</name>
 <text>Restore 2 defense to an ally. Draw a card.
 
@@ -13675,21 +14038,6 @@ Storm. Whenever an allied Forest Bat comes into play, give it Bane.</text>
 <pt>0/0</pt>
 </prop>
 </card><card>
-<name>Dragonewt Charlotte EVOLVED</name>
-<text>Storm. Ward.</text>
-<token>1</token><tablerow>2</tablerow>
-<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/e/101231020">Token</set>
-<prop>
-<type>Commander</type>
-<maintype>Follower</maintype>
-<manacost>8</manacost>
-<cmc>8</cmc>
-<colors>Swordcraft</colors>
-<coloridentity>Swordcraft</coloridentity>
-<pt>6/9</pt>
-</prop>
-</card>
-<card>
 <name>Soul Glutton EVOLVED</name>
 <text>Bane.</text>
 <token>1</token><tablerow>2</tablerow>
@@ -16357,8 +16705,8 @@ Whenever an allied Forest Bat comes into play, deal 1 damage to the enemy leader
 <prop>
 <type></type>
 <maintype>Amulet</maintype>
-<manacost>7</manacost>
-<cmc>7</cmc>
+<manacost>6</manacost>
+<cmc>6</cmc>
 <colors>Shadowcraft</colors>
 <coloridentity>Shadowcraft</coloridentity>
 <pt>0/0</pt>
@@ -16409,6 +16757,22 @@ Whenever an allied Forest Bat comes into play, deal 1 damage to the enemy leader
 </prop>
 </card>
 <card>
+<name>Forbidden Art</name>
+<text>Deal 4 damage to an enemy. Necromancy (20): Deal 10 damage instead.
+
+</text>
+<token>1</token><tablerow>3</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/900534020">Token</set>
+<prop>
+<type>Machina</type>
+<maintype>Spell</maintype>
+<manacost>5</manacost>
+<cmc>5</cmc>
+<colors>Shadowcraft</colors>
+<coloridentity>Shadowcraft</coloridentity>
+<pt>0/0</pt>
+</prop>
+</card><card>
 <name>Setus, the Beastblade EVOLVED</name>
 <text>(Same as the unevolved form.)</text>
 <token>1</token><tablerow>2</tablerow>
@@ -16486,18 +16850,18 @@ Whenever an allied Forest Bat comes into play, deal 1 damage to the enemy leader
 <pt>0/0</pt>
 </prop>
 </card><card>
-<name>Tenacious Ghost EVOLVED</name>
-<text>Ambush.</text>
+<name>Dragontamer EVOLVED</name>
+<text></text>
 <token>1</token><tablerow>2</tablerow>
-<set rarity="Bronze" picurl="https://sv.bagoum.com/cardF/en/e/101511030">Token</set>
+<set rarity="Bronze" picurl="https://sv.bagoum.com/cardF/en/e/103411050">Token</set>
 <prop>
 <type></type>
 <maintype>Follower</maintype>
-<manacost>3</manacost>
-<cmc>3</cmc>
-<colors>Shadowcraft</colors>
-<coloridentity>Shadowcraft</coloridentity>
-<pt>4/5</pt>
+<manacost>2</manacost>
+<cmc>2</cmc>
+<colors>Dragoncraft</colors>
+<coloridentity>Dragoncraft</coloridentity>
+<pt>4/4</pt>
 </prop>
 </card>
 <card>
@@ -16588,11 +16952,11 @@ At the end of your turn, deal 9 damage to the enemy leader.</text>
 <prop>
 <type></type>
 <maintype>Follower</maintype>
-<manacost>2</manacost>
-<cmc>2</cmc>
+<manacost>4</manacost>
+<cmc>4</cmc>
 <colors>Havencraft</colors>
 <coloridentity>Havencraft</coloridentity>
-<pt>4/4</pt>
+<pt>5/6</pt>
 </prop>
 </card>
 <card>
@@ -16829,18 +17193,18 @@ At the end of your turn, deal 9 damage to the enemy leader.</text>
 </prop>
 </card>
 <card>
-<name>Masked Giant EVOLVED</name>
-<text>Ward.</text>
+<name>Aether of the Warrior Wing EVOLVED</name>
+<text>Evolve: Give +0/+1 to all other allied followers.</text>
 <token>1</token><tablerow>2</tablerow>
-<set rarity="Bronze" picurl="https://sv.bagoum.com/cardF/en/e/101711080">Token</set>
+<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/e/111241020">Token</set>
 <prop>
-<type></type>
+<type>Commander</type>
 <maintype>Follower</maintype>
-<manacost>8</manacost>
-<cmc>8</cmc>
-<colors>Havencraft</colors>
-<coloridentity>Havencraft</coloridentity>
-<pt>9/9</pt>
+<manacost>3</manacost>
+<cmc>3</cmc>
+<colors>Swordcraft</colors>
+<coloridentity>Swordcraft</coloridentity>
+<pt>4/5</pt>
 </prop>
 </card>
 <card>
@@ -17076,6 +17440,21 @@ Ward.</text>
 </prop>
 </card>
 <card>
+<name>Vier, Doll Slayer EVOLVED</name>
+<text>(Same as the unevolved form.)</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/e/113831030">Token</set>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>2</manacost>
+<cmc>2</cmc>
+<colors>Portalcraft</colors>
+<coloridentity>Portalcraft</coloridentity>
+<pt>3/4</pt>
+</prop>
+</card>
+<card>
 <name>Servant of Unkilling EVOLVED</name>
 <text></text>
 <token>1</token><tablerow>2</tablerow>
@@ -17138,22 +17517,6 @@ Rush.</text>
 </prop>
 </card>
 <card>
-<name>Shama's Gaze</name>
-<text>Give an enemy follower -X/-0 until the end of the opponent's turn. X equals the number of other cards in your hand.
-
-</text>
-<token>1</token><tablerow>3</tablerow>
-<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/900134020">Token</set>
-<prop>
-<type></type>
-<maintype>Spell</maintype>
-<manacost>2</manacost>
-<cmc>2</cmc>
-<colors>Forestcraft</colors>
-<coloridentity>Forestcraft</coloridentity>
-<pt>0/0</pt>
-</prop>
-</card><card>
 <name>Heavenly Knight EVOLVED</name>
 <text>Ward. At the start of the opponent's turn, until the start of your next turn, gain +4/+0.</text>
 <token>1</token><tablerow>2</tablerow>
@@ -17275,21 +17638,6 @@ Rush.</text>
 <colors>Neutral</colors>
 <coloridentity>Neutral</coloridentity>
 <pt>3/4</pt>
-</prop>
-</card>
-<card>
-<name>Dragontamer EVOLVED</name>
-<text></text>
-<token>1</token><tablerow>2</tablerow>
-<set rarity="Bronze" picurl="https://sv.bagoum.com/cardF/en/e/103411050">Token</set>
-<prop>
-<type></type>
-<maintype>Follower</maintype>
-<manacost>2</manacost>
-<cmc>2</cmc>
-<colors>Dragoncraft</colors>
-<coloridentity>Dragoncraft</coloridentity>
-<pt>4/4</pt>
 </prop>
 </card>
 <card>
@@ -17516,6 +17864,21 @@ Rush.</text>
 <colors>Neutral</colors>
 <coloridentity>Neutral</coloridentity>
 <pt>4/5</pt>
+</prop>
+</card>
+<card>
+<name>Flail Knight EVOLVED</name>
+<text>Clash: Deal 1 damage to the enemy follower.</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Bronze" picurl="https://sv.bagoum.com/cardF/en/e/106211010">Token</set>
+<prop>
+<type>Officer</type>
+<maintype>Follower</maintype>
+<manacost>3</manacost>
+<cmc>3</cmc>
+<colors>Swordcraft</colors>
+<coloridentity>Swordcraft</coloridentity>
+<pt>4/4</pt>
 </prop>
 </card>
 <card>
@@ -17869,6 +18232,21 @@ Rush.</text>
 <colors>Bloodcraft</colors>
 <coloridentity>Bloodcraft</coloridentity>
 <pt>7/8</pt>
+</prop>
+</card>
+<card>
+<name>Tenacious Ghost EVOLVED</name>
+<text>Ambush.</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Bronze" picurl="https://sv.bagoum.com/cardF/en/e/101511030">Token</set>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>3</manacost>
+<cmc>3</cmc>
+<colors>Shadowcraft</colors>
+<coloridentity>Shadowcraft</coloridentity>
+<pt>4/5</pt>
 </prop>
 </card>
 <card>
@@ -18974,11 +19352,11 @@ Rush.</text>
 <prop>
 <type></type>
 <maintype>Follower</maintype>
-<manacost>1</manacost>
-<cmc>1</cmc>
+<manacost>2</manacost>
+<cmc>2</cmc>
 <colors>Dragoncraft</colors>
 <coloridentity>Dragoncraft</coloridentity>
-<pt>3/3</pt>
+<pt>4/3</pt>
 </prop>
 </card>
 <card>
@@ -18992,11 +19370,11 @@ Rush.</text>
 <prop>
 <type></type>
 <maintype>Follower</maintype>
-<manacost>1</manacost>
-<cmc>1</cmc>
+<manacost>2</manacost>
+<cmc>2</cmc>
 <colors>Dragoncraft</colors>
 <coloridentity>Dragoncraft</coloridentity>
-<pt>1/1</pt>
+<pt>2/1</pt>
 </prop>
 </card><card>
 <name>Starry Elf EVOLVED</name>
@@ -19150,22 +19528,6 @@ Drain. Whenever an allied Forest Bat comes into play, give it Ward.</text>
 <colors>Bloodcraft</colors>
 <coloridentity>Bloodcraft</coloridentity>
 <pt>7/9</pt>
-</prop>
-</card>
-<card>
-<name>Elven Princess Mage EVOLVED</name>
-<text>Evolve: Put 2 Fairies into your hand and change their cost to 0.</text>
-<token>1</token><tablerow>2</tablerow>
-<set rarity="Silver" picurl="https://sv.bagoum.com/cardF/en/e/101121080">Token</set>
-<related>Fairy</related>
-<prop>
-<type></type>
-<maintype>Follower</maintype>
-<manacost>4</manacost>
-<cmc>4</cmc>
-<colors>Forestcraft</colors>
-<coloridentity>Forestcraft</coloridentity>
-<pt>4/5</pt>
 </prop>
 </card>
 <card>
@@ -19519,6 +19881,38 @@ Drain. Whenever an allied Forest Bat comes into play, give it Ward.</text>
 </prop>
 </card>
 <card>
+<name>Doll Slayer EVOLVED</name>
+<text>(Same as the unevolved form.)</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/e/900831060">Token</set>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>2</manacost>
+<cmc>2</cmc>
+<colors>Portalcraft</colors>
+<coloridentity>Portalcraft</coloridentity>
+<pt>3/4</pt>
+</prop>
+</card>
+<card>
+<name>Doll Slayer</name>
+<text>Ambush.
+
+(Same as the unevolved form.)</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/900831060">Token</set>
+<related>Doll Slayer EVOLVED</related>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>2</manacost>
+<cmc>2</cmc>
+<colors>Portalcraft</colors>
+<coloridentity>Portalcraft</coloridentity>
+<pt>1/2</pt>
+</prop>
+</card><card>
 <name>Colossal Construct EVOLVED</name>
 <text></text>
 <token>1</token><tablerow>2</tablerow>
@@ -20023,18 +20417,18 @@ Ward.</text>
 </prop>
 </card>
 <card>
-<name>Nacht EVOLVED</name>
-<text>Last Words: Give both leaders the following effect - At the end of your turn, deal 1 damage to your leader. (This effect lasts for the rest of the match.)</text>
+<name>Goblin EVOLVED</name>
+<text></text>
 <token>1</token><tablerow>2</tablerow>
-<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/e/107641010">Token</set>
+<set rarity="Bronze" picurl="https://sv.bagoum.com/cardF/en/e/100011010">Token</set>
 <prop>
 <type></type>
 <maintype>Follower</maintype>
-<manacost>5</manacost>
-<cmc>5</cmc>
-<colors>Bloodcraft</colors>
-<coloridentity>Bloodcraft</coloridentity>
-<pt>6/6</pt>
+<manacost>1</manacost>
+<cmc>1</cmc>
+<colors>Neutral</colors>
+<coloridentity>Neutral</coloridentity>
+<pt>3/4</pt>
 </prop>
 </card>
 <card>
@@ -20474,11 +20868,11 @@ Ward.</text>
 <prop>
 <type>Machina</type>
 <maintype>Follower</maintype>
-<manacost>5</manacost>
-<cmc>5</cmc>
+<manacost>4</manacost>
+<cmc>4</cmc>
 <colors>Portalcraft</colors>
 <coloridentity>Portalcraft</coloridentity>
-<pt>6/7</pt>
+<pt>5/6</pt>
 </prop>
 </card>
 <card>
@@ -20730,22 +21124,26 @@ Ward.  Can't attack. At the end of your opponent's turn, this follower is destro
 </prop>
 </card>
 <card>
-<name>Forbidden Art</name>
-<text>Deal 4 damage to an enemy. Necromancy (20): Deal 10 damage instead.
-
-</text>
-<token>1</token><tablerow>3</tablerow>
-<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/900534020">Token</set>
+<name>Orchis, Linked Heart EVOLVED</name>
+<text>Evolve: Transform a Puppet in your hand into a Marionette//Tre. Whenever an allied Lloyd the Android comes into play, give it +2/+2. Whenever an allied Marionette//Uno comes into play, summon a Marionette//Due.</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Legendary" picurl="https://sv.bagoum.com/cardF/en/e/113841030">Token</set>
+<related>Marionette//Due</related>
+<related>Puppet</related>
+<related>Lloyd the Android</related>
+<related>Marionette//Tre</related>
+<related>Marionette//Uno</related>
 <prop>
-<type>Machina</type>
-<maintype>Spell</maintype>
-<manacost>5</manacost>
-<cmc>5</cmc>
-<colors>Shadowcraft</colors>
-<coloridentity>Shadowcraft</coloridentity>
-<pt>0/0</pt>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>7</manacost>
+<cmc>7</cmc>
+<colors>Portalcraft</colors>
+<coloridentity>Portalcraft</coloridentity>
+<pt>7/7</pt>
 </prop>
-</card><card>
+</card>
+<card>
 <name>Dark Jeanne EVOLVED</name>
 <text></text>
 <token>1</token><tablerow>2</tablerow>
@@ -22003,6 +22401,21 @@ Storm. Banish this follower when it leaves play or when your turn ends.</text>
 <colors>Dragoncraft</colors>
 <coloridentity>Dragoncraft</coloridentity>
 <pt>5/5</pt>
+</prop>
+</card>
+<card>
+<name>Honored Frontguard General EVOLVED</name>
+<text>(Same as the unevolved form.)</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/e/113231020">Token</set>
+<prop>
+<type>Commander</type>
+<maintype>Follower</maintype>
+<manacost>7</manacost>
+<cmc>7</cmc>
+<colors>Swordcraft</colors>
+<coloridentity>Swordcraft</coloridentity>
+<pt>7/8</pt>
 </prop>
 </card>
 <card>
@@ -23506,21 +23919,6 @@ Ward.</text>
 </prop>
 </card>
 <card>
-<name>Flail Knight EVOLVED</name>
-<text>Clash: Deal 1 damage to the enemy follower.</text>
-<token>1</token><tablerow>2</tablerow>
-<set rarity="Bronze" picurl="https://sv.bagoum.com/cardF/en/e/106211010">Token</set>
-<prop>
-<type>Officer</type>
-<maintype>Follower</maintype>
-<manacost>3</manacost>
-<cmc>3</cmc>
-<colors>Swordcraft</colors>
-<coloridentity>Swordcraft</coloridentity>
-<pt>4/4</pt>
-</prop>
-</card>
-<card>
 <name>Jerva of Draconic Mail EVOLVED</name>
 <text></text>
 <token>1</token><tablerow>2</tablerow>
@@ -23748,22 +24146,6 @@ Ward.</text>
 </prop>
 </card>
 <card>
-<name>Ruthless Waterspout</name>
-<text>Destroy an enemy follower with 4 defense or less.
-
-</text>
-<token>1</token><tablerow>3</tablerow>
-<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/900034020">Token</set>
-<prop>
-<type></type>
-<maintype>Spell</maintype>
-<manacost>3</manacost>
-<cmc>3</cmc>
-<colors>Neutral</colors>
-<coloridentity>Neutral</coloridentity>
-<pt>0/0</pt>
-</prop>
-</card><card>
 <name>Velocious Beetle EVOLVED</name>
 <text>Storm. Drain.</text>
 <token>1</token><tablerow>2</tablerow>
@@ -23811,6 +24193,21 @@ Storm. Drain.</text>
 </prop>
 </card>
 <card>
+<name>Rose Gardener EVOLVED</name>
+<text>Evolve: Return another follower to the player's hand.</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Silver" picurl="https://sv.bagoum.com/cardF/en/e/100121030">Token</set>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>4</manacost>
+<cmc>4</cmc>
+<colors>Forestcraft</colors>
+<coloridentity>Forestcraft</coloridentity>
+<pt>5/4</pt>
+</prop>
+</card>
+<card>
 <name>Fita the Gentle Elf EVOLVED</name>
 <text>Whenever this follower's attack or defense is increased by a spell or effect, draw a card.</text>
 <token>1</token><tablerow>2</tablerow>
@@ -23826,18 +24223,18 @@ Storm. Drain.</text>
 </prop>
 </card>
 <card>
-<name>Dragoncleaver Roy EVOLVED</name>
+<name>Hamsa, Hallowed Fowl EVOLVED</name>
 <text></text>
 <token>1</token><tablerow>2</tablerow>
-<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/e/108431010">Token</set>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/e/113031020">Token</set>
 <prop>
 <type></type>
 <maintype>Follower</maintype>
 <manacost>3</manacost>
 <cmc>3</cmc>
-<colors>Dragoncraft</colors>
-<coloridentity>Dragoncraft</coloridentity>
-<pt>4/4</pt>
+<colors>Neutral</colors>
+<coloridentity>Neutral</coloridentity>
+<pt>5/5</pt>
 </prop>
 </card>
 <card>
@@ -25022,6 +25419,21 @@ Storm. Drain.</text>
 <pt>5/5</pt>
 </prop>
 </card><card>
+<name>Dragonewt Charlotte EVOLVED</name>
+<text>Storm. Ward.</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/e/101231020">Token</set>
+<prop>
+<type>Commander</type>
+<maintype>Follower</maintype>
+<manacost>8</manacost>
+<cmc>8</cmc>
+<colors>Swordcraft</colors>
+<coloridentity>Swordcraft</coloridentity>
+<pt>6/9</pt>
+</prop>
+</card>
+<card>
 <name>Lapis, Glorious Seraph EVOLVED</name>
 <text>(Same as the unevolved form.)</text>
 <token>1</token><tablerow>2</tablerow>
@@ -25284,21 +25696,6 @@ Storm.</text>
 <colors>Dragoncraft</colors>
 <coloridentity>Dragoncraft</coloridentity>
 <pt>8/7</pt>
-</prop>
-</card>
-<card>
-<name>Goblin EVOLVED</name>
-<text></text>
-<token>1</token><tablerow>2</tablerow>
-<set rarity="Bronze" picurl="https://sv.bagoum.com/cardF/en/e/100011010">Token</set>
-<prop>
-<type></type>
-<maintype>Follower</maintype>
-<manacost>1</manacost>
-<cmc>1</cmc>
-<colors>Neutral</colors>
-<coloridentity>Neutral</coloridentity>
-<pt>3/4</pt>
 </prop>
 </card>
 <card>
@@ -26682,6 +27079,22 @@ Bane.</text>
 </prop>
 </card>
 <card>
+<name>Ruthless Waterspout</name>
+<text>Destroy an enemy follower with 4 defense or less.
+
+</text>
+<token>1</token><tablerow>3</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/c/900034020">Token</set>
+<prop>
+<type></type>
+<maintype>Spell</maintype>
+<manacost>3</manacost>
+<cmc>3</cmc>
+<colors>Neutral</colors>
+<coloridentity>Neutral</coloridentity>
+<pt>0/0</pt>
+</prop>
+</card><card>
 <name>Shadowed Assassin EVOLVED</name>
 <text></text>
 <token>1</token><tablerow>2</tablerow>
@@ -26849,10 +27262,11 @@ Bane.</text>
 </prop>
 </card>
 <card>
-<name>Rose Gardener EVOLVED</name>
-<text>Evolve: Return another follower to the player's hand.</text>
+<name>Elven Princess Mage EVOLVED</name>
+<text>Evolve: Put 2 Fairies into your hand and change their cost to 0.</text>
 <token>1</token><tablerow>2</tablerow>
-<set rarity="Silver" picurl="https://sv.bagoum.com/cardF/en/e/100121030">Token</set>
+<set rarity="Silver" picurl="https://sv.bagoum.com/cardF/en/e/101121080">Token</set>
+<related>Fairy</related>
 <prop>
 <type></type>
 <maintype>Follower</maintype>
@@ -26860,7 +27274,7 @@ Bane.</text>
 <cmc>4</cmc>
 <colors>Forestcraft</colors>
 <coloridentity>Forestcraft</coloridentity>
-<pt>5/4</pt>
+<pt>4/5</pt>
 </prop>
 </card>
 <card>
@@ -27093,6 +27507,21 @@ Bane.</text>
 <colors>Havencraft</colors>
 <coloridentity>Havencraft</coloridentity>
 <pt>4/5</pt>
+</prop>
+</card>
+<card>
+<name>Ian, Dragon Buster EVOLVED</name>
+<text>Evolve: Deal 3 damage to an enemy follower.</text>
+<token>1</token><tablerow>2</tablerow>
+<set rarity="Gold" picurl="https://sv.bagoum.com/cardF/en/e/113431020">Token</set>
+<prop>
+<type></type>
+<maintype>Follower</maintype>
+<manacost>4</manacost>
+<cmc>4</cmc>
+<colors>Dragoncraft</colors>
+<coloridentity>Dragoncraft</coloridentity>
+<pt>5/5</pt>
 </prop>
 </card>
 <card>
