@@ -28,6 +28,7 @@ while True:
             except KeyError:
                 pass
         out.append(g('tablerow', tablerow[cardtype]))
+        out.append('<set rarity="new" picurl="{}">0</set>\n'.format (f('image link: ')))
         y = f("related card names? (name/Enter)")
         while y != '':
             out.append(g('related', y))
@@ -42,7 +43,9 @@ while True:
         out.append(g('colors', craft))
         out.append(g('coloridentity', craft))
         if cardtype == 'f':
-            out.append(g('pt', f('atk/def? (example input: "1/3"): ')))
+            atk=f('atk? ')
+            deff=f('def? ')
+            out.append(g('pt', '{}/{}'.format(atk, deff)))
         else:
             out.append(g('pt', '0/0'))
         out.append('</prop></card>')
