@@ -1,11 +1,19 @@
 file_cd = open("tmp_custom_cd.xml", 'a+')
 file_tk = open("tmp_custom_tk.xml", 'a+')
-tablerow = {"f":2, "s":3, "a":1}
-fulltype = {"f":"Follower", "s":"Spell", "a":"Amulet"}
+tablerow = {"f": 2, "s": 3, "a": 1}
+fulltype = {"f": "Follower", "s": "Spell", "a": "Amulet"}
+
+
+def e(l):
+    return str(l)
+
 
 f = raw_input
+
+
 def g(par, s):
-    return '<{}>{}</{}>\n'.format(par, s, par)   
+    return '<{}>{}</{}>\n'.format(par, s, par)
+
 
 while True:
     out = []
@@ -16,7 +24,8 @@ while True:
     elif x == 'y':
         out.append('<card>\n')
         cardname = f("card name: ")
-        out.append(g('name', cardname)) # do not include '&' and other special characters in the name
+        # do not include '&' and other special characters in the name
+        out.append(g('name', cardname))
         out.append(g('text', f('card text: ')))
         if f("token? (y/Enter): ") == 'y':
             istoken = True
@@ -28,7 +37,8 @@ while True:
             except KeyError:
                 pass
         out.append(g('tablerow', tablerow[cardtype]))
-        out.append('<set rarity="new" picurl="{}">0</set>\n'.format (f('image link: ')))
+        out.append(
+            '<set rarity="new" picurl="{}">0</set>\n'.format(f('image link: ')))
         y = f("related card names? (name/Enter)")
         while y != '':
             out.append(g('related', y))
@@ -43,8 +53,8 @@ while True:
         out.append(g('colors', craft))
         out.append(g('coloridentity', craft))
         if cardtype == 'f':
-            atk=f('atk? ')
-            deff=f('def? ')
+            atk = f('atk? ')
+            deff = f('def? ')
             out.append(g('pt', '{}/{}'.format(atk, deff)))
         else:
             out.append(g('pt', '0/0'))
