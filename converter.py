@@ -17,11 +17,11 @@ for i in data:
     out = []
     out.append('<card>\n')
     out.append(
-        '    <name>{}</name>\n'.format(str(data[i]["name"].encode('utf8').replace('&', 'and'))))
+        '    <name>{}</name>\n'.format(str(data[i]["name"].replace('&', 'and'))))
     out.append('    <text>{}\n\n'.format(str(data[i]["baseData"]["description"].replace(
-        odin_string, '').replace('<br>', '\n').encode('utf8').replace('&', 'and'))))
+        odin_string, '').replace('<br>', '\n').replace('&', 'and'))))
     out.append('{}</text>\n'.format(str(data[i]["evoData"]["description"].replace(
-        odin_string, '').replace('<br>', '\n').encode('utf8').replace('&', 'and'))))
+        odin_string, '').replace('<br>', '\n').replace('&', 'and'))))
     if data[i]["expansion"] == "Token":
         out.append('    <token>1</token>')
         istoken = True
@@ -32,10 +32,10 @@ for i in data:
     for j in data:
         if data[j]["name"][:-1] in data[i]["baseData"]["description"]:
             out.append(
-                '   <related>{}</related>\n'.format(str(data[j]["name"].encode('utf8').replace('&', 'and'))))
+                '   <related>{}</related>\n'.format(str(data[j]["name"].replace('&', 'and'))))
     if data[i]["type"] == "Follower":
         out.append('    <related>{} Evolved</related>\n'.format(
-            str(data[i]["name"].encode('utf8').replace('&', 'and'))))
+            str(data[i]["name"].replace('&', 'and'))))
     # trait, like machina
     out.append(
         '    <prop>\n        <type>{}</type>\n'.format(str(data[i]["race"])))
@@ -58,9 +58,9 @@ for i in data:
         evo_out = list()
         evo_out.append('<card>\n')
         evo_out.append('    <name>{} Evolved</name>\n'.format(
-            str(data[i]["name"].encode('utf8').replace('&', 'and'))))
+            str(data[i]["name"].replace('&', 'and'))))
         evo_out.append('    <text>{}</text>\n'.format(str(data[i]["evoData"]["description"].replace(
-            odin_string, '').replace('<br>', '\n').encode('utf8').replace('&', 'and'))))
+            odin_string, '').replace('<br>', '\n').replace('&', 'and'))))
         evo_out.append('    <token>1</token>')
         evo_out.append(
             '   <tablerow>{}</tablerow>\n'.format(str(tablerow[data[i]["type"]])))
@@ -69,7 +69,7 @@ for i in data:
         for j in data:
             if data[j]["name"][:-1] in data[i]["evoData"]["description"]:
                 evo_out.append(
-                    '   <related>{}</related>\n'.format(str(data[j]["name"].encode('utf8').replace('&', 'and'))))
+                    '   <related>{}</related>\n'.format(str(data[j]["name"].replace('&', 'and'))))
         evo_out.append(
             '   <prop>\n        <type>{}</type>\n'.format(str(data[i]["race"])))
         evo_out.append(
