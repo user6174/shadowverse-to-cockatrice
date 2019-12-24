@@ -9,8 +9,8 @@ tablerow = {"Follower": 2, "Spell": 3, "Amulet": 1}
 # 1 → non-creature, non-land permanents (like Planeswalkers, Enchantments, and Artifacts)
 # 2 → creatures (this includes all cards that have the "creature" type like "Enchantment Creature")
 # 3 → non-permanent cards (like Instants and Sorceries)
-g.write('''<?xml version="1.0" encoding="UTF-8"?>\n<cockatrice_carddatabase version="4">\n<cards>\n''')
-h.write('''<?xml version="1.0" encoding="UTF-8"?>\n<cockatrice_carddatabase version="4">\n<cards>\n''')
+g.write('''<?xml version="1.0" encoding="UTF-8"?>\n<cockatrice_carddatabase version="4">\n<cards>\n\n''')
+h.write('''<?xml version="1.0" encoding="UTF-8"?>\n<cockatrice_carddatabase version="4">\n<cards>\n\n''')
 odin_string = "<<{me.deck_self.count}+1 ??<br>(Times evolved: <<{me.evolved_card_list.count}>>)>><br>"
 for i in data:
     istoken = False
@@ -18,15 +18,13 @@ for i in data:
     out.append('<card>\n')
     out.append(
         '    <name>{}</name>\n'.format(str(data[i]["name"].replace('&', 'and'))))
-    out.append('    <text>{}\n\n'.format(str(data[i]["baseData"]["description"].replace(
-        odin_string, '').replace('<br>', '\n').replace('&', 'and'))))
-    out.append('{}</text>\n'.format(str(data[i]["evoData"]["description"].replace(
+    out.append('    <text>{}</text>\n'.format(str(data[i]["baseData"]["description"].replace(
         odin_string, '').replace('<br>', '\n').replace('&', 'and'))))
     if data[i]["expansion"] == "Token":
         out.append('    <token>1</token>')
         istoken = True
     out.append(
-        '   <tablerow>{}</tablerow>\n'.format(str(tablerow[data[i]["type"]])))
+        '    <tablerow>{}</tablerow>\n'.format(str(tablerow[data[i]["type"]])))
     out.append('    <set rarity="{}" picurl="https://sv.bagoum.com/cardF/en/c/{}">{}</set>\n'.format(
         str(data[i]["rarity"]), str(data[i]["id"]), str(data[i]["expansion"])))
     for j in data:
@@ -47,12 +45,12 @@ for i in data:
     out.append('        <cmc>{}</cmc>\n'.format(str(data[i]["manaCost"])))
     out.append('        <colors>{}</colors>\n'.format(str(data[i]["faction"])))
     out.append(
-        '       <coloridentity>{}</coloridentity>\n'.format(str(data[i]["faction"])))
+        '        <coloridentity>{}</coloridentity>\n'.format(str(data[i]["faction"])))
     out.append('        <format-standard>{}</format-standard>\n'.format('legal' *
                                                                         (str(data[i]["rot"]) == 'Rotation')))
     out.append('        <pt>{}</pt>\n    </prop>\n'.format(
         str(data[i]["baseData"]["attack"]) + "/" + str(data[i]["baseData"]["defense"])))
-    out.append('</card>')
+    out.append('</card>\n\n')
 
     if data[i]["type"] == "Follower":
         evo_out = list()
@@ -80,7 +78,7 @@ for i in data:
             '        <colors>{}</colors>\n'.format(str(data[i]["faction"])))
         evo_out.append('        <pt>{}</pt>\n    </prop>\n'.format(
             str(data[i]["evoData"]["attack"]) + "/" + str(data[i]["evoData"]["defense"])))
-        evo_out.append('</card>\n')
+        evo_out.append('</card>\n\n')
         for i in range(len(evo_out)):
             h.write(evo_out[i])
     if istoken:
