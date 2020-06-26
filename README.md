@@ -17,5 +17,5 @@ Thanks to [Bagoum](https://sv.bagoum.com/) for providing the card database.
 10) `Cockatrice > Card Database > Manage Sets`: disable the Token set.
 
 ### Tips for filtering cards
-![](https://github.com/user6174/Shadowverse-to-Cockatrice/blob/master/card_filter_example.png)
+
 * the `standard` condition filters for Rotation legal cards.
