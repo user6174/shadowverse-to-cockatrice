@@ -1,16 +1,21 @@
+Thanks to [Bagoum](https://sv.bagoum.com/) for providing the card database.
+
 ### How to use
 
-Should you find that the .json isn't up to date, you can get it [here](https://sv.bagoum.com/cardsFullJSON/en). Run `converter.py` in the same folder you placed `en.json` in. 
-`sv_cards.xml` and `sv_tokens.xml` should appear in that same folder.
-
-* Install [Cockatrice](https://github.com/Cockatrice/Cockatrice/releases/latest)
-* Follow the instructions. If you wish, you can skip the MTG database download in `Source selection` by passing `empty.json`, and in `Tokens import` by typing in any site (e.g. google.com).
-* When prompted to the `Card Database section`, hit `Disable all sets`.
-* `Cockatrice > Settings... > General > Path > Token Database`: select `sv_tokens.xml`.
-* `Cockatrice > Settings... > General > Path > Card Database`: select`sv_cards.xml`.
-* `Cockatrice > Settings... > General > Card Sources`: remove the default Download URLs (if any).
+1) Check if the provided `en.json` is up to date (ctrl+F a card name from the newest expansion). 
+2) If it is, grab `sv_cards.xml` and `sv_tokens.xml` and go to `4.`
+3) Else, get the updated json [here](https://sv.bagoum.com/cardsFullJSON/en). 
+- Download and unzip the repository.
+- Run `converter.py`. `sv_cards.xml` and `sv_tokens.xml` should appear in that same folder. 
+- Make sure that they're parsable by Cockatrice by running `validate.sh`.
+4) Install [Cockatrice](https://github.com/Cockatrice/Cockatrice/releases/latest).
+5) Follow the instructions. If you wish, you can skip the MTG database download in `Source selection` by passing `empty.json`, and in `Tokens import` by typing in any site (e.g. google.com).
+6) When prompted to the `Card Database section`, hit `Disable all sets`.
+7) `Cockatrice > Settings > General > Path > Token Database`: select `sv_tokens.xml`.
+8) `Cockatrice > Settings > General > Path > Card Database`: select`sv_cards.xml`.
+9) `Cockatrice > Settings > General > Card Sources`: remove the default Download URLs (if any).
+10) `Cockatrice > Card Database > Manage Sets`: disable the Token set.
 
 ### Tips for filtering cards
 ![](https://github.com/user6174/Shadowverse-to-Cockatrice/blob/master/card_filter_example.png)
-* the CMC condition excludes token cards (the sets filters don't work as expected).
-* the standard condition filters for Rotation legal cards.
+* the `standard` condition filters for Rotation legal cards.
