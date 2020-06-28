@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import json
+import os
 
 # https://github.com/Cockatrice/Cockatrice/wiki/Custom-Cards-&-Sets
 
@@ -18,7 +19,7 @@ sets = {"Token": ("TK", "1970-01-01"),
         "Starforged Legends": ("SL", "2017-09-28"),
         "Chronogenesis": ("CG", "2017-12-28"),
         "Dawnbreak Nightedge": ("DN", "2018-03-28"),
-        "Granblue Fantasy": ("BOTS", "2018-06-27"),
+        "Brigade of the Sky": ("BOTS", "2018-06-27"),
         "Omen of the Ten": ("OOT", "2018-09-26"),
         "Altersphere": ("AS", "2018-12-26"),
         "Steel Rebellion": ("SR", "2019-03-27"),
@@ -27,11 +28,16 @@ sets = {"Token": ("TK", "1970-01-01"),
         "Ultimate Colosseum": ("UC", "2019-12-27"),
         "World Uprooted": ("WU", "2020-03-29"),
         "Fortune's Hand": ("FH", "2020-06-29")}
-modesty_string = "<<{me.inplay.class.count}+1??<br>(Artifacts destroyed: \
-<<{me.destroyed_card_list.tribe=artifact.unique_base_card_id_card.count}>>)>>"
-shiva_string = "<<{me.inplay.class.count}+1??<br>(Current turn: )>>"
-with open("en.json", 'r') as f:
-    data = json.load(f)
+
+data = {}
+# https://github.com/user6174/shadowverse-json
+for subdir, _, files in os.walk("shadowverse-json"):
+    for f in files:
+        if str(f).endswith(".json"):
+            with open(os.path.join(subdir, f), 'r') as jsonf:
+                tmp = json.load(jsonf)
+                for i in tmp:
+                    data[i] = tmp[i]
 # end globals
 c = open("sv_cards.xml", 'w+')
 t = open("sv_tokens.xml", 'w+')
@@ -54,11 +60,9 @@ c.write('</sets>\n<cards>\n')
 
 def clean(txt):
     try:
-        return txt.replace(modesty_string, '').replace(shiva_string, '') \
-            .replace('Ofcr.', "Officer").replace('Cmdr.', "Commander") \
+        return txt.replace('Ofcr.', "Officer").replace('Cmdr.', "Commander") \
             .replace('Nat.', 'Natura').replace('Mach.', 'Machina') \
-            .replace(' /', '').replace('<br>', '\n').replace('&', 'and') \
-            .replace("Fortune", "Fortune's Hand")
+            .replace(' /', '').replace('<br>', '\n').replace('&', 'and')
     except AttributeError:
         return txt
 
@@ -73,42 +77,33 @@ for i in list(data):
         except KeyError:
             return clean(f'\t\t<{field}>{val}</{field}>\n')
 
-
-    def __debug_check_attrs():
-        gob = data["Robogoblin"]
-        [print(f'{k} -> {gob[k]}') for k in list(gob)]
-
-
-    if card["name"] == "Robogoblin":
-        __debug_check_attrs()
-
     out = ['\t<card>\n',
            xml('name', 'name'),
-           xml('text', card["baseData"]["description"]),
+           xml('text', 'baseEffect'),
            '\t\t<prop>\n',
            '\t' + xml('layout', 'normal'),
            '\t' + xml('side', 'front'),
-           '\t' + xml('type', f'{clean(card["race"])} {card["type"]}'),
+           '\t' + xml('type', f'{clean(card["trait"])} {card["type"]}'),
            '\t' + xml('maintype', 'type'),
-           '\t' + xml('manacost', 'manaCost'),
-           '\t' + xml('cmc', 'manaCost'),
-           '\t' + xml('colors', 'faction'),
-           '\t' + xml('coloridentity', 'faction'),
-           '\t' + xml('pt', f'{card["baseData"]["attack"]}/{card["baseData"]["defense"]}'),
-           '\t' + xml('format-standard', 'legal' if card["rot"] == "Rotation" else "banned"),
+           '\t' + xml('manacost', 'pp'),
+           '\t' + xml('cmc', 'pp'),
+           '\t' + xml('colors', 'craft'),
+           '\t' + xml('coloridentity', 'craft'),
+           '\t' + xml('pt', f'{card["baseAttack"]}/{card["baseDefense"]}'),
+           '\t' + xml('format-standard', 'legal' if card["rotation"] else "banned"),
            '\t\t</prop>\n',
            f'\t\t<set rarity="{card["rarity"]}" uuid="{card["id"]}" num="{card["id"]}" '
            f'muid="{card["id"]}" picurl="https://sv.bagoum.com/cardF/en/c/{card["id"]}">'
            f'{sets[clean(card["expansion"])][0]}</set>\n']
     for j in data:
-        if data[j]["name"][:-1] in card["baseData"]["description"]:
+        if data[j]["name"][:-1] in card["baseEffect"]:
             out.append(xml('related', data[j]["name"]))
     if card["type"] == "Follower":
         out.append(f'<related attach="1">{clean(card["name"]) + " Evolved"}</related>')
-    out.append(xml('token', '1' if card["expansion"] == "Token" else '0'))
+    out.append(xml('token', '1' if card["expansion"] == "-" else '0'))
     out.append(xml('tablerow', tablerow[card['type']]))
     out.append('</card>\n')
-    if card["expansion"] == 'Token':
+    if card["expansion"] == '-':
         for i in range(len(out)):
             t.write(out[i])
     else:
@@ -116,9 +111,9 @@ for i in list(data):
             c.write(out[i])
         if card["type"] == "Follower":
             out[1] = xml('name', card["name"] + " Evolved")
-            out[2] = xml('text', card["evoData"]["description"])
+            out[2] = xml('text', card["evoEffect"])
             out[5] = out[5].replace('front', 'back')
-            out[12] = xml('pt', f'{card["evoData"]["attack"]}/{card["evoData"]["defense"]}')
+            out[12] = xml('pt', f'{card["evoAttack"]}/{card["evoDefense"]}')
             out[15] = f'\t\t<set rarity="{card["rarity"]}" uuid="{card["id"]}" num="{card["id"]}" muid="{card["id"]}"' \
                       f' picurl="https://sv.bagoum.com/cardF/en/e/{card["id"]}">TK</set>\n'
             for idx, line in enumerate(out):
