@@ -26,7 +26,7 @@ sets = {"Token": ("TK", "1970-01-01"),
         "Verdant Conflict": ("VC", "2019-09-25"),
         "Ultimate Colosseum": ("UC", "2019-12-27"),
         "World Uprooted": ("WU", "2020-03-29"),
-        "Fate's Hand": ("FH", "2020-06-29")}
+        "Fortune's Hand": ("FH", "2020-06-29")}
 modesty_string = "<<{me.inplay.class.count}+1??<br>(Artifacts destroyed: \
 <<{me.destroyed_card_list.tribe=artifact.unique_base_card_id_card.count}>>)>>"
 shiva_string = "<<{me.inplay.class.count}+1??<br>(Current turn: )>>"
@@ -57,7 +57,8 @@ def clean(txt):
         return txt.replace(modesty_string, '').replace(shiva_string, '') \
             .replace('Ofcr.', "Officer").replace('Cmdr.', "Commander") \
             .replace('Nat.', 'Natura').replace('Mach.', 'Machina') \
-            .replace(' /', '').replace('<br>', '\n').replace('&', 'and')
+            .replace(' /', '').replace('<br>', '\n').replace('&', 'and') \
+            .replace("Fortune", "Fortune's Hand")
     except AttributeError:
         return txt
 
@@ -78,8 +79,8 @@ for i in list(data):
         [print(f'{k} -> {gob[k]}') for k in list(gob)]
 
 
-    # if card["name"] == "Robogoblin":
-    #   __debug_check_attrs()
+    if card["name"] == "Robogoblin":
+        __debug_check_attrs()
 
     out = ['\t<card>\n',
            xml('name', 'name'),
@@ -98,7 +99,7 @@ for i in list(data):
            '\t\t</prop>\n',
            f'\t\t<set rarity="{card["rarity"]}" uuid="{card["id"]}" num="{card["id"]}" '
            f'muid="{card["id"]}" picurl="https://sv.bagoum.com/cardF/en/c/{card["id"]}">'
-           f'{sets[card["expansion"]][0]}</set>\n']
+           f'{sets[clean(card["expansion"])][0]}</set>\n']
     for j in data:
         if data[j]["name"][:-1] in card["baseData"]["description"]:
             out.append(xml('related', data[j]["name"]))
