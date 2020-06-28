@@ -69,6 +69,7 @@ def clean(txt):
 
 for i in list(data):
     card = data[i]
+    card["trait"] = card["trait"].replace("-", "")
 
 
     def xml(field, val):
