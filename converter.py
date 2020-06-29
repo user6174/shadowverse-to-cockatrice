@@ -29,15 +29,10 @@ sets = {"Token": ("TK", "1970-01-01"),
         "World Uprooted": ("WU", "2020-03-29"),
         "Fortune's Hand": ("FH", "2020-06-29")}
 
-data = {}
 # https://github.com/user6174/shadowverse-json
-for subdir, _, files in os.walk("shadowverse-json"):
-    for f in files:
-        if str(f).endswith(".json"):
-            with open(os.path.join(subdir, f), 'r') as jsonf:
-                tmp = json.load(jsonf)
-                for i in tmp:
-                    data[i] = tmp[i]
+with open("shadowverse-json/all.json", 'r') as f:
+    data = json.load(f)
+
 # end globals
 c = open("sv_cards.xml", 'w+')
 t = open("sv_tokens.xml", 'w+')
@@ -62,15 +57,14 @@ def clean(txt):
     try:
         return txt.replace('Ofcr.', "Officer").replace('Cmdr.', "Commander") \
             .replace('Nat.', 'Natura').replace('Mach.', 'Machina') \
-            .replace(' /', '').replace('<br>', '\n').replace('&', 'and')
+            .strip(' /').replace('<br>', '\n').replace('&', 'and')
     except AttributeError:
         return txt
 
 
 for i in list(data):
     card = data[i]
-    card["trait"] = card["trait"].replace("-", "")
-
+    card["trait_"] = card["trait_"].strip("-")
 
     def xml(field, val):
         try:
@@ -79,44 +73,42 @@ for i in list(data):
             return clean(f'\t\t<{field}>{val}</{field}>\n')
 
     out = ['\t<card>\n',
-           xml('name', 'name'),
-           xml('text', 'baseEffect'),
+           xml('name', 'name_'),
+           xml('text', 'baseEffect_'),
            '\t\t<prop>\n',
            '\t' + xml('layout', 'normal'),
            '\t' + xml('side', 'front'),
-           '\t' + xml('type', f'{clean(card["trait"])} {card["type"]}'),
-           '\t' + xml('maintype', 'type'),
-           '\t' + xml('manacost', 'pp'),
-           '\t' + xml('cmc', 'pp'),
-           '\t' + xml('colors', 'craft'),
-           '\t' + xml('coloridentity', 'craft'),
-           '\t' + xml('pt', f'{card["baseAttack"]}/{card["baseDefense"]}'),
-           '\t' + xml('format-standard', 'legal' if card["rotation"] else "banned"),
+           '\t' + xml('type', f'{clean(card["trait_"])} {card["type_"]}'),
+           '\t' + xml('maintype', 'type_'),
+           '\t' + xml('manacost', 'pp_'),
+           '\t' + xml('cmc', 'pp_'),
+           '\t' + xml('colors', 'craft_'),
+           '\t' + xml('coloridentity', 'craft_'),
+           '\t' + xml('pt', f'{card["baseAtk_"]}/{card["baseDef_"]}'),
+           '\t' + xml('format-standard', 'legal' if card["rotation_"] else "banned"),
            '\t\t</prop>\n',
-           f'\t\t<set rarity="{card["rarity"]}" uuid="{card["id"]}" num="{card["id"]}" '
-           f'muid="{card["id"]}" picurl="https://sv.bagoum.com/cardF/en/c/{card["id"]}">'
-           f'{sets[clean(card["expansion"])][0]}</set>\n']
+           f'\t\t<set rarity="{card["rarity_"]}" uuid="{card["id_"]}" num="{card["id_"]}" muid="{card["id_"]}" picurl="https://sv.bagoum.com/cardF/en/c/{card["id_"]}"> {sets[clean(card["expansion_"])][0]}</set>\n']
     for j in data:
-        if data[j]["name"][:-1] in card["baseEffect"]:
-            out.append(xml('related', data[j]["name"]))
-    if card["type"] == "Follower":
-        out.append(f'<related attach="1">{clean(card["name"]) + " Evolved"}</related>')
-    out.append(xml('token', '1' if card["expansion"] == "-" else '0'))
-    out.append(xml('tablerow', tablerow[card['type']]))
+        if data[j]["name_"][:-1] in card["baseEffect_"]:
+            out.append(xml('related', data[j]["name_"]))
+    if card["type_"] == "Follower":
+        out.append(f'<related attach="1">{clean(card["name_"]) + " Evolved"}</related>')
+    out.append(xml('token', '1' if card["expansion_"] == "-" else '0'))
+    out.append(xml('tablerow', tablerow[card["type_"]]))
     out.append('</card>\n')
-    if card["expansion"] == '-':
+    if card["expansion_"] == '-':
         for i in range(len(out)):
             t.write(out[i])
     else:
         for i in range(len(out)):
             c.write(out[i])
-        if card["type"] == "Follower":
-            out[1] = xml('name', card["name"] + " Evolved")
-            out[2] = xml('text', card["evoEffect"])
+        if card["type_"] == "Follower":
+            out[1] = xml('name', card["name_"] + " Evolved")
+            out[2] = xml('text', card["evoEffect_"])
             out[5] = out[5].replace('front', 'back')
-            out[12] = xml('pt', f'{card["evoAttack"]}/{card["evoDefense"]}')
-            out[15] = f'\t\t<set rarity="{card["rarity"]}" uuid="{card["id"]}" num="{card["id"]}" muid="{card["id"]}"' \
-                      f' picurl="https://sv.bagoum.com/cardF/en/e/{card["id"]}">TK</set>\n'
+            out[12] = xml('pt', f'{card["evoAtk_"]}/{card["evoDef_"]}')
+            out[15] = f'\t\t<set rarity="{card["rarity_"]}" uuid="{card["id_"]}" num="{card["id_"]}" muid="{card["id_"]}"' \
+                      f' picurl="https://sv.bagoum.com/cardF/en/e/{card["id_"]}">TK</set>\n'
             for idx, line in enumerate(out):
                 if "Evolved</related>" in line:
                     out.pop(idx)
