@@ -84,7 +84,7 @@ for i in list(data):
            '\t' + xml('cmc', 'pp_'),
            '\t' + xml('colors', 'craft_'),
            '\t' + xml('coloridentity', 'craft_'),
-           '\t' + xml('pt', f'{card["baseAtk_"]}/{card["baseDef_"]}'),
+           '\t' + xml('pt', f'{card["baseAtk_"]}/{card["baseDef_"]}') if card["baseDef_"] != 0 else '',
            '\t' + xml('format-standard', 'legal' if card["rotation_"] else "banned"),
            '\t\t</prop>\n',
            f'\t\t<set rarity="{card["rarity_"]}" uuid="{card["id_"]}" num="{card["id_"]}" muid="{card["id_"]}" picurl="https://sv.bagoum.com/cardF/en/c/{card["id_"]}"> {sets[clean(card["expansion_"])][0]}</set>\n']
