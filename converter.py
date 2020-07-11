@@ -87,7 +87,8 @@ for i in list(data):
            '\t' + xml('pt', f'{card["baseAtk_"]}/{card["baseDef_"]}') if card["baseDef_"] != 0 else '',
            '\t' + xml('format-standard', 'legal' if card["rotation_"] else "banned"),
            '\t\t</prop>\n',
-           f'\t\t<set rarity="{card["rarity_"]}" uuid="{card["id_"]}" num="{card["id_"]}" muid="{card["id_"]}" picurl="https://sv.bagoum.com/cardF/en/c/{card["id_"]}"> {sets[clean(card["expansion_"])][0]}</set>\n']
+           f'\t\t<set rarity="{card["rarity_"]}" uuid="{card["id_"]}" num="{card["id_"]}" muid="{card["id_"]}" '
+           f'picurl="https://svgdb.me/assets/cards/C_{card["id_"]}"> {sets[clean(card["expansion_"])][0]}</set>\n']
     for j in data:
         if data[j]["name_"][:-1] in card["baseEffect_"]:
             out.append(xml('related', data[j]["name_"]))
@@ -107,8 +108,8 @@ for i in list(data):
             out[2] = xml('text', card["evoEffect_"])
             out[5] = out[5].replace('front', 'back')
             out[12] = xml('pt', f'{card["evoAtk_"]}/{card["evoDef_"]}')
-            out[15] = f'\t\t<set rarity="{card["rarity_"]}" uuid="{card["id_"]}" num="{card["id_"]}" muid="{card["id_"]}"' \
-                      f' picurl="https://sv.bagoum.com/cardF/en/e/{card["id_"]}">TK</set>\n'
+            out[15] = f'\t\t<set rarity="{card["rarity_"]}" uuid="{card["id_"]}" num="{card["id_"]}" '
+            f'muid="{card["id_"]}" picurl="https://svgdb.me/assets/cards/E_{card["id_"]}">TK</set>\n'
             for idx, line in enumerate(out):
                 if "Evolved</related>" in line:
                     out.pop(idx)
