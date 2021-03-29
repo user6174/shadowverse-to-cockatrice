@@ -9,6 +9,10 @@ tablerow = {"Follower": 2, "Spell": 3, "Amulet": 1}
 # 1 → non-creature, non-land permanents (like Planeswalkers, Enchantments, and Artifacts)
 # 2 → creatures
 # 3 → non-permanent cards (like Instants and Sorceries)
+rarities = {"Bronze": "basic",
+            "Silver": "uncommon",
+            "Gold": "rare",
+            "Legendary": "mythic"}
 sets = {"Token": ("TK", "1970-01-01"),
         "Basic": ("Basic", "2016-06-21"),
         "Standard Card Pack": ("STD", "2016-06-21"),
@@ -27,10 +31,14 @@ sets = {"Token": ("TK", "1970-01-01"),
         "Verdant Conflict": ("VC", "2019-09-25"),
         "Ultimate Colosseum": ("UC", "2019-12-27"),
         "World Uprooted": ("WU", "2020-03-29"),
-        "Fortune's Hand": ("FH", "2020-06-29")}
+        "Fortune's Hand": ("FH", "2020-06-29"),
+        "Storm Over Rivayle": ("SOR", "2020-09-23"),
+        "Eternal Awakening": ("EA", "2020-12-28"),
+        "Darkness Over Vellsar": ("DOV", "2021-03-29")
+        }
 
 # https://github.com/user6174/shadowverse-json
-with open("shadowverse-json/all.json", 'r') as f:
+with open("shadowverse-json/en/all.json", 'r') as f:
     data = json.load(f)
 
 # end globals
@@ -64,6 +72,7 @@ def clean(txt):
 
 for i in list(data):
     card = data[i]
+    if card["expansion_"] == "Promo": continue
     card["trait_"] = card["trait_"].strip("-")
 
     def xml(field, val):
@@ -87,17 +96,17 @@ for i in list(data):
            '\t' + xml('pt', f'{card["baseAtk_"]}/{card["baseDef_"]}') if card["baseDef_"] != 0 else '',
            '\t' + xml('format-standard', 'legal' if card["rotation_"] else "banned"),
            '\t\t</prop>\n',
-           f'\t\t<set rarity="{card["rarity_"]}" uuid="{card["id_"]}" num="{card["id_"]}" muid="{card["id_"]}" '
-           f'picurl="https://svgdb.me/assets/cards/C_{card["id_"]}"> {sets[clean(card["expansion_"])][0]}</set>\n']
+           f'\t\t<set rarity="{rarities[card["rarity_"]]}" uuid="{card["id_"]}" num="{card["id_"]}" muid="{card["id_"]}" '
+           f'picurl="https://svgdb.me/assets/cards/C_{card["id_"]}.png"> {sets[clean(card["expansion_"])][0]}</set>\n']
     for j in data:
         if data[j]["name_"][:-1] in card["baseEffect_"]:
             out.append(xml('related', data[j]["name_"]))
     if card["type_"] == "Follower":
         out.append(f'<related attach="1">{clean(card["name_"]) + " Evolved"}</related>')
-    out.append(xml('token', '1' if card["expansion_"] == "-" else '0'))
+    out.append(xml('token', '1' if card["expansion_"] == "Token" else '0'))
     out.append(xml('tablerow', tablerow[card["type_"]]))
     out.append('</card>\n')
-    if card["expansion_"] == '-':
+    if card["expansion_"] == 'Token':
         for i in range(len(out)):
             t.write(out[i])
     else:
@@ -108,8 +117,8 @@ for i in list(data):
             out[2] = xml('text', card["evoEffect_"])
             out[5] = out[5].replace('front', 'back')
             out[12] = xml('pt', f'{card["evoAtk_"]}/{card["evoDef_"]}')
-            out[15] = f'\t\t<set rarity="{card["rarity_"]}" uuid="{card["id_"]}" num="{card["id_"]}" '
-            f'muid="{card["id_"]}" picurl="https://svgdb.me/assets/cards/E_{card["id_"]}">TK</set>\n'
+            out[15] = f'\t\t<set rarity="{rarities[card["rarity_"]]}" uuid="{card["id_"]}" num="{card["id_"]}" ' \
+                      f'muid="{card["id_"]}" picurl="https://svgdb.me/assets/cards/E_{card["id_"]}.png">TK</set>\n'
             for idx, line in enumerate(out):
                 if "Evolved</related>" in line:
                     out.pop(idx)
